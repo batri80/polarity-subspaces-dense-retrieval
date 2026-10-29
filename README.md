@@ -2,7 +2,7 @@
 
 Code, data and pre-registration notes for
 
-> Batri Krishnan. *Polarity Subspaces in Dense Retrieval: Representation Geometry, Task-Dependent Relevance, and Cross-Task Interference.* Submitted to *Information Processing & Management*.
+> Batri Krishnan and Lakshmi S. *Polarity Subspaces in Dense Retrieval: Representation Geometry, Task-Dependent Relevance, and Cross-Task Interference.* Submitted to *Information Processing & Management*.
 
 The study fits a low-rank model of how dense-retriever embeddings change under negation, tests the resulting polarity subspace by projection against random subspaces and simpler linear baselines, and uses a training-free readout that removes the subspace to examine interference between retrieval tasks that treat negation differently (NevIR, ExcluIR and SciFact), including a controlled negation of SciFact claims with syntactic controls.
 

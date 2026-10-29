@@ -6,6 +6,9 @@ authors:
     given-names: Batri
     affiliation: "Sharda University, Greater Noida, India"
     orcid: "https://orcid.org/0000-0003-4538-1305"
+  - family-names: S
+    given-names: Lakshmi
+    affiliation: "Sharda University, Greater Noida, India"
 repository-code: "https://github.com/batri80/polarity-subspaces-dense-retrieval"
 license: MIT
 date-released: 2026-10-29
