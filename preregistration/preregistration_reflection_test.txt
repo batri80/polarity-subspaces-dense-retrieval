@@ -1,0 +1,42 @@
+Semantic Odometry: pre-registration of the reflection test
+Recorded: 26 October 2026, before any reflection result was computed.
+Author: Batri Krishnan
+
+Background
+The v2 learned-frame model (probe-initialised U, auxiliary frame loss, frame
+warm-up; seed 1) improved ExcluIR pairwise accuracy over plain fine-tuning
+(0.623 vs 0.594) and over a matched random-subspace control (0.603), while
+plain fine-tuning on NevIR gave no ExcluIR gain. All trained frames converged
+to an AMPLIFYING gain (c of about -2), the operator that suits NevIR's
+polarity matching, where query and document both carry the negation.
+
+Hypothesis
+Exclusion is a frame reflection of the excluded (in-scope) content, not an
+amplification. In ExcluIR only the query carries the cue, and its scoped
+content describes the document to be rejected.
+
+Fixed protocol (no tuning; decided before results)
+Operator: Householder-type reflection on span(U), c = +2.
+Applied to QUERY in-scope tokens only, at inference only; documents unchanged.
+Scope detector: training lexicon plus the multi-word markers "apart from",
+"aside from", "other than", "rather than" and "not including" (general English,
+not derived from ExcluIR).
+U: the model's own frame subspace (learned U for frame models; the fixed U for
+frame_randomU; for models without a frame, U refitted by the probe procedure
+on that model's own NevIR training pairs). Rank k = 8.
+Control: the identical operator with a random orthonormal U of rank 8.
+Metric: ExcluIR pairwise RR over all 3,452 queries; exact McNemar test
+against the same model without reflection. NevIR test is also reported.
+
+Predictions
+P1. Reflection with the model's own U raises ExcluIR RR above that model's
+    unreflected RR.
+P2. The random-U reflection does not raise ExcluIR RR (or raises it clearly less).
+P3. On NevIR, where both sides carry negation, query-only reflection lowers
+    accuracy, because it breaks polarity matching.
+Support for the hypothesis requires P1 and P2. P3 is a secondary consistency
+check. Failure of P1 will be reported as a negative result.
+
+Also fixed before results: the ablation design (seed 1 pilot; full v2 minus
+one component each: _noProbe = random U init, _noAux = auxiliary weight 0,
+_noWarmup = no frame warm-up), all other settings identical to v2.

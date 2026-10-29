@@ -1,0 +1,1451 @@
+[
+  {
+    "mode": "plain_ft",
+    "seed": 1,
+    "best_epoch": 2,
+    "config": {
+      "U_init": "random",
+      "aux_weight": 0.0,
+      "frame_warmup_steps": 0,
+      "frame_lr": 0.001,
+      "k": 8,
+      "c_init": -2.0,
+      "epochs": 2,
+      "batch_size": 16,
+      "train_top_layers": 0,
+      "l2sp": 0.0,
+      "general_n": 4000,
+      "lr": 2e-05,
+      "select": "nevir",
+      "val_beir": ""
+    },
+    "val_acc": 0.4533333333333333,
+    "general_val": 0.9809000492095947,
+    "c": NaN,
+    "nevir_test": 0.48011569052783803,
+    "excluir_RR": 0.5947276940903824,
+    "excluir_dR@1": 0.18626883625984192,
+    "excluir_dMRR@10": 0.11077964305877686,
+    "excluir_pool_size": 6664,
+    "scifact_ndcg10": 0.5671276765900831,
+    "scifact_ndcg10_negated": 0.4330486580148996,
+    "scifact_ndcg10_affirmative": 0.5848362262132206,
+    "scifact_n_negated": 35,
+    "analysis": {
+      "stability_overlap": {
+        "mean": 0.8161736011505127,
+        "values": [
+          0.8527854681015015,
+          0.7643215656280518,
+          0.8185311555862427,
+          0.79020756483078,
+          0.8550222516059875
+        ],
+        "chance": 0.010416666666666666
+      },
+      "heldout_fit_explained": {
+        "translation_only": 0.04080298562449358,
+        "k1": 0.3251746955744287,
+        "k2": 0.38905558059883216,
+        "k4": 0.4038537858695017,
+        "k8": 0.40413191912036694,
+        "k16": 0.39525790997299814,
+        "k32": 0.3760712552771841
+      },
+      "readout_residual_median": {
+        "U8": 0.6174350380897522,
+        "U8_plus_d": 0.6045697927474976,
+        "d_only": 0.9544074535369873,
+        "rand8": 0.9951838254928589,
+        "meandiff": 0.9591962099075317,
+        "pca8": 0.6703120470046997
+      },
+      "nevir_explicit_share": 0.29645697758496026,
+      "scifact_negated_claims": [
+        "Asymptomatic visual impairment screening in elderly populations does not lead to improved vision.",
+        "CCL19 is absent within dLNs.",
+        "CHEK2 is not associated with breast cancer.",
+        "CRP is not predictive of postoperative mortality following Coronary Artery Bypass Graft (CABG) surgery.",
+        "Cell autonomous sex determination in somatic cells does not occur in Galliformes.",
+        "Cells lacking clpC have a defect in sporulation efficiency in Bacillus subtilis.",
+        "Chronic aerobic exercise alters endothelial function, improving vasodilating mechanisms mediated by NO.",
+        "Crossover hot spots are not found within gene promoters in Saccharomyces cerevisiae.",
+        "Deletion of \u03b1v\u03b28 does not result in a spontaneous inflammatory phenotype.",
+        "Functional consequences of genomic alterations due to Myelodysplastic syndrome (MDS) are poorly understood due to the lack of an animal model.",
+        "Gene expression does not vary appreciably across genetically identical cells.",
+        "Headaches are not correlated with cognitive impairment.",
+        "High-sensitivity cardiac troponin T (HSCT-T) dosage may not be diagnostic if the onset of symptoms occurs less than 3 hours before acute myocardial injury (AMI).",
+        "In young and middle-aged adults, current or remote uses of ADHD medications do not increase the risk of serious cardiovascular events.",
+        "LDL cholesterol has no involvement in the development of cardiovascular disease.",
+        "Lack of clpC does not affect sporulation efficiency in Bacillus subtilis cells.",
+        "Localization of PIN1 in the Arabidopsis embryo does not require VPS9a",
+        "Localization of PIN1 in the roots of Arabidopsis does not require VPS9a",
+        "Lymphadenopathy is observed in knockin mouse lacking the SHP-2 MAPK pathway.",
+        "Macrolides have no protective effect against myocardial infarction.",
+        "Mice that lack Interferon-\u03b3 or its receptor exhibit high resistance to experimental autoimmune myocarditis.",
+        "Mice without IFN-\u03b3 or its receptor are resistant to EAM induced with \u03b1-MyHC/CFA.",
+        "Mutant mice lacking SVCT2 have greatly increased ascorbic acid levels in both brain and adrenals.",
+        "New drugs for tuberculosis often do not penetrate the necrotic portion of a tuberculosis lesion in high concentrations.",
+        "Occupancy of ribosomes by IncRNAs do not make functional peptides.",
+        "Suboptimal nutrition is not predictive of chronic disease",
+        "T regulatory cells (tTregs) lacking \u03b1v\u03b28 are more adept at suppressing pathogenic T-cell responses during active inflammation.",
+        "Taxation of sugar-sweetened beverages had no effect on the incidence rate of type II diabetes in India.",
+        "Teaching hospitals do not provide better care than non-teaching hospitals.",
+        "The availability of safe places to study is not effective at decreasing homelessness.",
+        "The treatment of cancer patients with co-IR blockade does not cause any adverse autoimmune events.",
+        "There is no association between HNF4A mutations and diabetes risks.",
+        "Thigh-length graduated compression stockings (GCS) did not reduce deep vein thrombosis in patients admitted to hospital who are immobile because of acute stroke.",
+        "Tirasemtiv has no effect on fast-twitch muscle.",
+        "Venules have a thinner or absent smooth layer compared to arterioles."
+      ],
+      "controlled_negation_examples": [
+        [
+          "0-dimensional biomaterials show inductive properties.",
+          "It is not the case that 0-dimensional biomaterials show inductive properties."
+        ],
+        [
+          "1,000 genomes project enables mapping of genetic sequence variation consisting of rare variants with larger penetrance effects than common variants.",
+          "It is not the case that 1,000 genomes project enables mapping of genetic sequence variation consisting of rare variants with larger penetrance effects than common variants."
+        ],
+        [
+          "1/2000 in UK have abnormal PrP positivity.",
+          "1/2000 in UK have not abnormal PrP positivity."
+        ],
+        [
+          "5% of perinatal mortality is due to low birth weight.",
+          "5% of perinatal mortality is not due to low birth weight."
+        ],
+        [
+          "A deficiency of vitamin B12 increases blood levels of homocysteine.",
+          "It is not the case that a deficiency of vitamin B12 increases blood levels of homocysteine."
+        ],
+        [
+          "A high microerythrocyte count raises vulnerability to severe anemia in homozygous alpha (+)- thalassemia trait subjects.",
+          "It is not the case that a high microerythrocyte count raises vulnerability to severe anemia in homozygous alpha (+)- thalassemia trait subjects."
+        ],
+        [
+          "A total of 1,000 people in the UK are asymptomatic carriers of vCJD infection.",
+          "A total of 1,000 people in the UK are not asymptomatic carriers of vCJD infection."
+        ],
+        [
+          "ADAR1 binds to Dicer to cleave pre-miRNA.",
+          "It is not the case that aDAR1 binds to Dicer to cleave pre-miRNA."
+        ],
+        [
+          "AIRE is expressed in some skin tumors.",
+          "AIRE is not expressed in some skin tumors."
+        ],
+        [
+          "ALDH1 expression is associated with better breast cancer outcomes.",
+          "ALDH1 expression is not associated with better breast cancer outcomes."
+        ],
+        [
+          "ALDH1 expression is associated with poorer prognosis in breast cancer.",
+          "ALDH1 expression is not associated with poorer prognosis in breast cancer."
+        ],
+        [
+          "AMP-activated protein kinase (AMPK) activation increases inflammation-related fibrosis in the lungs.",
+          "It is not the case that aMP-activated protein kinase (AMPK) activation increases inflammation-related fibrosis in the lungs."
+        ],
+        [
+          "APOE4 expression in iPSC-derived neurons increases AlphaBeta production and tau phosphorylation causing GABA neuron degeneration.",
+          "It is not the case that aPOE4 expression in iPSC-derived neurons increases AlphaBeta production and tau phosphorylation causing GABA neuron degeneration."
+        ],
+        [
+          "APOE4 expression in iPSC-derived neurons increases AlphaBeta production and tau phosphorylation, delaying GABA neuron degeneration.",
+          "It is not the case that aPOE4 expression in iPSC-derived neurons increases AlphaBeta production and tau phosphorylation, delaying GABA neuron degeneration."
+        ],
+        [
+          "Activation of PPM1D suppresses p53 function.",
+          "It is not the case that activation of PPM1D suppresses p53 function."
+        ],
+        [
+          "Activator-inhibitor pairs are provided dorsally by Admpchordin.",
+          "Activator-inhibitor pairs are not provided dorsally by Admpchordin."
+        ],
+        [
+          "Active H. pylori urease has a polymeric structure that compromises two subunits, UreA and UreB.",
+          "Active H. pylori urease has not a polymeric structure that compromises two subunits, UreA and UreB."
+        ],
+        [
+          "Albendazole is used to treat lymphatic filariasis.",
+          "Albendazole is not used to treat lymphatic filariasis."
+        ],
+        [
+          "Alizarin forms hydrogen bonds with residues involved in PGAM1 substrate binding.",
+          "It is not the case that alizarin forms hydrogen bonds with residues involved in PGAM1 substrate binding."
+        ],
+        [
+          "All hematopoietic stem cells segregate their chromosomes randomly.",
+          "It is not the case that all hematopoietic stem cells segregate their chromosomes randomly."
+        ],
+        [
+          "Angiotensin converting enzyme inhibitors are associated with increased risk for functional renal insufficiency.",
+          "Angiotensin converting enzyme inhibitors are not associated with increased risk for functional renal insufficiency."
+        ],
+        [
+          "Anthrax spores can be disposed of easily after they are dispersed.",
+          "Anthrax spores can not be disposed of easily after they are dispersed."
+        ],
+        [
+          "Antibiotic induced alterations in the gut microbiome reduce resistance against Clostridium difficile",
+          "It is not the case that antibiotic induced alterations in the gut microbiome reduce resistance against Clostridium difficile"
+        ],
+        [
+          "Antiretroviral therapy reduces rates of tuberculosis across a broad range of CD4 strata.",
+          "It is not the case that antiretroviral therapy reduces rates of tuberculosis across a broad range of CD4 strata."
+        ],
+        [
+          "Arginine 90 in p150n is important for interaction with EB1.",
+          "Arginine 90 in p150n is not important for interaction with EB1."
+        ]
+      ],
+      "controlled_negation_rule_share": 0.4830188679245283,
+      "readouts": {
+        "full": {
+          "nevir": 0.48011569052783803,
+          "nevir_explicit": 0.5341463414634147,
+          "nevir_implicit": 0.4573484069886948,
+          "sci": 0.5671276765900831,
+          "sci_neg": 0.4330486580148996,
+          "sci_aff": 0.5848362262132206,
+          "sci_ctrl_negated": 0.40879062787135606,
+          "sci_ctrl_penalty": -0.17604559834186456,
+          "excluir_rr": 0.5947276940903824,
+          "nfcorpus": 0.3394094458104199,
+          "fiqa": 0.32661530059156074
+        },
+        "U1": {
+          "nevir": 0.35936370209689084,
+          "nevir_explicit": 0.3951219512195122,
+          "nevir_implicit": 0.3442959917780062,
+          "sci": 0.6124804443755965,
+          "sci_neg": 0.5140092389337746,
+          "sci_aff": 0.6254860752830069,
+          "sci_ctrl_negated": 0.45295916959169596,
+          "sci_ctrl_penalty": -0.17252690569131096,
+          "excluir_rr": 0.6002317497103129,
+          "nfcorpus": 0.34250248508626446,
+          "fiqa": 0.3448059681243656
+        },
+        "rand1": {
+          "nevir": 0.48011569052783803,
+          "nevir_explicit": 0.5365853658536586,
+          "nevir_implicit": 0.4563206577595067,
+          "sci": 0.5698049291277137,
+          "sci_neg": 0.4330486580148996,
+          "sci_aff": 0.5878670781426136,
+          "sci_ctrl_negated": 0.4103281130486593,
+          "sci_ctrl_penalty": -0.17753896509395434,
+          "excluir_rr": 0.5950173812282734
+        },
+        "U2": {
+          "nevir": 0.30874909616775126,
+          "nevir_explicit": 0.3463414634146341,
+          "nevir_implicit": 0.29290853031860226,
+          "sci": 0.6471381203192051,
+          "sci_neg": 0.6315002418448372,
+          "sci_aff": 0.649203500495065,
+          "sci_ctrl_negated": 0.6008046582822594,
+          "sci_ctrl_penalty": -0.04839884221280566,
+          "excluir_rr": 0.6031286210892236,
+          "nfcorpus": 0.34483673839697504,
+          "fiqa": 0.354729627550192
+        },
+        "rand2": {
+          "nevir": 0.4786695589298626,
+          "nevir_explicit": 0.5341463414634147,
+          "nevir_implicit": 0.4552929085303186,
+          "sci": 0.5677159310757244,
+          "sci_neg": 0.4337021966941764,
+          "sci_aff": 0.5854158582581929,
+          "sci_ctrl_negated": 0.41089020293278583,
+          "sci_ctrl_penalty": -0.17452565532540704,
+          "excluir_rr": 0.5947276940903824
+        },
+        "U4": {
+          "nevir": 0.27910339840925524,
+          "nevir_explicit": 0.33658536585365856,
+          "nevir_implicit": 0.25488180883864336,
+          "sci": 0.6480228777153811,
+          "sci_neg": 0.6459138059965196,
+          "sci_aff": 0.6483014343574949,
+          "sci_ctrl_negated": 0.6194112594355319,
+          "sci_ctrl_penalty": -0.028890174921962997,
+          "excluir_rr": 0.5996523754345308,
+          "nfcorpus": 0.3443122118558572,
+          "fiqa": 0.356681392465463
+        },
+        "rand4": {
+          "nevir": 0.4772234273318872,
+          "nevir_explicit": 0.5292682926829269,
+          "nevir_implicit": 0.4552929085303186,
+          "sci": 0.572029924904242,
+          "sci_neg": 0.4452689925912168,
+          "sci_aff": 0.5887719348323774,
+          "sci_ctrl_negated": 0.408549019005406,
+          "sci_ctrl_penalty": -0.18022291582697142,
+          "excluir_rr": 0.5953070683661645
+        },
+        "U8": {
+          "nevir": 0.26247288503253796,
+          "nevir_explicit": 0.3146341463414634,
+          "nevir_implicit": 0.24049331963001028,
+          "sci": 0.6505412483275819,
+          "sci_neg": 0.6459138059965196,
+          "sci_aff": 0.6511524199562128,
+          "sci_ctrl_negated": 0.6281942926393042,
+          "sci_ctrl_penalty": -0.022958127316908605,
+          "excluir_rr": 0.6028389339513326,
+          "nfcorpus": 0.345477869351766,
+          "fiqa": 0.3555435430460384
+        },
+        "rand8": {
+          "nevir": 0.48156182212581344,
+          "nevir_explicit": 0.5390243902439025,
+          "nevir_implicit": 0.4573484069886948,
+          "sci": 0.5709190630545202,
+          "sci_neg": 0.4350293277842312,
+          "sci_aff": 0.5888667639392755,
+          "sci_ctrl_negated": 0.40752120087932425,
+          "sci_ctrl_penalty": -0.18134556305995125,
+          "excluir_rr": 0.5955967555040557,
+          "nfcorpus": 0.34050656796046225,
+          "fiqa": 0.32775866493731204
+        },
+        "U16": {
+          "nevir": 0.25234996384671005,
+          "nevir_explicit": 0.2951219512195122,
+          "nevir_implicit": 0.2343268242548818,
+          "sci": 0.6521690062963215,
+          "sci_neg": 0.6452602673172427,
+          "sci_aff": 0.6530814812558224,
+          "sci_ctrl_negated": 0.6339161271020625,
+          "sci_ctrl_penalty": -0.019165354153759973,
+          "excluir_rr": 0.5984936268829664,
+          "nfcorpus": 0.34440037189226375,
+          "fiqa": 0.35752862577523
+        },
+        "rand16": {
+          "nevir": 0.4750542299349241,
+          "nevir_explicit": 0.5365853658536586,
+          "nevir_implicit": 0.44912641315519014,
+          "sci": 0.5721017761291135,
+          "sci_neg": 0.43451880045429964,
+          "sci_aff": 0.5902731125389945,
+          "sci_ctrl_negated": 0.40964613576807224,
+          "sci_ctrl_penalty": -0.18062697677092227,
+          "excluir_rr": 0.5935689455388181
+        },
+        "U32": {
+          "nevir": 0.24295010845986983,
+          "nevir_explicit": 0.2926829268292683,
+          "nevir_implicit": 0.22199383350462487,
+          "sci": 0.6549602288618251,
+          "sci_neg": 0.6568005321615092,
+          "sci_aff": 0.6547171699354517,
+          "sci_ctrl_negated": 0.6371540783578887,
+          "sci_ctrl_penalty": -0.017563091577562973,
+          "excluir_rr": 0.5993626882966396,
+          "nfcorpus": 0.34414515958583136,
+          "fiqa": 0.3561001859094127
+        },
+        "rand32": {
+          "nevir": 0.4793926247288503,
+          "nevir_explicit": 0.5365853658536586,
+          "nevir_implicit": 0.4552929085303186,
+          "sci": 0.5683188424992924,
+          "sci_neg": 0.4309808241414566,
+          "sci_aff": 0.5864578260559877,
+          "sci_ctrl_negated": 0.41009358408028646,
+          "sci_ctrl_penalty": -0.17636424197570127,
+          "excluir_rr": 0.5935689455388181
+        },
+        "U8_plus_d": {
+          "nevir": 0.2646420824295011,
+          "nevir_explicit": 0.32439024390243903,
+          "nevir_implicit": 0.2394655704008222,
+          "sci": 0.6523091281781174,
+          "sci_neg": 0.6643352216130919,
+          "sci_aff": 0.6507207762150073,
+          "sci_ctrl_negated": 0.6371236491177349,
+          "sci_ctrl_penalty": -0.013597127097272454,
+          "excluir_rr": 0.6002317497103129,
+          "nfcorpus": 0.34579365631038383,
+          "fiqa": 0.35756743071418523
+        },
+        "d_only": {
+          "nevir": 0.48083875632682577,
+          "nevir_explicit": 0.5317073170731708,
+          "nevir_implicit": 0.45940390544707094,
+          "sci": 0.6075359055944397,
+          "sci_neg": 0.5411407649349645,
+          "sci_aff": 0.6163050751155025,
+          "sci_ctrl_negated": 0.5718179245068186,
+          "sci_ctrl_penalty": -0.04448715060868391,
+          "excluir_rr": 0.592989571263036,
+          "nfcorpus": 0.341699663423474,
+          "fiqa": 0.3385693028791562
+        },
+        "meandiff": {
+          "nevir": 0.48300795372378885,
+          "nevir_explicit": 0.5341463414634147,
+          "nevir_implicit": 0.4614594039054471,
+          "sci": 0.6055847641650592,
+          "sci_neg": 0.5433299007986554,
+          "sci_aff": 0.6138071046096787,
+          "sci_ctrl_negated": 0.5634921329850933,
+          "sci_ctrl_penalty": -0.050314971624585425,
+          "excluir_rr": 0.592989571263036,
+          "nfcorpus": 0.34185493270468686,
+          "fiqa": 0.33763477951940113
+        },
+        "probe": {
+          "nevir": 0.48011569052783803,
+          "nevir_explicit": 0.5341463414634147,
+          "nevir_implicit": 0.4573484069886948,
+          "sci": 0.5676236706238134,
+          "sci_neg": 0.4330486580148996,
+          "sci_aff": 0.5853977288929153,
+          "sci_ctrl_negated": 0.40741902191326856,
+          "sci_ctrl_penalty": -0.17797870697964674,
+          "excluir_rr": 0.5955967555040557,
+          "nfcorpus": 0.33995257653258276,
+          "fiqa": 0.3269315887777289
+        },
+        "pca8": {
+          "nevir": 0.31308749096167754,
+          "nevir_explicit": 0.35609756097560974,
+          "nevir_implicit": 0.2949640287769784,
+          "sci": 0.6473080587327635,
+          "sci_neg": 0.6424553478652925,
+          "sci_aff": 0.6479489828095993,
+          "sci_ctrl_negated": 0.6122873809090844,
+          "sci_ctrl_penalty": -0.03566160190051493,
+          "excluir_rr": 0.6016801853997682,
+          "nfcorpus": 0.3510410136401321,
+          "fiqa": 0.35608074581591537
+        },
+        "U8_half0": {
+          "nevir": 0.27042660882140274,
+          "nevir_explicit": 0.32439024390243903,
+          "nevir_implicit": 0.24768756423432683
+        },
+        "U8_half1": {
+          "nevir": 0.27331887201735355,
+          "nevir_explicit": 0.32195121951219513,
+          "nevir_implicit": 0.2528263103802672
+        },
+        "U8_half2": {
+          "nevir": 0.2769342010122921,
+          "nevir_explicit": 0.3073170731707317,
+          "nevir_implicit": 0.2641315519013361
+        },
+        "U8_half3": {
+          "nevir": 0.2769342010122921,
+          "nevir_explicit": 0.33170731707317075,
+          "nevir_implicit": 0.2538540596094553
+        },
+        "U8_half4": {
+          "nevir": 0.27114967462039047,
+          "nevir_explicit": 0.3073170731707317,
+          "nevir_implicit": 0.25590955806783144
+        }
+      }
+    },
+    "log": {
+      "mode": "plain_ft",
+      "seed": 1,
+      "epochs": [
+        {
+          "epoch": 0,
+          "val_acc": 0.21333333333333335,
+          "general_val": 0.9872261881828308
+        },
+        {
+          "epoch": 1,
+          "val_acc": 0.4266666666666667,
+          "general_val": 0.9800873398780823,
+          "c": NaN
+        },
+        {
+          "epoch": 2,
+          "val_acc": 0.4533333333333333,
+          "general_val": 0.9809000492095947,
+          "c": NaN
+        }
+      ],
+      "U_init": "random",
+      "aux_weight": 0.0,
+      "frame_warmup_steps": 0
+    },
+    "minutes": 44.05909135739009,
+    "base_mode": "plain_ft"
+  },
+  {
+    "mode": "plain_ft",
+    "seed": 2,
+    "best_epoch": 2,
+    "config": {
+      "U_init": "random",
+      "aux_weight": 0.0,
+      "frame_warmup_steps": 0,
+      "frame_lr": 0.001,
+      "k": 8,
+      "c_init": -2.0,
+      "epochs": 2,
+      "batch_size": 16,
+      "train_top_layers": 0,
+      "l2sp": 0.0,
+      "general_n": 4000,
+      "lr": 2e-05,
+      "select": "nevir",
+      "val_beir": ""
+    },
+    "val_acc": 0.4533333333333333,
+    "general_val": 0.9770333170890808,
+    "c": NaN,
+    "nevir_test": 0.49023861171366595,
+    "excluir_RR": 0.6051564310544612,
+    "excluir_dR@1": 0.19988414645195007,
+    "excluir_dMRR@10": 0.13117116689682007,
+    "excluir_pool_size": 6664,
+    "scifact_ndcg10": 0.6178369145191561,
+    "scifact_ndcg10_negated": 0.5767378076178513,
+    "scifact_ndcg10_affirmative": 0.6232650984495173,
+    "scifact_n_negated": 35,
+    "analysis": {
+      "stability_overlap": {
+        "mean": 0.8147887587547302,
+        "values": [
+          0.8068492412567139,
+          0.7620649337768555,
+          0.8367503881454468,
+          0.8276848196983337,
+          0.8405944108963013
+        ],
+        "chance": 0.010416666666666666
+      },
+      "heldout_fit_explained": {
+        "translation_only": 0.040473999991872955,
+        "k1": 0.2895978441806133,
+        "k2": 0.35409714519986546,
+        "k4": 0.3657646159680392,
+        "k8": 0.36629633335204015,
+        "k16": 0.3557067942422305,
+        "k32": 0.3348566965913967
+      },
+      "readout_residual_median": {
+        "U8": 0.646009624004364,
+        "U8_plus_d": 0.6325122117996216,
+        "d_only": 0.8744099140167236,
+        "rand8": 0.9953033924102783,
+        "meandiff": 0.9243409633636475,
+        "pca8": 0.7015153169631958
+      },
+      "nevir_explicit_share": 0.29645697758496026,
+      "scifact_negated_claims": [
+        "Asymptomatic visual impairment screening in elderly populations does not lead to improved vision.",
+        "CCL19 is absent within dLNs.",
+        "CHEK2 is not associated with breast cancer.",
+        "CRP is not predictive of postoperative mortality following Coronary Artery Bypass Graft (CABG) surgery.",
+        "Cell autonomous sex determination in somatic cells does not occur in Galliformes.",
+        "Cells lacking clpC have a defect in sporulation efficiency in Bacillus subtilis.",
+        "Chronic aerobic exercise alters endothelial function, improving vasodilating mechanisms mediated by NO.",
+        "Crossover hot spots are not found within gene promoters in Saccharomyces cerevisiae.",
+        "Deletion of \u03b1v\u03b28 does not result in a spontaneous inflammatory phenotype.",
+        "Functional consequences of genomic alterations due to Myelodysplastic syndrome (MDS) are poorly understood due to the lack of an animal model.",
+        "Gene expression does not vary appreciably across genetically identical cells.",
+        "Headaches are not correlated with cognitive impairment.",
+        "High-sensitivity cardiac troponin T (HSCT-T) dosage may not be diagnostic if the onset of symptoms occurs less than 3 hours before acute myocardial injury (AMI).",
+        "In young and middle-aged adults, current or remote uses of ADHD medications do not increase the risk of serious cardiovascular events.",
+        "LDL cholesterol has no involvement in the development of cardiovascular disease.",
+        "Lack of clpC does not affect sporulation efficiency in Bacillus subtilis cells.",
+        "Localization of PIN1 in the Arabidopsis embryo does not require VPS9a",
+        "Localization of PIN1 in the roots of Arabidopsis does not require VPS9a",
+        "Lymphadenopathy is observed in knockin mouse lacking the SHP-2 MAPK pathway.",
+        "Macrolides have no protective effect against myocardial infarction.",
+        "Mice that lack Interferon-\u03b3 or its receptor exhibit high resistance to experimental autoimmune myocarditis.",
+        "Mice without IFN-\u03b3 or its receptor are resistant to EAM induced with \u03b1-MyHC/CFA.",
+        "Mutant mice lacking SVCT2 have greatly increased ascorbic acid levels in both brain and adrenals.",
+        "New drugs for tuberculosis often do not penetrate the necrotic portion of a tuberculosis lesion in high concentrations.",
+        "Occupancy of ribosomes by IncRNAs do not make functional peptides.",
+        "Suboptimal nutrition is not predictive of chronic disease",
+        "T regulatory cells (tTregs) lacking \u03b1v\u03b28 are more adept at suppressing pathogenic T-cell responses during active inflammation.",
+        "Taxation of sugar-sweetened beverages had no effect on the incidence rate of type II diabetes in India.",
+        "Teaching hospitals do not provide better care than non-teaching hospitals.",
+        "The availability of safe places to study is not effective at decreasing homelessness.",
+        "The treatment of cancer patients with co-IR blockade does not cause any adverse autoimmune events.",
+        "There is no association between HNF4A mutations and diabetes risks.",
+        "Thigh-length graduated compression stockings (GCS) did not reduce deep vein thrombosis in patients admitted to hospital who are immobile because of acute stroke.",
+        "Tirasemtiv has no effect on fast-twitch muscle.",
+        "Venules have a thinner or absent smooth layer compared to arterioles."
+      ],
+      "controlled_negation_examples": [
+        [
+          "0-dimensional biomaterials show inductive properties.",
+          "It is not the case that 0-dimensional biomaterials show inductive properties."
+        ],
+        [
+          "1,000 genomes project enables mapping of genetic sequence variation consisting of rare variants with larger penetrance effects than common variants.",
+          "It is not the case that 1,000 genomes project enables mapping of genetic sequence variation consisting of rare variants with larger penetrance effects than common variants."
+        ],
+        [
+          "1/2000 in UK have abnormal PrP positivity.",
+          "1/2000 in UK have not abnormal PrP positivity."
+        ],
+        [
+          "5% of perinatal mortality is due to low birth weight.",
+          "5% of perinatal mortality is not due to low birth weight."
+        ],
+        [
+          "A deficiency of vitamin B12 increases blood levels of homocysteine.",
+          "It is not the case that a deficiency of vitamin B12 increases blood levels of homocysteine."
+        ],
+        [
+          "A high microerythrocyte count raises vulnerability to severe anemia in homozygous alpha (+)- thalassemia trait subjects.",
+          "It is not the case that a high microerythrocyte count raises vulnerability to severe anemia in homozygous alpha (+)- thalassemia trait subjects."
+        ],
+        [
+          "A total of 1,000 people in the UK are asymptomatic carriers of vCJD infection.",
+          "A total of 1,000 people in the UK are not asymptomatic carriers of vCJD infection."
+        ],
+        [
+          "ADAR1 binds to Dicer to cleave pre-miRNA.",
+          "It is not the case that aDAR1 binds to Dicer to cleave pre-miRNA."
+        ],
+        [
+          "AIRE is expressed in some skin tumors.",
+          "AIRE is not expressed in some skin tumors."
+        ],
+        [
+          "ALDH1 expression is associated with better breast cancer outcomes.",
+          "ALDH1 expression is not associated with better breast cancer outcomes."
+        ],
+        [
+          "ALDH1 expression is associated with poorer prognosis in breast cancer.",
+          "ALDH1 expression is not associated with poorer prognosis in breast cancer."
+        ],
+        [
+          "AMP-activated protein kinase (AMPK) activation increases inflammation-related fibrosis in the lungs.",
+          "It is not the case that aMP-activated protein kinase (AMPK) activation increases inflammation-related fibrosis in the lungs."
+        ],
+        [
+          "APOE4 expression in iPSC-derived neurons increases AlphaBeta production and tau phosphorylation causing GABA neuron degeneration.",
+          "It is not the case that aPOE4 expression in iPSC-derived neurons increases AlphaBeta production and tau phosphorylation causing GABA neuron degeneration."
+        ],
+        [
+          "APOE4 expression in iPSC-derived neurons increases AlphaBeta production and tau phosphorylation, delaying GABA neuron degeneration.",
+          "It is not the case that aPOE4 expression in iPSC-derived neurons increases AlphaBeta production and tau phosphorylation, delaying GABA neuron degeneration."
+        ],
+        [
+          "Activation of PPM1D suppresses p53 function.",
+          "It is not the case that activation of PPM1D suppresses p53 function."
+        ],
+        [
+          "Activator-inhibitor pairs are provided dorsally by Admpchordin.",
+          "Activator-inhibitor pairs are not provided dorsally by Admpchordin."
+        ],
+        [
+          "Active H. pylori urease has a polymeric structure that compromises two subunits, UreA and UreB.",
+          "Active H. pylori urease has not a polymeric structure that compromises two subunits, UreA and UreB."
+        ],
+        [
+          "Albendazole is used to treat lymphatic filariasis.",
+          "Albendazole is not used to treat lymphatic filariasis."
+        ],
+        [
+          "Alizarin forms hydrogen bonds with residues involved in PGAM1 substrate binding.",
+          "It is not the case that alizarin forms hydrogen bonds with residues involved in PGAM1 substrate binding."
+        ],
+        [
+          "All hematopoietic stem cells segregate their chromosomes randomly.",
+          "It is not the case that all hematopoietic stem cells segregate their chromosomes randomly."
+        ],
+        [
+          "Angiotensin converting enzyme inhibitors are associated with increased risk for functional renal insufficiency.",
+          "Angiotensin converting enzyme inhibitors are not associated with increased risk for functional renal insufficiency."
+        ],
+        [
+          "Anthrax spores can be disposed of easily after they are dispersed.",
+          "Anthrax spores can not be disposed of easily after they are dispersed."
+        ],
+        [
+          "Antibiotic induced alterations in the gut microbiome reduce resistance against Clostridium difficile",
+          "It is not the case that antibiotic induced alterations in the gut microbiome reduce resistance against Clostridium difficile"
+        ],
+        [
+          "Antiretroviral therapy reduces rates of tuberculosis across a broad range of CD4 strata.",
+          "It is not the case that antiretroviral therapy reduces rates of tuberculosis across a broad range of CD4 strata."
+        ],
+        [
+          "Arginine 90 in p150n is important for interaction with EB1.",
+          "Arginine 90 in p150n is not important for interaction with EB1."
+        ]
+      ],
+      "controlled_negation_rule_share": 0.4830188679245283,
+      "readouts": {
+        "full": {
+          "nevir": 0.49023861171366595,
+          "nevir_explicit": 0.5219512195121951,
+          "nevir_implicit": 0.47687564234326824,
+          "sci": 0.6178369145191561,
+          "sci_neg": 0.5767378076178513,
+          "sci_aff": 0.6232650984495173,
+          "sci_ctrl_negated": 0.5723466503991468,
+          "sci_ctrl_penalty": -0.05091844805037049,
+          "excluir_rr": 0.6051564310544612,
+          "nfcorpus": 0.3432009028286387,
+          "fiqa": 0.3257289506176838
+        },
+        "U1": {
+          "nevir": 0.34345625451916123,
+          "nevir_explicit": 0.3463414634146341,
+          "nevir_implicit": 0.34224049331963,
+          "sci": 0.6518800365671973,
+          "sci_neg": 0.6179451338025244,
+          "sci_aff": 0.6563620048568711,
+          "sci_ctrl_negated": 0.6104132255758754,
+          "sci_ctrl_penalty": -0.04594877928099572,
+          "excluir_rr": 0.6135573580533025,
+          "nfcorpus": 0.3489967395107333,
+          "fiqa": 0.3388900244864746
+        },
+        "rand1": {
+          "nevir": 0.4909616775126536,
+          "nevir_explicit": 0.5219512195121951,
+          "nevir_implicit": 0.4779033915724563,
+          "sci": 0.6176947580537616,
+          "sci_neg": 0.5758622184713793,
+          "sci_aff": 0.6232198104514348,
+          "sci_ctrl_negated": 0.5735861540516672,
+          "sci_ctrl_penalty": -0.04963365639976758,
+          "excluir_rr": 0.6057358053302433
+        },
+        "U2": {
+          "nevir": 0.292118582791034,
+          "nevir_explicit": 0.3170731707317073,
+          "nevir_implicit": 0.2816032887975334,
+          "sci": 0.6775498999862707,
+          "sci_neg": 0.7147668508776631,
+          "sci_aff": 0.6726344536421246,
+          "sci_ctrl_negated": 0.6489506719958926,
+          "sci_ctrl_penalty": -0.02368378164623197,
+          "excluir_rr": 0.6164542294322132,
+          "nfcorpus": 0.35368436124919833,
+          "fiqa": 0.3445995554398697
+        },
+        "rand2": {
+          "nevir": 0.4909616775126536,
+          "nevir_explicit": 0.5219512195121951,
+          "nevir_implicit": 0.4779033915724563,
+          "sci": 0.6176861206875989,
+          "sci_neg": 0.576175246870557,
+          "sci_aff": 0.6231686889275856,
+          "sci_ctrl_negated": 0.5743176373401154,
+          "sci_ctrl_penalty": -0.04885105158747016,
+          "excluir_rr": 0.6066048667439166
+        },
+        "U4": {
+          "nevir": 0.2668112798264642,
+          "nevir_explicit": 0.3024390243902439,
+          "nevir_implicit": 0.2517985611510791,
+          "sci": 0.6733165228242622,
+          "sci_neg": 0.7233310452920041,
+          "sci_aff": 0.6667108311775792,
+          "sci_ctrl_negated": 0.6578861209258984,
+          "sci_ctrl_penalty": -0.008824710251680856,
+          "excluir_rr": 0.6118192352259559,
+          "nfcorpus": 0.35358984793012505,
+          "fiqa": 0.34571074940203367
+        },
+        "rand4": {
+          "nevir": 0.49023861171366595,
+          "nevir_explicit": 0.5195121951219512,
+          "nevir_implicit": 0.4779033915724563,
+          "sci": 0.6161799713050485,
+          "sci_neg": 0.5653173542877067,
+          "sci_aff": 0.6228976754394144,
+          "sci_ctrl_negated": 0.5710309240601804,
+          "sci_ctrl_penalty": -0.05186675137923402,
+          "excluir_rr": 0.6048667439165701
+        },
+        "U8": {
+          "nevir": 0.2386117136659436,
+          "nevir_explicit": 0.26097560975609757,
+          "nevir_implicit": 0.22918807810894143,
+          "sci": 0.6715438648549156,
+          "sci_neg": 0.7233310452920041,
+          "sci_aff": 0.6647040485707718,
+          "sci_ctrl_negated": 0.658008033371866,
+          "sci_ctrl_penalty": -0.006696015198905836,
+          "excluir_rr": 0.6115295480880649,
+          "nfcorpus": 0.3530331966984287,
+          "fiqa": 0.34654114835584243
+        },
+        "rand8": {
+          "nevir": 0.48879248011569054,
+          "nevir_explicit": 0.5195121951219512,
+          "nevir_implicit": 0.47584789311408016,
+          "sci": 0.6168075151591605,
+          "sci_neg": 0.5799705845540074,
+          "sci_aff": 0.6216727701447469,
+          "sci_ctrl_negated": 0.5745315485092078,
+          "sci_ctrl_penalty": -0.04714122163553902,
+          "excluir_rr": 0.6060254924681344,
+          "nfcorpus": 0.34387938859846445,
+          "fiqa": 0.32427697265342126
+        },
+        "U16": {
+          "nevir": 0.2284887924801157,
+          "nevir_explicit": 0.25121951219512195,
+          "nevir_implicit": 0.21891058581706063,
+          "sci": 0.6718605771647468,
+          "sci_neg": 0.7201359334138114,
+          "sci_aff": 0.665484586716757,
+          "sci_ctrl_negated": 0.6600351066237061,
+          "sci_ctrl_penalty": -0.005449480093050907,
+          "excluir_rr": 0.608342989571263,
+          "nfcorpus": 0.3531385734037807,
+          "fiqa": 0.3457382866733935
+        },
+        "rand16": {
+          "nevir": 0.4866232827187274,
+          "nevir_explicit": 0.5219512195121951,
+          "nevir_implicit": 0.47173689619732784,
+          "sci": 0.6172165926227656,
+          "sci_neg": 0.5656303826868843,
+          "sci_aff": 0.6240298656331651,
+          "sci_ctrl_negated": 0.5759973761803251,
+          "sci_ctrl_penalty": -0.04803248945284,
+          "excluir_rr": 0.6054461181923523
+        },
+        "U32": {
+          "nevir": 0.21691973969631237,
+          "nevir_explicit": 0.23414634146341465,
+          "nevir_implicit": 0.20966084275436794,
+          "sci": 0.67172083594928,
+          "sci_neg": 0.720448961812989,
+          "sci_aff": 0.6652850457408657,
+          "sci_ctrl_negated": 0.6604654444978352,
+          "sci_ctrl_penalty": -0.004819601243030491,
+          "excluir_rr": 0.6126882966396292,
+          "nfcorpus": 0.3537695278940207,
+          "fiqa": 0.34383729818011105
+        },
+        "rand32": {
+          "nevir": 0.48734634851771513,
+          "nevir_explicit": 0.5195121951219512,
+          "nevir_implicit": 0.473792394655704,
+          "sci": 0.6175146528798395,
+          "sci_neg": 0.5788398082110285,
+          "sci_aff": 0.6226226512323241,
+          "sci_ctrl_negated": 0.5744828765609284,
+          "sci_ctrl_penalty": -0.04813977467139563,
+          "excluir_rr": 0.604287369640788
+        },
+        "U8_plus_d": {
+          "nevir": 0.2393347794649313,
+          "nevir_explicit": 0.2780487804878049,
+          "nevir_implicit": 0.22302158273381295,
+          "sci": 0.6694964421810855,
+          "sci_neg": 0.7233310452920041,
+          "sci_aff": 0.6623862115815301,
+          "sci_ctrl_negated": 0.6609827394593215,
+          "sci_ctrl_penalty": -0.0014034721222085933,
+          "excluir_rr": 0.6109501738122828,
+          "nfcorpus": 0.3518629515469559,
+          "fiqa": 0.3476855802233132
+        },
+        "d_only": {
+          "nevir": 0.420824295010846,
+          "nevir_explicit": 0.424390243902439,
+          "nevir_implicit": 0.4193216855087359,
+          "sci": 0.6548741607888883,
+          "sci_neg": 0.6576575408811272,
+          "sci_aff": 0.6545065445502907,
+          "sci_ctrl_negated": 0.6319701578791415,
+          "sci_ctrl_penalty": -0.02253638667114921,
+          "excluir_rr": 0.6109501738122828,
+          "nfcorpus": 0.3487818314101273,
+          "fiqa": 0.3363234467973982
+        },
+        "meandiff": {
+          "nevir": 0.4750542299349241,
+          "nevir_explicit": 0.4951219512195122,
+          "nevir_implicit": 0.46659815005138744,
+          "sci": 0.6465790395048546,
+          "sci_neg": 0.660434760679081,
+          "sci_aff": 0.6447490385950511,
+          "sci_ctrl_negated": 0.639318589200346,
+          "sci_ctrl_penalty": -0.00543044939470505,
+          "excluir_rr": 0.6074739281575898,
+          "nfcorpus": 0.346890897509549,
+          "fiqa": 0.33514125631591346
+        },
+        "probe": {
+          "nevir": 0.49023861171366595,
+          "nevir_explicit": 0.5219512195121951,
+          "nevir_implicit": 0.47687564234326824,
+          "sci": 0.6178369145191561,
+          "sci_neg": 0.5767378076178513,
+          "sci_aff": 0.6232650984495173,
+          "sci_ctrl_negated": 0.5719987360757457,
+          "sci_ctrl_penalty": -0.05126636237377158,
+          "excluir_rr": 0.6048667439165701,
+          "nfcorpus": 0.34361360178818984,
+          "fiqa": 0.32618718064433677
+        },
+        "pca8": {
+          "nevir": 0.279826464208243,
+          "nevir_explicit": 0.3097560975609756,
+          "nevir_implicit": 0.2672147995889003,
+          "sci": 0.6697615597498197,
+          "sci_neg": 0.7083389620633145,
+          "sci_aff": 0.6646664311423768,
+          "sci_ctrl_negated": 0.6443682700968103,
+          "sci_ctrl_penalty": -0.020298161045566476,
+          "excluir_rr": 0.6092120509849362,
+          "nfcorpus": 0.34991476264374366,
+          "fiqa": 0.3481405484805048
+        },
+        "U8_half0": {
+          "nevir": 0.24873463485177152,
+          "nevir_explicit": 0.2731707317073171,
+          "nevir_implicit": 0.23843782117163412
+        },
+        "U8_half1": {
+          "nevir": 0.25668835864063627,
+          "nevir_explicit": 0.2951219512195122,
+          "nevir_implicit": 0.24049331963001028
+        },
+        "U8_half2": {
+          "nevir": 0.2559652928416486,
+          "nevir_explicit": 0.29024390243902437,
+          "nevir_implicit": 0.24152106885919836
+        },
+        "U8_half3": {
+          "nevir": 0.25668835864063627,
+          "nevir_explicit": 0.29024390243902437,
+          "nevir_implicit": 0.24254881808838644
+        },
+        "U8_half4": {
+          "nevir": 0.2545191612436732,
+          "nevir_explicit": 0.28292682926829266,
+          "nevir_implicit": 0.24254881808838644
+        }
+      }
+    },
+    "log": {
+      "mode": "plain_ft",
+      "seed": 2,
+      "epochs": [
+        {
+          "epoch": 0,
+          "val_acc": 0.21333333333333335,
+          "general_val": 0.9872261881828308
+        },
+        {
+          "epoch": 1,
+          "val_acc": 0.4,
+          "general_val": 0.9817000031471252,
+          "c": NaN
+        },
+        {
+          "epoch": 2,
+          "val_acc": 0.4533333333333333,
+          "general_val": 0.9770333170890808,
+          "c": NaN
+        }
+      ],
+      "U_init": "random",
+      "aux_weight": 0.0,
+      "frame_warmup_steps": 0
+    },
+    "minutes": 45.82046181758245,
+    "base_mode": "plain_ft"
+  },
+  {
+    "mode": "plain_ft",
+    "seed": 3,
+    "best_epoch": 2,
+    "config": {
+      "U_init": "random",
+      "aux_weight": 0.0,
+      "frame_warmup_steps": 0,
+      "frame_lr": 0.001,
+      "k": 8,
+      "c_init": -2.0,
+      "epochs": 2,
+      "batch_size": 16,
+      "train_top_layers": 0,
+      "l2sp": 0.0,
+      "general_n": 4000,
+      "lr": 2e-05,
+      "select": "nevir",
+      "val_beir": ""
+    },
+    "val_acc": 0.4444444444444444,
+    "general_val": 0.9807166457176208,
+    "c": NaN,
+    "nevir_test": 0.4750542299349241,
+    "excluir_RR": 0.6187717265353418,
+    "excluir_dR@1": 0.22885280847549438,
+    "excluir_dMRR@10": 0.13529044389724731,
+    "excluir_pool_size": 6664,
+    "scifact_ndcg10": 0.5991680139009766,
+    "scifact_ndcg10_negated": 0.4987078865674917,
+    "scifact_ndcg10_affirmative": 0.6124363326053993,
+    "scifact_n_negated": 35,
+    "analysis": {
+      "stability_overlap": {
+        "mean": 0.7780768036842346,
+        "values": [
+          0.8003491163253784,
+          0.786354660987854,
+          0.7766194939613342,
+          0.7560145854949951,
+          0.7710461616516113
+        ],
+        "chance": 0.010416666666666666
+      },
+      "heldout_fit_explained": {
+        "translation_only": 0.030101435473970373,
+        "k1": 0.27737176068621183,
+        "k2": 0.3405788102374967,
+        "k4": 0.3541492034442809,
+        "k8": 0.35495316151345935,
+        "k16": 0.3478593590728719,
+        "k32": 0.32880383609334685
+      },
+      "readout_residual_median": {
+        "U8": 0.6564532518386841,
+        "U8_plus_d": 0.6424422264099121,
+        "d_only": 0.9295210838317871,
+        "rand8": 0.9952068328857422,
+        "meandiff": 0.950546145439148,
+        "pca8": 0.7087488770484924
+      },
+      "nevir_explicit_share": 0.29645697758496026,
+      "scifact_negated_claims": [
+        "Asymptomatic visual impairment screening in elderly populations does not lead to improved vision.",
+        "CCL19 is absent within dLNs.",
+        "CHEK2 is not associated with breast cancer.",
+        "CRP is not predictive of postoperative mortality following Coronary Artery Bypass Graft (CABG) surgery.",
+        "Cell autonomous sex determination in somatic cells does not occur in Galliformes.",
+        "Cells lacking clpC have a defect in sporulation efficiency in Bacillus subtilis.",
+        "Chronic aerobic exercise alters endothelial function, improving vasodilating mechanisms mediated by NO.",
+        "Crossover hot spots are not found within gene promoters in Saccharomyces cerevisiae.",
+        "Deletion of \u03b1v\u03b28 does not result in a spontaneous inflammatory phenotype.",
+        "Functional consequences of genomic alterations due to Myelodysplastic syndrome (MDS) are poorly understood due to the lack of an animal model.",
+        "Gene expression does not vary appreciably across genetically identical cells.",
+        "Headaches are not correlated with cognitive impairment.",
+        "High-sensitivity cardiac troponin T (HSCT-T) dosage may not be diagnostic if the onset of symptoms occurs less than 3 hours before acute myocardial injury (AMI).",
+        "In young and middle-aged adults, current or remote uses of ADHD medications do not increase the risk of serious cardiovascular events.",
+        "LDL cholesterol has no involvement in the development of cardiovascular disease.",
+        "Lack of clpC does not affect sporulation efficiency in Bacillus subtilis cells.",
+        "Localization of PIN1 in the Arabidopsis embryo does not require VPS9a",
+        "Localization of PIN1 in the roots of Arabidopsis does not require VPS9a",
+        "Lymphadenopathy is observed in knockin mouse lacking the SHP-2 MAPK pathway.",
+        "Macrolides have no protective effect against myocardial infarction.",
+        "Mice that lack Interferon-\u03b3 or its receptor exhibit high resistance to experimental autoimmune myocarditis.",
+        "Mice without IFN-\u03b3 or its receptor are resistant to EAM induced with \u03b1-MyHC/CFA.",
+        "Mutant mice lacking SVCT2 have greatly increased ascorbic acid levels in both brain and adrenals.",
+        "New drugs for tuberculosis often do not penetrate the necrotic portion of a tuberculosis lesion in high concentrations.",
+        "Occupancy of ribosomes by IncRNAs do not make functional peptides.",
+        "Suboptimal nutrition is not predictive of chronic disease",
+        "T regulatory cells (tTregs) lacking \u03b1v\u03b28 are more adept at suppressing pathogenic T-cell responses during active inflammation.",
+        "Taxation of sugar-sweetened beverages had no effect on the incidence rate of type II diabetes in India.",
+        "Teaching hospitals do not provide better care than non-teaching hospitals.",
+        "The availability of safe places to study is not effective at decreasing homelessness.",
+        "The treatment of cancer patients with co-IR blockade does not cause any adverse autoimmune events.",
+        "There is no association between HNF4A mutations and diabetes risks.",
+        "Thigh-length graduated compression stockings (GCS) did not reduce deep vein thrombosis in patients admitted to hospital who are immobile because of acute stroke.",
+        "Tirasemtiv has no effect on fast-twitch muscle.",
+        "Venules have a thinner or absent smooth layer compared to arterioles."
+      ],
+      "controlled_negation_examples": [
+        [
+          "0-dimensional biomaterials show inductive properties.",
+          "It is not the case that 0-dimensional biomaterials show inductive properties."
+        ],
+        [
+          "1,000 genomes project enables mapping of genetic sequence variation consisting of rare variants with larger penetrance effects than common variants.",
+          "It is not the case that 1,000 genomes project enables mapping of genetic sequence variation consisting of rare variants with larger penetrance effects than common variants."
+        ],
+        [
+          "1/2000 in UK have abnormal PrP positivity.",
+          "1/2000 in UK have not abnormal PrP positivity."
+        ],
+        [
+          "5% of perinatal mortality is due to low birth weight.",
+          "5% of perinatal mortality is not due to low birth weight."
+        ],
+        [
+          "A deficiency of vitamin B12 increases blood levels of homocysteine.",
+          "It is not the case that a deficiency of vitamin B12 increases blood levels of homocysteine."
+        ],
+        [
+          "A high microerythrocyte count raises vulnerability to severe anemia in homozygous alpha (+)- thalassemia trait subjects.",
+          "It is not the case that a high microerythrocyte count raises vulnerability to severe anemia in homozygous alpha (+)- thalassemia trait subjects."
+        ],
+        [
+          "A total of 1,000 people in the UK are asymptomatic carriers of vCJD infection.",
+          "A total of 1,000 people in the UK are not asymptomatic carriers of vCJD infection."
+        ],
+        [
+          "ADAR1 binds to Dicer to cleave pre-miRNA.",
+          "It is not the case that aDAR1 binds to Dicer to cleave pre-miRNA."
+        ],
+        [
+          "AIRE is expressed in some skin tumors.",
+          "AIRE is not expressed in some skin tumors."
+        ],
+        [
+          "ALDH1 expression is associated with better breast cancer outcomes.",
+          "ALDH1 expression is not associated with better breast cancer outcomes."
+        ],
+        [
+          "ALDH1 expression is associated with poorer prognosis in breast cancer.",
+          "ALDH1 expression is not associated with poorer prognosis in breast cancer."
+        ],
+        [
+          "AMP-activated protein kinase (AMPK) activation increases inflammation-related fibrosis in the lungs.",
+          "It is not the case that aMP-activated protein kinase (AMPK) activation increases inflammation-related fibrosis in the lungs."
+        ],
+        [
+          "APOE4 expression in iPSC-derived neurons increases AlphaBeta production and tau phosphorylation causing GABA neuron degeneration.",
+          "It is not the case that aPOE4 expression in iPSC-derived neurons increases AlphaBeta production and tau phosphorylation causing GABA neuron degeneration."
+        ],
+        [
+          "APOE4 expression in iPSC-derived neurons increases AlphaBeta production and tau phosphorylation, delaying GABA neuron degeneration.",
+          "It is not the case that aPOE4 expression in iPSC-derived neurons increases AlphaBeta production and tau phosphorylation, delaying GABA neuron degeneration."
+        ],
+        [
+          "Activation of PPM1D suppresses p53 function.",
+          "It is not the case that activation of PPM1D suppresses p53 function."
+        ],
+        [
+          "Activator-inhibitor pairs are provided dorsally by Admpchordin.",
+          "Activator-inhibitor pairs are not provided dorsally by Admpchordin."
+        ],
+        [
+          "Active H. pylori urease has a polymeric structure that compromises two subunits, UreA and UreB.",
+          "Active H. pylori urease has not a polymeric structure that compromises two subunits, UreA and UreB."
+        ],
+        [
+          "Albendazole is used to treat lymphatic filariasis.",
+          "Albendazole is not used to treat lymphatic filariasis."
+        ],
+        [
+          "Alizarin forms hydrogen bonds with residues involved in PGAM1 substrate binding.",
+          "It is not the case that alizarin forms hydrogen bonds with residues involved in PGAM1 substrate binding."
+        ],
+        [
+          "All hematopoietic stem cells segregate their chromosomes randomly.",
+          "It is not the case that all hematopoietic stem cells segregate their chromosomes randomly."
+        ],
+        [
+          "Angiotensin converting enzyme inhibitors are associated with increased risk for functional renal insufficiency.",
+          "Angiotensin converting enzyme inhibitors are not associated with increased risk for functional renal insufficiency."
+        ],
+        [
+          "Anthrax spores can be disposed of easily after they are dispersed.",
+          "Anthrax spores can not be disposed of easily after they are dispersed."
+        ],
+        [
+          "Antibiotic induced alterations in the gut microbiome reduce resistance against Clostridium difficile",
+          "It is not the case that antibiotic induced alterations in the gut microbiome reduce resistance against Clostridium difficile"
+        ],
+        [
+          "Antiretroviral therapy reduces rates of tuberculosis across a broad range of CD4 strata.",
+          "It is not the case that antiretroviral therapy reduces rates of tuberculosis across a broad range of CD4 strata."
+        ],
+        [
+          "Arginine 90 in p150n is important for interaction with EB1.",
+          "Arginine 90 in p150n is not important for interaction with EB1."
+        ]
+      ],
+      "controlled_negation_rule_share": 0.4830188679245283,
+      "readouts": {
+        "full": {
+          "nevir": 0.4750542299349241,
+          "nevir_explicit": 0.5365853658536586,
+          "nevir_implicit": 0.44912641315519014,
+          "sci": 0.5991680139009766,
+          "sci_neg": 0.4987078865674917,
+          "sci_aff": 0.6124363326053993,
+          "sci_ctrl_negated": 0.49409687297442906,
+          "sci_ctrl_penalty": -0.11833945963097026,
+          "excluir_rr": 0.6187717265353418,
+          "nfcorpus": 0.34266726087590627,
+          "fiqa": 0.31932518092293777
+        },
+        "U1": {
+          "nevir": 0.3383947939262473,
+          "nevir_explicit": 0.375609756097561,
+          "nevir_implicit": 0.3227132579650565,
+          "sci": 0.6371657605540717,
+          "sci_neg": 0.5482488439788458,
+          "sci_aff": 0.6489095042526866,
+          "sci_ctrl_negated": 0.5485433968373782,
+          "sci_ctrl_penalty": -0.10036610741530838,
+          "excluir_rr": 0.623117033603708,
+          "nfcorpus": 0.3437272693662051,
+          "fiqa": 0.34019441484367985
+        },
+        "rand1": {
+          "nevir": 0.47216196673897326,
+          "nevir_explicit": 0.5317073170731708,
+          "nevir_implicit": 0.447070914696814,
+          "sci": 0.6003172561332438,
+          "sci_neg": 0.49921841389742333,
+          "sci_aff": 0.613669933409673,
+          "sci_ctrl_negated": 0.4927436930419497,
+          "sci_ctrl_penalty": -0.12092624036772331,
+          "excluir_rr": 0.6190614136732329
+        },
+        "U2": {
+          "nevir": 0.28344179320318147,
+          "nevir_explicit": 0.3073170731707317,
+          "nevir_implicit": 0.2733812949640288,
+          "sci": 0.6687581817300661,
+          "sci_neg": 0.7014323267068789,
+          "sci_aff": 0.6644427286199208,
+          "sci_ctrl_negated": 0.6385835649944609,
+          "sci_ctrl_penalty": -0.025859163625459924,
+          "excluir_rr": 0.6234067207415991,
+          "nfcorpus": 0.34714591148678814,
+          "fiqa": 0.35276806768303887
+        },
+        "rand2": {
+          "nevir": 0.47143890093998553,
+          "nevir_explicit": 0.526829268292683,
+          "nevir_implicit": 0.44809866392600206,
+          "sci": 0.5976645721288267,
+          "sci_neg": 0.4901070295485208,
+          "sci_aff": 0.6118702852998105,
+          "sci_ctrl_negated": 0.49412371774762587,
+          "sci_ctrl_penalty": -0.1177465675521846,
+          "excluir_rr": 0.6199304750869061
+        },
+        "U4": {
+          "nevir": 0.2588575560375994,
+          "nevir_explicit": 0.275609756097561,
+          "nevir_implicit": 0.2517985611510791,
+          "sci": 0.6674881255627138,
+          "sci_neg": 0.6896353553563819,
+          "sci_aff": 0.6645630197409086,
+          "sci_ctrl_negated": 0.6428985204491366,
+          "sci_ctrl_penalty": -0.021664499291771944,
+          "excluir_rr": 0.6207995365005794,
+          "nfcorpus": 0.34884573204806085,
+          "fiqa": 0.3535616336658688
+        },
+        "rand4": {
+          "nevir": 0.47216196673897326,
+          "nevir_explicit": 0.5365853658536586,
+          "nevir_implicit": 0.4450154162384378,
+          "sci": 0.6017453877223918,
+          "sci_neg": 0.49385033381460836,
+          "sci_aff": 0.6159956778611556,
+          "sci_ctrl_negated": 0.49570213312356975,
+          "sci_ctrl_penalty": -0.12029354473758586,
+          "excluir_rr": 0.6190614136732329
+        },
+        "U8": {
+          "nevir": 0.24656543745480838,
+          "nevir_explicit": 0.2731707317073171,
+          "nevir_implicit": 0.23535457348406988,
+          "sci": 0.6687800685127337,
+          "sci_neg": 0.6896353553563819,
+          "sci_aff": 0.6660255966654595,
+          "sci_ctrl_negated": 0.6486807268794388,
+          "sci_ctrl_penalty": -0.017344869786020678,
+          "excluir_rr": 0.6196407879490151,
+          "nfcorpus": 0.34958001588890164,
+          "fiqa": 0.35126601654102335
+        },
+        "rand8": {
+          "nevir": 0.47360809833694867,
+          "nevir_explicit": 0.5365853658536586,
+          "nevir_implicit": 0.447070914696814,
+          "sci": 0.5993351584151936,
+          "sci_neg": 0.501162421062125,
+          "sci_aff": 0.6123013690089951,
+          "sci_ctrl_negated": 0.4941497808888128,
+          "sci_ctrl_penalty": -0.11815158812018234,
+          "excluir_rr": 0.6202201622247973,
+          "nfcorpus": 0.3434453829320425,
+          "fiqa": 0.32033548972002956
+        },
+        "U16": {
+          "nevir": 0.227765726681128,
+          "nevir_explicit": 0.24634146341463414,
+          "nevir_implicit": 0.2199383350462487,
+          "sci": 0.6679019746606684,
+          "sci_neg": 0.6864660744712867,
+          "sci_aff": 0.66545011242153,
+          "sci_ctrl_negated": 0.6527739244944937,
+          "sci_ctrl_penalty": -0.012676187927036286,
+          "excluir_rr": 0.6219582850521437,
+          "nfcorpus": 0.34988424459253703,
+          "fiqa": 0.34959035107686315
+        },
+        "rand16": {
+          "nevir": 0.4750542299349241,
+          "nevir_explicit": 0.5390243902439025,
+          "nevir_implicit": 0.44809866392600206,
+          "sci": 0.5982372383585416,
+          "sci_neg": 0.4897419677319804,
+          "sci_aff": 0.6125668024035591,
+          "sci_ctrl_negated": 0.4891401237622543,
+          "sci_ctrl_penalty": -0.1234266786413048,
+          "excluir_rr": 0.6196407879490151
+        },
+        "U32": {
+          "nevir": 0.227765726681128,
+          "nevir_explicit": 0.24634146341463414,
+          "nevir_implicit": 0.2199383350462487,
+          "sci": 0.6701963371360904,
+          "sci_neg": 0.6864660744712867,
+          "sci_aff": 0.6680475039031398,
+          "sci_ctrl_negated": 0.64587241141321,
+          "sci_ctrl_penalty": -0.022175092489929882,
+          "excluir_rr": 0.6190614136732329,
+          "nfcorpus": 0.34855426100379366,
+          "fiqa": 0.3465121863259648
+        },
+        "rand32": {
+          "nevir": 0.47216196673897326,
+          "nevir_explicit": 0.5292682926829269,
+          "nevir_implicit": 0.44809866392600206,
+          "sci": 0.6030493996967139,
+          "sci_neg": 0.4997313953914007,
+          "sci_aff": 0.6166951738502457,
+          "sci_ctrl_negated": 0.4955423161097162,
+          "sci_ctrl_penalty": -0.12115285774052953,
+          "excluir_rr": 0.6187717265353418
+        },
+        "U8_plus_d": {
+          "nevir": 0.2472885032537961,
+          "nevir_explicit": 0.2634146341463415,
+          "nevir_implicit": 0.24049331963001028,
+          "sci": 0.670571138728315,
+          "sci_neg": 0.6885937707845831,
+          "sci_aff": 0.6681907910982419,
+          "sci_ctrl_negated": 0.6494398418744605,
+          "sci_ctrl_penalty": -0.0187509492237814,
+          "excluir_rr": 0.6199304750869061,
+          "nfcorpus": 0.34911326669126697,
+          "fiqa": 0.35348500047477494
+        },
+        "d_only": {
+          "nevir": 0.4475777295733912,
+          "nevir_explicit": 0.47317073170731705,
+          "nevir_implicit": 0.4367934224049332,
+          "sci": 0.6249295659897363,
+          "sci_neg": 0.5809346974684159,
+          "sci_aff": 0.6307402090019862,
+          "sci_ctrl_negated": 0.5626950843192234,
+          "sci_ctrl_penalty": -0.0680451246827628,
+          "excluir_rr": 0.6207995365005794,
+          "nfcorpus": 0.34598198156333065,
+          "fiqa": 0.3370399365442819
+        },
+        "meandiff": {
+          "nevir": 0.46059291395516994,
+          "nevir_explicit": 0.4951219512195122,
+          "nevir_implicit": 0.4460431654676259,
+          "sci": 0.6139571771232765,
+          "sci_neg": 0.5504706402852717,
+          "sci_aff": 0.6223421914226357,
+          "sci_ctrl_negated": 0.5756484103270164,
+          "sci_ctrl_penalty": -0.04669378109561928,
+          "excluir_rr": 0.6184820393974507,
+          "nfcorpus": 0.346320148251957,
+          "fiqa": 0.3302418179573339
+        },
+        "probe": {
+          "nevir": 0.47360809833694867,
+          "nevir_explicit": 0.5341463414634147,
+          "nevir_implicit": 0.44809866392600206,
+          "sci": 0.5981462395152032,
+          "sci_neg": 0.49921841389742333,
+          "sci_aff": 0.6112121787477401,
+          "sci_ctrl_negated": 0.49363889880057443,
+          "sci_ctrl_penalty": -0.11757327994716571,
+          "excluir_rr": 0.6190614136732329,
+          "nfcorpus": 0.34313535825596864,
+          "fiqa": 0.3196069506298259
+        },
+        "pca8": {
+          "nevir": 0.28994938539407084,
+          "nevir_explicit": 0.3170731707317073,
+          "nevir_implicit": 0.27852004110996914,
+          "sci": 0.6562248048470504,
+          "sci_neg": 0.6722905950027204,
+          "sci_aff": 0.6541029080340373,
+          "sci_ctrl_negated": 0.6269439282095015,
+          "sci_ctrl_penalty": -0.027158979824535745,
+          "excluir_rr": 0.6190614136732329,
+          "nfcorpus": 0.34872329694476484,
+          "fiqa": 0.3508362050729922
+        },
+        "U8_half0": {
+          "nevir": 0.25813449023861174,
+          "nevir_explicit": 0.28292682926829266,
+          "nevir_implicit": 0.24768756423432683
+        },
+        "U8_half1": {
+          "nevir": 0.25958062183658714,
+          "nevir_explicit": 0.28292682926829266,
+          "nevir_implicit": 0.249743062692703
+        },
+        "U8_half2": {
+          "nevir": 0.25379609544468545,
+          "nevir_explicit": 0.2780487804878049,
+          "nevir_implicit": 0.24357656731757452
+        },
+        "U8_half3": {
+          "nevir": 0.2480115690527838,
+          "nevir_explicit": 0.2780487804878049,
+          "nevir_implicit": 0.23535457348406988
+        },
+        "U8_half4": {
+          "nevir": 0.2559652928416486,
+          "nevir_explicit": 0.28536585365853656,
+          "nevir_implicit": 0.24357656731757452
+        }
+      }
+    },
+    "log": {
+      "mode": "plain_ft",
+      "seed": 3,
+      "epochs": [
+        {
+          "epoch": 0,
+          "val_acc": 0.21333333333333335,
+          "general_val": 0.9872261881828308
+        },
+        {
+          "epoch": 1,
+          "val_acc": 0.44,
+          "general_val": 0.9838500618934631,
+          "c": NaN
+        },
+        {
+          "epoch": 2,
+          "val_acc": 0.4444444444444444,
+          "general_val": 0.9807166457176208,
+          "c": NaN
+        }
+      ],
+      "U_init": "random",
+      "aux_weight": 0.0,
+      "frame_warmup_steps": 0
+    },
+    "minutes": 45.909646991888685,
+    "base_mode": "plain_ft"
+  }
+]

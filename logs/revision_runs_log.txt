@@ -1,0 +1,972 @@
+8.0s 1 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+8.0s 2 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+8.0s 3 0.00s - to python to disable frozen modules.
+8.0s 4 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+8.7s 5 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+8.7s 6 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+8.7s 7 0.00s - to python to disable frozen modules.
+8.7s 8 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+11.6s 9 5
+23.9s 10 downloading https://rgai.sed.hu/sites/rgai.sed.hu/files/bioscope.zip ...
+24.6s 11 Traceback (most recent call last):
+24.6s 12 File [35m"/usr/lib/python3.13/urllib/request.py"[0m, line [35m1318[0m, in [35mdo_open[0m
+24.6s 13 [31mh.request[0m[1;31m(req.get_method(), req.selector, req.data, headers,[0m
+24.6s 14 [31m~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+24.6s 15 [1;31mencode_chunked=req.has_header('Transfer-encoding'))[0m
+24.6s 16 [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+24.6s 17 File [35m"/usr/lib/python3.13/http/client.py"[0m, line [35m1386[0m, in [35mrequest[0m
+24.6s 18 [31mself._send_request[0m[1;31m(method, url, body, headers, encode_chunked)[0m
+24.6s 19 [31m~~~~~~~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+24.6s 20 File [35m"/usr/lib/python3.13/http/client.py"[0m, line [35m1432[0m, in [35m_send_request[0m
+24.6s 21 [31mself.endheaders[0m[1;31m(body, encode_chunked=encode_chunked)[0m
+24.6s 22 [31m~~~~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+24.6s 23 File [35m"/usr/lib/python3.13/http/client.py"[0m, line [35m1381[0m, in [35mendheaders[0m
+24.6s 24 [31mself._send_output[0m[1;31m(message_body, encode_chunked=encode_chunked)[0m
+24.6s 25 [31m~~~~~~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+24.6s 26 File [35m"/usr/lib/python3.13/http/client.py"[0m, line [35m1141[0m, in [35m_send_output[0m
+24.6s 27 [31mself.send[0m[1;31m(msg)[0m
+24.6s 28 [31m~~~~~~~~~[0m[1;31m^^^^^[0m
+24.6s 29 File [35m"/usr/lib/python3.13/http/client.py"[0m, line [35m1085[0m, in [35msend[0m
+24.6s 30 [31mself.connect[0m[1;31m()[0m
+24.6s 31 [31m~~~~~~~~~~~~[0m[1;31m^^[0m
+24.6s 32 File [35m"/usr/lib/python3.13/http/client.py"[0m, line [35m1527[0m, in [35mconnect[0m
+24.6s 33 self.sock = [31mself._context.wrap_socket[0m[1;31m(self.sock,[0m
+24.6s 34 [31m~~~~~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^[0m
+24.6s 35 [1;31mserver_hostname=server_hostname)[0m
+24.6s 36 [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+24.6s 37 File [35m"/usr/lib/python3.13/ssl.py"[0m, line [35m455[0m, in [35mwrap_socket[0m
+24.6s 38 return [31mself.sslsocket_class._create[0m[1;31m([0m
+24.6s 39 [31m~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+24.6s 40 [1;31msock=sock,[0m
+24.6s 41 [1;31m^^^^^^^^^^[0m
+24.6s 42 ...<5 lines>...
+24.6s 43 [1;31msession=session[0m
+24.6s 44 [1;31m^^^^^^^^^^^^^^^[0m
+24.6s 45 [1;31m)[0m
+24.6s 46 [1;31m^[0m
+24.6s 47 File [35m"/usr/lib/python3.13/ssl.py"[0m, line [35m1076[0m, in [35m_create[0m
+24.6s 48 [31mself.do_handshake[0m[1;31m()[0m
+24.6s 49 [31m~~~~~~~~~~~~~~~~~[0m[1;31m^^[0m
+24.6s 50 File [35m"/usr/lib/python3.13/ssl.py"[0m, line [35m1372[0m, in [35mdo_handshake[0m
+24.6s 51 [31mself._sslobj.do_handshake[0m[1;31m()[0m
+24.6s 52 [31m~~~~~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^^[0m
+24.6s 53 [1;35mssl.SSLCertVerificationError[0m: [35m[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'rgai.sed.hu'. (_ssl.c:1032)[0m
+24.6s 54 
+24.6s 55 During handling of the above exception, another exception occurred:
+24.6s 56 
+24.6s 57 Traceback (most recent call last):
+24.6s 58 File [35m"/kaggle/working/so_scope_eval.py"[0m, line [35m159[0m, in [35m<module>[0m
+24.6s 59 [31mmain[0m[1;31m()[0m
+24.6s 60 [31m~~~~[0m[1;31m^^[0m
+24.6s 61 File [35m"/kaggle/working/so_scope_eval.py"[0m, line [35m135[0m, in [35mmain[0m
+24.6s 62 data = [31murllib.request.urlopen[0m[1;31m(URL, timeout=60)[0m.read()
+24.6s 63 [31m~~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^[0m
+24.6s 64 File [35m"/usr/lib/python3.13/urllib/request.py"[0m, line [35m189[0m, in [35murlopen[0m
+24.6s 65 return [31mopener.open[0m[1;31m(url, data, timeout)[0m
+24.6s 66 [31m~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^^^[0m
+24.6s 67 File [35m"/usr/lib/python3.13/urllib/request.py"[0m, line [35m489[0m, in [35mopen[0m
+24.6s 68 response = self._open(req, data)
+24.6s 69 File [35m"/usr/lib/python3.13/urllib/request.py"[0m, line [35m506[0m, in [35m_open[0m
+24.6s 70 result = self._call_chain(self.handle_open, protocol, protocol +
+24.6s 71 '_open', req)
+24.6s 72 File [35m"/usr/lib/python3.13/urllib/request.py"[0m, line [35m466[0m, in [35m_call_chain[0m
+24.6s 73 result = func(*args)
+24.6s 74 File [35m"/usr/lib/python3.13/urllib/request.py"[0m, line [35m1366[0m, in [35mhttps_open[0m
+24.6s 75 return [31mself.do_open[0m[1;31m(http.client.HTTPSConnection, req,[0m
+24.6s 76 [31m~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+24.6s 77 [1;31mcontext=self._context)[0m
+24.6s 78 [1;31m^^^^^^^^^^^^^^^^^^^^^^[0m
+24.6s 79 File [35m"/usr/lib/python3.13/urllib/request.py"[0m, line [35m1321[0m, in [35mdo_open[0m
+24.6s 80 raise URLError(err)
+24.6s 81 [1;35murllib.error.URLError[0m: [35m<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'rgai.sed.hu'. (_ssl.c:1032)>[0m
+30.8s 82 Device: cuda
+61.6s 83 Loading data ...
+61.8s 84 Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+61.8s 85 README.md:   0%|                                    | 0.00/4.73k [00:00<?, ?B/s]
+README.md: 100%|███████████████████████████| 4.73k/4.73k [00:00<00:00, 1.83MB/s]
+62.7s 86 train.jsonl:   0%|                                  | 0.00/1.54M [00:00<?, ?B/s]
+train.jsonl: 100%|█████████████████████████| 1.54M/1.54M [00:00<00:00, 48.7MB/s]
+62.8s 87 validation.jsonl:   0%|                              | 0.00/368k [00:00<?, ?B/s]
+validation.jsonl: 100%|███████████████████████| 368k/368k [00:00<00:00, 230MB/s]
+62.9s 88 test.jsonl:   0%|                                   | 0.00/2.27M [00:00<?, ?B/s]
+test.jsonl: 100%|███████████████████████████| 2.27M/2.27M [00:00<00:00, 175MB/s]
+62.9s 89 Generating train split:   0%|                    | 0/948 [00:00<?, ? examples/s]
+Generating train split: 100%|███████| 948/948 [00:00<00:00, 20145.92 examples/s]
+62.9s 90 Generating validation split:   0%|               | 0/225 [00:00<?, ? examples/s]
+Generating validation split: 100%|██| 225/225 [00:00<00:00, 65595.22 examples/s]
+62.9s 91 Generating test split:   0%|                    | 0/1383 [00:00<?, ? examples/s]
+Generating test split: 100%|█████| 1383/1383 [00:00<00:00, 155557.05 examples/s]
+63.1s 92 README.md:   0%|                                    | 0.00/2.28k [00:00<?, ?B/s]
+README.md: 100%|███████████████████████████| 2.28k/2.28k [00:00<00:00, 9.51MB/s]
+63.8s 93 
+64.7s 94 pair/train-00000-of-00001.parquet: reconstructing file:   0%| |  0.00B / 44.0MB [A
+pair/train-00000-of-00001.parquet: downloading bytes:       |  0.00B            
+pair/train-00000-of-00001.parquet: downloading bytes: █▏    | 8.38MB            
+pair/train-00000-of-00001.parquet: downloading bytes: ████▌ | 33.6MB,  831kB/s
+64.7s 95 pair/train-00000-of-00001.parquet: reconstructing file: 100%|█| 44.0MB / 44.0MB [A
+pair/train-00000-of-00001.parquet: downloading bytes: ██████| 43.9MB, 4.23MB/s  
+pair/train-00000-of-00001.parquet: downloading bytes: ██████| 43.9MB, 4.23MB/s
+64.7s 96 pair/train-00000-of-00001.parquet: reconstructing file: 100%|█| 44.0MB / 44.0MB,
+65.1s 97 Generating train split:   0%|                 | 0/100231 [00:00<?, ? examples/s]
+Generating train split:  21%|▏| 21000/100231 [00:00<00:00, 159521.12 examples/s]
+Generating train split:  64%|▋| 64000/100231 [00:00<00:00, 296431.22 examples/s]
+Generating train split: 100%|█| 100231/100231 [00:00<00:00, 308970.59 examples/s
+66.3s 98 ExcluIR: 3452 queries; corpus 90406 docs (query field 'RQ_rewrite', indices 'corpus_sub_index', second index = positive)
+66.3s 99 sanity check, first example:
+66.3s 100 query: Apart from the 1982 American musical movie Annie, is there any other movie of the same name adapted from Broadway musical?
+66.3s 101 POSITIVE: Annie (2014 film) | Annie is a 2014 American musical comedy-drama film directed by Will Gluck and produced by Village Road
+66.3s 102 EXCLUDED: Annie (1982 film) | Annie is a 1982 American musical film adapted from the Broadway musical of the same name by Charles St
+66.5s 103 ExcluIR queries with a detected scope: training detector 68.7%, extended (reflection-test) detector 88.1%
+66.6s 104 README.md:   0%|                                    | 0.00/10.4k [00:00<?, ?B/s]
+README.md: 100%|███████████████████████████| 10.4k/10.4k [00:00<00:00, 19.9MB/s]
+67.2s 105 
+67.6s 106 corpus/corpus-00000-of-00001.parquet: reconstructing file:   0%| |  0.00B / 4.47[A
+corpus/corpus-00000-of-00001.parquet: downloading bytes:    |  0.00B            
+corpus/corpus-00000-of-00001.parquet: downloading bytes:    | 14.4kB
+67.6s 107 corpus/corpus-00000-of-00001.parquet: reconstructing file: 100%|█| 4.47MB / 4.47[A
+corpus/corpus-00000-of-00001.parquet: downloading bytes: ███| 4.47MB,  443kB/s  
+corpus/corpus-00000-of-00001.parquet: downloading bytes: ███| 4.47MB,  443kB/s
+67.6s 108 corpus/corpus-00000-of-00001.parquet: reconstructing file: 100%|█| 4.47MB / 4.47
+67.6s 109 Generating corpus split:   0%|                  | 0/5183 [00:00<?, ? examples/s]
+Generating corpus split: 100%|███| 5183/5183 [00:00<00:00, 129381.56 examples/s]
+68.1s 110 
+68.7s 111 queries/queries-00000-of-00001.parquet: reconstructing file:   0%| |  0.00B / 65[A
+queries/queries-00000-of-00001.parquet: downloading bytes:  |  0.00B
+68.7s 112 queries/queries-00000-of-00001.parquet: reconstructing file: 100%|█| 65.0kB / 65[A
+queries/queries-00000-of-00001.parquet: downloading bytes: ▉| 63.7kB            
+queries/queries-00000-of-00001.parquet: downloading bytes: █| 63.7kB, 6.30kB/s  
+queries/queries-00000-of-00001.parquet: downloading bytes: █| 63.7kB, 6.30kB/s
+68.7s 113 queries/queries-00000-of-00001.parquet: reconstructing file: 100%|█| 65.0kB / 65
+68.7s 114 Generating queries split:   0%|                 | 0/1109 [00:00<?, ? examples/s]
+Generating queries split: 100%|██| 1109/1109 [00:00<00:00, 298861.68 examples/s]
+68.8s 115 README.md:   0%|                                    | 0.00/14.0k [00:00<?, ?B/s]
+README.md: 100%|███████████████████████████| 14.0k/14.0k [00:00<00:00, 32.8MB/s]
+69.4s 116 train.tsv:   0%|                                    | 0.00/14.5k [00:00<?, ?B/s]
+train.tsv: 100%|███████████████████████████| 14.5k/14.5k [00:00<00:00, 26.2MB/s]
+69.5s 117 test.tsv:   0%|                                     | 0.00/5.39k [00:00<?, ?B/s]
+test.tsv: 100%|████████████████████████████| 5.39k/5.39k [00:00<00:00, 11.7MB/s]
+69.5s 118 Generating train split:   0%|                    | 0/919 [00:00<?, ? examples/s]
+Generating train split: 100%|███████| 919/919 [00:00<00:00, 52689.67 examples/s]
+69.5s 119 Generating test split:   0%|                     | 0/339 [00:00<?, ? examples/s]
+Generating test split: 100%|███████| 339/339 [00:00<00:00, 121965.09 examples/s]
+69.8s 120 README.md:   0%|                                    | 0.00/10.5k [00:00<?, ?B/s]
+README.md: 100%|███████████████████████████| 10.5k/10.5k [00:00<00:00, 16.3MB/s]
+70.5s 121 
+70.9s 122 corpus/corpus-00000-of-00001.parquet: reconstructing file:   0%| |  0.00B / 3.16[A
+corpus/corpus-00000-of-00001.parquet: downloading bytes:    |  0.00B
+70.9s 123 corpus/corpus-00000-of-00001.parquet: reconstructing file: 100%|█| 3.16MB / 3.16[A
+corpus/corpus-00000-of-00001.parquet: downloading bytes: ██▉| 3.15MB            
+corpus/corpus-00000-of-00001.parquet: downloading bytes: ███| 3.15MB,  311kB/s  
+corpus/corpus-00000-of-00001.parquet: downloading bytes: ███| 3.15MB,  311kB/s
+70.9s 124 corpus/corpus-00000-of-00001.parquet: reconstructing file: 100%|█| 3.16MB / 3.16
+71.0s 125 Generating corpus split:   0%|                  | 0/3633 [00:00<?, ? examples/s]
+Generating corpus split: 100%|███| 3633/3633 [00:00<00:00, 119045.21 examples/s]
+71.5s 126 
+71.8s 127 queries/queries-00000-of-00001.parquet: reconstructing file:   0%| |  0.00B / 80[A
+queries/queries-00000-of-00001.parquet: downloading bytes:  |  0.00B
+71.8s 128 queries/queries-00000-of-00001.parquet: reconstructing file: 100%|█| 80.9kB / 80[A
+queries/queries-00000-of-00001.parquet: downloading bytes: ▊| 69.4kB            
+queries/queries-00000-of-00001.parquet: downloading bytes: █| 69.4kB, 6.91kB/s  
+queries/queries-00000-of-00001.parquet: downloading bytes: █| 69.4kB, 6.91kB/s
+71.8s 129 queries/queries-00000-of-00001.parquet: reconstructing file: 100%|█| 80.9kB / 80
+71.8s 130 Generating queries split:   0%|                 | 0/3237 [00:00<?, ? examples/s]
+Generating queries split: 100%|██| 3237/3237 [00:00<00:00, 818826.49 examples/s]
+72.0s 131 README.md:   0%|                                    | 0.00/14.0k [00:00<?, ?B/s]
+README.md: 100%|███████████████████████████| 14.0k/14.0k [00:00<00:00, 23.7MB/s]
+72.8s 132 train.tsv:   0%|                                    | 0.00/2.50M [00:00<?, ?B/s]
+train.tsv: 100%|████████████████████████████| 2.50M/2.50M [00:00<00:00, 185MB/s]
+73.0s 133 dev.tsv:   0%|                                       | 0.00/258k [00:00<?, ?B/s]
+dev.tsv: 100%|███████████████████████████████| 258k/258k [00:00<00:00, 91.1MB/s]
+73.2s 134 test.tsv:   0%|                                      | 0.00/280k [00:00<?, ?B/s]
+test.tsv: 100%|███████████████████████████████| 280k/280k [00:00<00:00, 186MB/s]
+73.3s 135 Generating train split:   0%|                 | 0/110575 [00:00<?, ? examples/s]
+Generating train split: 100%|█| 110575/110575 [00:00<00:00, 1109810.01 examples/
+73.3s 136 Generating validation split:   0%|             | 0/11385 [00:00<?, ? examples/s]
+Generating validation split: 100%|█| 11385/11385 [00:00<00:00, 875591.82 example
+73.3s 137 Generating test split:   0%|                   | 0/12334 [00:00<?, ? examples/s]
+Generating test split: 100%|███| 12334/12334 [00:00<00:00, 975110.65 examples/s]
+73.8s 138 BEIR nfcorpus [test]: 323 queries, 3633 documents
+73.9s 139 README.md:   0%|                                    | 0.00/10.4k [00:00<?, ?B/s]
+README.md: 100%|███████████████████████████| 10.4k/10.4k [00:00<00:00, 21.0MB/s]
+74.5s 140 
+75.0s 141 corpus/corpus-00000-of-00001.parquet: reconstructing file:   0%| |  0.00B / 27.7[A
+corpus/corpus-00000-of-00001.parquet: downloading bytes:    |  0.00B            
+corpus/corpus-00000-of-00001.parquet: downloading bytes:    |  959kB
+75.1s 142 corpus/corpus-00000-of-00001.parquet: reconstructing file:  38%|▍| 10.7MB / 27.7[A
+corpus/corpus-00000-of-00001.parquet: downloading bytes: █▎ | 12.3MB, 95.0kB/s
+75.1s 143 corpus/corpus-00000-of-00001.parquet: reconstructing file:  98%|▉| 27.2MB / 27.7[A
+corpus/corpus-00000-of-00001.parquet: downloading bytes: ██▉| 27.3MB, 1.21MB/s  
+corpus/corpus-00000-of-00001.parquet: downloading bytes: ███| 27.7MB, 2.72MB/s  
+corpus/corpus-00000-of-00001.parquet: downloading bytes: ███| 27.7MB, 2.72MB/s
+75.1s 144 corpus/corpus-00000-of-00001.parquet: reconstructing file: 100%|█| 27.7MB / 27.7
+75.3s 145 Generating corpus split:   0%|                 | 0/57638 [00:00<?, ? examples/s]
+Generating corpus split: 100%|█| 57638/57638 [00:00<00:00, 248521.26 examples/s]
+Generating corpus split: 100%|█| 57638/57638 [00:00<00:00, 244523.70 examples/s]
+75.9s 146 
+76.2s 147 queries/queries-00000-of-00001.parquet: reconstructing file:   0%| |  0.00B /  3[A
+queries/queries-00000-of-00001.parquet: downloading bytes:  |  0.00B
+76.3s 148 queries/queries-00000-of-00001.parquet: reconstructing file: 100%|█|  322kB /  3[A
+queries/queries-00000-of-00001.parquet: downloading bytes: ▉|  313kB            
+queries/queries-00000-of-00001.parquet: downloading bytes: █|  313kB, 31.1kB/s  
+queries/queries-00000-of-00001.parquet: downloading bytes: █|  313kB, 31.1kB/s
+76.3s 149 queries/queries-00000-of-00001.parquet: reconstructing file: 100%|█|  322kB /  3
+76.3s 150 Generating queries split:   0%|                 | 0/6648 [00:00<?, ? examples/s]
+Generating queries split: 100%|█| 6648/6648 [00:00<00:00, 1073276.87 examples/s]
+76.4s 151 README.md:   0%|                                    | 0.00/14.0k [00:00<?, ?B/s]
+README.md: 100%|███████████████████████████| 14.0k/14.0k [00:00<00:00, 26.8MB/s]
+77.2s 152 train.tsv:   0%|                                     | 0.00/210k [00:00<?, ?B/s]
+train.tsv: 100%|██████████████████████████████| 210k/210k [00:00<00:00, 109MB/s]
+77.4s 153 dev.tsv:   0%|                                      | 0.00/18.3k [00:00<?, ?B/s]
+dev.tsv: 100%|█████████████████████████████| 18.3k/18.3k [00:00<00:00, 35.2MB/s]
+77.6s 154 test.tsv:   0%|                                     | 0.00/25.3k [00:00<?, ?B/s]
+test.tsv: 100%|████████████████████████████| 25.3k/25.3k [00:00<00:00, 48.2MB/s]
+77.6s 155 Generating train split:   0%|                  | 0/14166 [00:00<?, ? examples/s]
+Generating train split: 100%|█| 14166/14166 [00:00<00:00, 1464037.81 examples/s]
+77.6s 156 Generating validation split:   0%|              | 0/1238 [00:00<?, ? examples/s]
+Generating validation split: 100%|█| 1238/1238 [00:00<00:00, 451094.46 examples/
+77.6s 157 Generating test split:   0%|                    | 0/1706 [00:00<?, ? examples/s]
+Generating test split: 100%|█████| 1706/1706 [00:00<00:00, 631719.13 examples/s]
+79.5s 158 BEIR fiqa [test]: 648 queries, 57638 documents
+79.5s 159 NevIR train=948, validation=225, test=1383; general pairs=4000 train, 1000 held-out validation
+79.5s 160 
+79.5s 161 --- mode=zeroshot seed=1 ---
+79.6s 162 modules.json:   0%|                                   | 0.00/387 [00:00<?, ?B/s]
+modules.json: 100%|████████████████████████████| 387/387 [00:00<00:00, 2.04MB/s]
+79.8s 163 README.md:   0%|                                    | 0.00/67.6k [00:00<?, ?B/s]
+README.md: 100%|███████████████████████████| 67.6k/67.6k [00:00<00:00, 98.8MB/s]
+79.9s 164 sentence_bert_config.json:   0%|                     | 0.00/57.0 [00:00<?, ?B/s]
+sentence_bert_config.json: 100%|██████████████| 57.0/57.0 [00:00<00:00, 240kB/s]
+80.1s 165 config.json:   0%|                                    | 0.00/650 [00:00<?, ?B/s]
+config.json: 100%|█████████████████████████████| 650/650 [00:00<00:00, 2.46MB/s]
+80.3s 166 
+80.9s 167 model.safetensors: reconstructing file:   0%|      |  0.00B /  438MB            [A
+model.safetensors: downloading bytes:                       |  0.00B
+81.2s 168 model.safetensors: reconstructing file:   0%|      | 12.8kB /  438MB            [A
+model.safetensors: downloading bytes: ▎                     | 6.93MB            
+model.safetensors: downloading bytes: ██▌                   | 52.2MB,  685kB/s  
+model.safetensors: downloading bytes: ████▉                 | 97.3MB, 5.14MB/s
+81.9s 169 model.safetensors: reconstructing file:   2%|      | 8.39MB /  438MB, 1.27kB/s  [A
+model.safetensors: downloading bytes: ███████▏              |  142MB, 9.51MB/s  
+model.safetensors: downloading bytes: █████████▉            |  197MB, 13.8MB/s  
+model.safetensors: downloading bytes: ████████████▎         |  245MB, 19.0MB/s  
+model.safetensors: downloading bytes: ██████████████▌       |  291MB, 27.0MB/s
+81.9s 170 model.safetensors: reconstructing file: 100%|██████|  438MB /  438MB,  821kB/s  [A
+model.safetensors: downloading bytes: ██████████████████████|  291MB, 26.9MB/s  
+model.safetensors: downloading bytes: ██████████████████████|  291MB, 26.9MB/s
+81.9s 171 model.safetensors: reconstructing file: 100%|██████|  438MB /  438MB, 42.0MB/s
+82.3s 172 Loading weights:   0%|                                  | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|██████████████████████| 199/199 [00:00<00:00, 2660.91it/s]
+82.7s 173 tokenizer_config.json:   0%|                          | 0.00/314 [00:00<?, ?B/s]
+tokenizer_config.json: 100%|███████████████████| 314/314 [00:00<00:00, 1.98MB/s]
+84.7s 174 vocab.txt:   0%|                                     | 0.00/232k [00:00<?, ?B/s]
+vocab.txt: 100%|█████████████████████████████| 232k/232k [00:00<00:00, 33.0MB/s]
+84.8s 175 tokenizer.json:   0%|                                | 0.00/711k [00:00<?, ?B/s]
+tokenizer.json: 100%|█████████████████████████| 711k/711k [00:00<00:00, 135MB/s]
+85.0s 176 special_tokens_map.json:   0%|                        | 0.00/125 [00:00<?, ?B/s]
+special_tokens_map.json: 100%|██████████████████| 125/125 [00:00<00:00, 616kB/s]
+85.2s 177 config.json:   0%|                                    | 0.00/200 [00:00<?, ?B/s]
+config.json: 100%|██████████████████████████████| 200/200 [00:00<00:00, 977kB/s]
+107.8s 178 epoch 0  val=0.213  general_val=0.987
+470.1s 179 SciFact nDCG@10 0.710 | negated claims (35) 0.722 | affirmative (265) 0.708
+481.8s 180 analysis: 808 fitting pairs, dimension 768
+575.8s 181 stability: overlap of half-sample U8 with full U8 = 0.712 (chance 0.010)
+592.9s 182 held-out fit (share of aff/neg difference explained): translation_only=0.077, k1=0.154, k2=0.168, k4=0.152, k8=0.146, k16=0.125, k32=0.102
+592.9s 183 residual after readout (median share of aff/neg difference kept): U8=0.847, U8_plus_d=0.823, d_only=0.958, rand8=0.995, meandiff=0.959, pca8=0.976
+860.3s 184 embedding nfcorpus: 3633 documents, 323 queries
+924.0s 185 embedding fiqa: 57638 documents, 648 queries
+1924.9s 186 readout                    nevir nevir_explicit nevir_implicit            sci        sci_neg sci_ctrl_negat sci_ctrl_penal     excluir_rr       nfcorpus           fiqa
+1924.9s 187 full                       0.187          0.241          0.164          0.710          0.722          0.692         -0.016          0.603          0.346          0.398
+1924.9s 188 U1                         0.136          0.156          0.127          0.709          0.723          0.695         -0.012          0.603          0.348          0.399
+1924.9s 189 rand1                      0.189          0.244          0.165          0.711          0.722          0.695         -0.015          0.602            nan            nan
+1924.9s 190 U2                         0.128          0.139          0.123          0.711          0.725          0.703         -0.005          0.601          0.347          0.397
+1924.9s 191 rand2                      0.187          0.241          0.164          0.711          0.722          0.692         -0.018          0.602            nan            nan
+1924.9s 192 U4                         0.115          0.120          0.113          0.713          0.725          0.707         -0.003          0.600          0.347          0.395
+1924.9s 193 rand4                      0.185          0.237          0.163          0.712          0.713          0.694         -0.017          0.602            nan            nan
+1924.9s 194 U8                         0.105          0.100          0.107          0.716          0.717          0.710         -0.006          0.600          0.348          0.396
+1924.9s 195 rand8                      0.186          0.246          0.160          0.714          0.717          0.700         -0.014          0.599          0.347          0.397
+1924.9s 196 U16                        0.100          0.122          0.090          0.716          0.725          0.714         -0.002          0.598          0.347          0.395
+1924.9s 197 rand16                     0.184          0.237          0.161          0.711          0.724          0.697         -0.013          0.601            nan            nan
+1924.9s 198 U32                        0.090          0.098          0.086          0.716          0.729          0.706         -0.008          0.597          0.353          0.391
+1924.9s 199 rand32                     0.189          0.241          0.168          0.712          0.731          0.700         -0.009          0.602            nan            nan
+1924.9s 200 U8_plus_d                  0.108          0.115          0.106          0.718          0.727          0.712         -0.004          0.599          0.350          0.395
+1924.9s 201 d_only                     0.171          0.210          0.155          0.714          0.720          0.709         -0.005          0.602          0.347          0.397
+1924.9s 202 meandiff                   0.176          0.217          0.158          0.712          0.720          0.709         -0.002          0.601          0.347          0.396
+1924.9s 203 probe                      0.189          0.239          0.169          0.711          0.722          0.691         -0.019          0.603          0.346          0.397
+1924.9s 204 pca8                       0.188          0.249          0.162          0.709          0.715          0.693         -0.015          0.594          0.345          0.392
+1925.2s 205 -> NevIR test 0.187 | ExcluIR RR 0.603 | SciFact nDCG@10 0.710  (30.8 min)
+1925.5s 206 
+1925.5s 207 === Summary (mean ± sd over seeds) ===
+1925.5s 208 mode                      val_acc       general_val        nevir_test        excluir_RR      excluir_dR@1   excluir_dMRR@10    scifact_ndcg10scifact_ndcg10_negatedscifact_ndcg10_affirmative                 c
+1925.5s 209 zeroshot             0.213 ± 0.000      0.987 ± 0.000      0.187 ± 0.000      0.603 ± 0.000      0.205 ± 0.000      0.103 ± 0.000      0.710 ± 0.000      0.722 ± 0.000      0.708 ± 0.000        nan ± nan
+1925.5s 210 
+1925.5s 211 Results in /kaggle/working/rv_zs_e5
+1930.0s 212 Device: cuda
+1937.2s 213 Loading data ...
+1937.3s 214 Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+1939.9s 215 ExcluIR: 3452 queries; corpus 90406 docs (query field 'RQ_rewrite', indices 'corpus_sub_index', second index = positive)
+1939.9s 216 sanity check, first example:
+1939.9s 217 query: Apart from the 1982 American musical movie Annie, is there any other movie of the same name adapted from Broadway musical?
+1939.9s 218 POSITIVE: Annie (2014 film) | Annie is a 2014 American musical comedy-drama film directed by Will Gluck and produced by Village Road
+1939.9s 219 EXCLUDED: Annie (1982 film) | Annie is a 1982 American musical film adapted from the Broadway musical of the same name by Charles St
+1940.1s 220 ExcluIR queries with a detected scope: training detector 68.7%, extended (reflection-test) detector 88.1%
+1944.1s 221 BEIR nfcorpus [test]: 323 queries, 3633 documents
+1947.3s 222 BEIR fiqa [test]: 648 queries, 57638 documents
+1947.3s 223 NevIR train=948, validation=225, test=1383; general pairs=4000 train, 1000 held-out validation
+1947.3s 224 
+1947.3s 225 --- mode=zeroshot seed=1 ---
+1947.4s 226 modules.json:   0%|                                   | 0.00/349 [00:00<?, ?B/s]
+modules.json: 100%|█████████████████████████████| 349/349 [00:00<00:00, 960kB/s]
+1947.5s 227 config_sentence_transformers.json:   0%|              | 0.00/116 [00:00<?, ?B/s]
+config_sentence_transformers.json: 100%|████████| 116/116 [00:00<00:00, 401kB/s]
+1947.7s 228 README.md:   0%|                                    | 0.00/11.6k [00:00<?, ?B/s]
+README.md: 100%|███████████████████████████| 11.6k/11.6k [00:00<00:00, 24.2MB/s]
+1947.8s 229 sentence_bert_config.json:   0%|                     | 0.00/53.0 [00:00<?, ?B/s]
+sentence_bert_config.json: 100%|██████████████| 53.0/53.0 [00:00<00:00, 138kB/s]
+1948.0s 230 config.json:   0%|                                    | 0.00/571 [00:00<?, ?B/s]
+config.json: 100%|█████████████████████████████| 571/571 [00:00<00:00, 2.97MB/s]
+1948.2s 231 
+1949.3s 232 model.safetensors: reconstructing file:   0%|      |  0.00B /  438MB            [A
+model.safetensors: downloading bytes:                       |  0.00B            
+model.safetensors: downloading bytes: █▍                    | 28.7MB            
+model.safetensors: downloading bytes: ███▋                  | 72.2MB, 2.84MB/s  
+model.safetensors: downloading bytes: ██████▉               |  138MB, 7.11MB/s  
+model.safetensors: downloading bytes: ██████████▎           |  205MB, 13.5MB/s  
+model.safetensors: downloading bytes: ██████████████▉       |  298MB, 24.6MB/s
+1949.5s 233 model.safetensors: reconstructing file:  61%|███▋  |  268MB /  438MB            [A
+model.safetensors: downloading bytes: █████████████████▌    |  350MB, 28.6MB/s  
+model.safetensors: downloading bytes: ████████████████████▊ |  414MB, 37.2MB/s
+1949.5s 234 model.safetensors: reconstructing file: 100%|██████|  438MB /  438MB, 26.1MB/s  [A
+model.safetensors: downloading bytes: ██████████████████████|  414MB, 38.9MB/s  
+model.safetensors: downloading bytes: ██████████████████████|  414MB, 38.9MB/s
+1949.5s 235 model.safetensors: reconstructing file: 100%|██████|  438MB /  438MB, 41.8MB/s
+1949.8s 236 Loading weights:   0%|                                  | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|██████████████████████| 199/199 [00:00<00:00, 2605.28it/s]
+1950.2s 237 tokenizer_config.json:   0%|                          | 0.00/363 [00:00<?, ?B/s]
+tokenizer_config.json: 100%|███████████████████| 363/363 [00:00<00:00, 1.21MB/s]
+1950.6s 238 vocab.txt:   0%|                                     | 0.00/232k [00:00<?, ?B/s]
+vocab.txt: 100%|█████████████████████████████| 232k/232k [00:00<00:00, 13.4MB/s]
+1950.7s 239 tokenizer.json:   0%|                                | 0.00/466k [00:00<?, ?B/s]
+tokenizer.json: 100%|████████████████████████| 466k/466k [00:00<00:00, 35.5MB/s]
+1952.5s 240 special_tokens_map.json:   0%|                        | 0.00/239 [00:00<?, ?B/s]
+special_tokens_map.json: 100%|█████████████████| 239/239 [00:00<00:00, 1.25MB/s]
+1952.7s 241 config.json:   0%|                                    | 0.00/190 [00:00<?, ?B/s]
+config.json: 100%|██████████████████████████████| 190/190 [00:00<00:00, 960kB/s]
+1982.2s 242 epoch 0  val=0.147  general_val=0.991
+2396.5s 243 SciFact nDCG@10 0.641 | negated claims (35) 0.692 | affirmative (265) 0.634
+2409.4s 244 analysis: 808 fitting pairs, dimension 768
+2487.5s 245 stability: overlap of half-sample U8 with full U8 = 0.604 (chance 0.010)
+2505.8s 246 held-out fit (share of aff/neg difference explained): translation_only=0.058, k1=0.102, k2=0.110, k4=0.089, k8=0.071, k16=0.049, k32=0.022
+2505.8s 247 residual after readout (median share of aff/neg difference kept): U8=0.924, U8_plus_d=0.912, d_only=0.967, rand8=0.996, meandiff=0.967, pca8=0.974
+2802.9s 248 embedding nfcorpus: 3633 documents, 323 queries
+2875.2s 249 embedding fiqa: 57638 documents, 648 queries
+3990.4s 250 readout                    nevir nevir_explicit nevir_implicit            sci        sci_neg sci_ctrl_negat sci_ctrl_penal     excluir_rr       nfcorpus           fiqa
+3990.4s 251 full                       0.081          0.090          0.077          0.641          0.692          0.633         -0.002          0.713          0.336          0.493
+3990.4s 252 U1                         0.067          0.071          0.066          0.641          0.696          0.637          0.003          0.713          0.336          0.494
+3990.4s 253 rand1                      0.082          0.093          0.078          0.643          0.694          0.633         -0.004          0.713            nan            nan
+3990.4s 254 U2                         0.061          0.061          0.062          0.643          0.703          0.635         -0.000          0.713          0.335          0.494
+3990.4s 255 rand2                      0.083          0.088          0.081          0.639          0.693          0.634          0.002          0.713            nan            nan
+3990.4s 256 U4                         0.063          0.066          0.062          0.644          0.703          0.638          0.002          0.713          0.334          0.493
+3990.4s 257 rand4                      0.083          0.093          0.079          0.643          0.692          0.634         -0.003          0.711            nan            nan
+3990.4s 258 U8                         0.062          0.066          0.061          0.643          0.703          0.636          0.001          0.712          0.334          0.491
+3990.4s 259 rand8                      0.082          0.090          0.078          0.640          0.692          0.633         -0.000          0.714          0.336          0.493
+3990.4s 260 U16                        0.059          0.063          0.057          0.642          0.693          0.635          0.000          0.712          0.334          0.490
+3990.4s 261 rand16                     0.084          0.093          0.080          0.643          0.694          0.634         -0.003          0.713            nan            nan
+3990.4s 262 U32                        0.060          0.063          0.059          0.642          0.693          0.637          0.002          0.712          0.335          0.488
+3990.4s 263 rand32                     0.084          0.083          0.084          0.643          0.694          0.628         -0.008          0.713            nan            nan
+3990.4s 264 U8_plus_d                  0.054          0.059          0.051          0.640          0.682          0.634         -0.001          0.714          0.335          0.493
+3990.4s 265 d_only                     0.070          0.071          0.070          0.642          0.687          0.634         -0.002          0.713          0.336          0.493
+3990.4s 266 meandiff                   0.073          0.078          0.071          0.643          0.691          0.634         -0.002          0.714          0.336          0.493
+3990.4s 267 probe                      0.082          0.088          0.080          0.641          0.694          0.633         -0.001          0.712          0.337          0.491
+3990.4s 268 pca8                       0.091          0.102          0.086          0.638          0.671          0.631         -0.003          0.719          0.338          0.489
+3990.6s 269 -> NevIR test 0.081 | ExcluIR RR 0.713 | SciFact nDCG@10 0.641  (34.1 min)
+3990.9s 270 
+3990.9s 271 === Summary (mean ± sd over seeds) ===
+3990.9s 272 mode                      val_acc       general_val        nevir_test        excluir_RR      excluir_dR@1   excluir_dMRR@10    scifact_ndcg10scifact_ndcg10_negatedscifact_ndcg10_affirmative                 c
+3990.9s 273 zeroshot             0.147 ± 0.000      0.991 ± 0.000      0.081 ± 0.000      0.713 ± 0.000      0.418 ± 0.000      0.280 ± 0.000      0.641 ± 0.000      0.692 ± 0.000      0.634 ± 0.000        nan ± nan
+3991.0s 274 
+3991.0s 275 Results in /kaggle/working/rv_zs_mpnet
+3995.2s 276 Device: cuda
+4002.4s 277 Loading data ...
+4002.6s 278 Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+4005.2s 279 ExcluIR: 3452 queries; corpus 90406 docs (query field 'RQ_rewrite', indices 'corpus_sub_index', second index = positive)
+4005.2s 280 sanity check, first example:
+4005.2s 281 query: Apart from the 1982 American musical movie Annie, is there any other movie of the same name adapted from Broadway musical?
+4005.2s 282 POSITIVE: Annie (2014 film) | Annie is a 2014 American musical comedy-drama film directed by Will Gluck and produced by Village Road
+4005.2s 283 EXCLUDED: Annie (1982 film) | Annie is a 1982 American musical film adapted from the Broadway musical of the same name by Charles St
+4005.4s 284 ExcluIR queries with a detected scope: training detector 68.7%, extended (reflection-test) detector 88.1%
+4009.4s 285 BEIR nfcorpus [test]: 323 queries, 3633 documents
+4012.7s 286 BEIR fiqa [test]: 648 queries, 57638 documents
+4012.7s 287 NevIR train=948, validation=225, test=1383; general pairs=4000 train, 1000 held-out validation
+4012.7s 288 
+4012.7s 289 --- mode=zeroshot seed=1 ---
+4012.7s 290 modules.json:   0%|                                   | 0.00/385 [00:00<?, ?B/s]
+modules.json: 100%|████████████████████████████| 385/385 [00:00<00:00, 2.14MB/s]
+4013.0s 291 README.md:   0%|                                    | 0.00/68.1k [00:00<?, ?B/s]
+README.md: 100%|████████████████████████████| 68.1k/68.1k [00:00<00:00, 115MB/s]
+4013.1s 292 sentence_bert_config.json:   0%|                     | 0.00/57.0 [00:00<?, ?B/s]
+sentence_bert_config.json: 100%|██████████████| 57.0/57.0 [00:00<00:00, 339kB/s]
+4013.3s 293 config.json:   0%|                                    | 0.00/618 [00:00<?, ?B/s]
+config.json: 100%|█████████████████████████████| 618/618 [00:00<00:00, 3.56MB/s]
+4013.5s 294 
+4014.6s 295 model.safetensors: reconstructing file:   0%|      |  0.00B /  219MB            [A
+model.safetensors: downloading bytes:                       |  0.00B            
+model.safetensors: downloading bytes: ▊                     | 8.31MB            
+model.safetensors: downloading bytes: ██                    | 20.0MB,  821kB/s  
+model.safetensors: downloading bytes: █████▌                | 55.6MB, 1.97MB/s  
+model.safetensors: downloading bytes: ████████▍             | 84.5MB, 5.45MB/s  
+model.safetensors: downloading bytes: ███████████▌          |  116MB, 8.21MB/s  
+model.safetensors: downloading bytes: ███████████████▍      |  154MB, 11.2MB/s
+4014.8s 296 model.safetensors: reconstructing file:  50%|██▉   |  109MB /  219MB            [A
+model.safetensors: downloading bytes: ██████████████████▊   |  188MB, 16.5MB/s
+4015.1s 297 model.safetensors: reconstructing file:  85%|█████▏|  187MB /  219MB, 10.6MB/s  [A
+4015.1s 298 model.safetensors: reconstructing file: 100%|██████|  219MB /  219MB, 17.9MB/s  [A
+model.safetensors: downloading bytes: █████████████████▌    |  219MB, 19.6MB/s  
+model.safetensors: downloading bytes: ██████████████████████|  219MB, 20.1MB/s  
+model.safetensors: downloading bytes: ██████████████████████|  219MB, 20.1MB/s
+4015.1s 299 model.safetensors: reconstructing file: 100%|██████|  219MB /  219MB, 20.5MB/s
+4015.6s 300 Loading weights:   0%|                                  | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|██████████████████████| 199/199 [00:00<00:00, 2653.82it/s]
+4016.0s 301 tokenizer_config.json:   0%|                          | 0.00/314 [00:00<?, ?B/s]
+tokenizer_config.json: 100%|███████████████████| 314/314 [00:00<00:00, 1.82MB/s]
+4016.4s 302 vocab.txt:   0%|                                     | 0.00/232k [00:00<?, ?B/s]
+vocab.txt: 100%|█████████████████████████████| 232k/232k [00:00<00:00, 10.6MB/s]
+4016.5s 303 tokenizer.json:   0%|                                | 0.00/712k [00:00<?, ?B/s]
+tokenizer.json: 100%|████████████████████████| 712k/712k [00:00<00:00, 58.8MB/s]
+4016.7s 304 special_tokens_map.json:   0%|                        | 0.00/125 [00:00<?, ?B/s]
+special_tokens_map.json: 100%|██████████████████| 125/125 [00:00<00:00, 600kB/s]
+4016.9s 305 config.json:   0%|                                    | 0.00/190 [00:00<?, ?B/s]
+config.json: 100%|█████████████████████████████| 190/190 [00:00<00:00, 1.04MB/s]
+4043.7s 306 epoch 0  val=0.173  general_val=0.982
+4415.9s 307 SciFact nDCG@10 0.750 | negated claims (35) 0.743 | affirmative (265) 0.751
+4427.6s 308 analysis: 808 fitting pairs, dimension 768
+4522.2s 309 stability: overlap of half-sample U8 with full U8 = 0.728 (chance 0.010)
+4538.6s 310 held-out fit (share of aff/neg difference explained): translation_only=0.133, k1=0.186, k2=0.194, k4=0.182, k8=0.174, k16=0.154, k32=0.136
+4538.6s 311 residual after readout (median share of aff/neg difference kept): U8=0.829, U8_plus_d=0.782, d_only=0.924, rand8=0.996, meandiff=0.923, pca8=0.934
+4804.7s 312 embedding nfcorpus: 3633 documents, 323 queries
+4868.4s 313 embedding fiqa: 57638 documents, 648 queries
+5876.0s 314 readout                    nevir nevir_explicit nevir_implicit            sci        sci_neg sci_ctrl_negat sci_ctrl_penal     excluir_rr       nfcorpus           fiqa
+5876.0s 315 full                       0.145          0.190          0.126          0.750          0.743          0.733         -0.017          0.629          0.381          0.401
+5876.0s 316 U1                         0.100          0.117          0.092          0.750          0.744          0.732         -0.019          0.629          0.380          0.404
+5876.0s 317 rand1                      0.146          0.190          0.127          0.750          0.744          0.735         -0.016          0.630            nan            nan
+5876.0s 318 U2                         0.087          0.102          0.080          0.747          0.736          0.736         -0.013          0.629          0.381          0.402
+5876.0s 319 rand2                      0.148          0.190          0.129          0.751          0.745          0.732         -0.019          0.630            nan            nan
+5876.0s 320 U4                         0.086          0.105          0.078          0.752          0.736          0.734         -0.020          0.630          0.380          0.400
+5876.0s 321 rand4                      0.148          0.193          0.128          0.748          0.744          0.733         -0.016          0.632            nan            nan
+5876.0s 322 U8                         0.080          0.098          0.073          0.747          0.736          0.735         -0.013          0.631          0.381          0.398
+5876.0s 323 rand8                      0.144          0.193          0.123          0.746          0.737          0.732         -0.016          0.628          0.382          0.398
+5876.0s 324 U16                        0.074          0.078          0.072          0.749          0.736          0.738         -0.013          0.632          0.380          0.394
+5876.0s 325 rand16                     0.146          0.193          0.126          0.752          0.740          0.732         -0.021          0.631            nan            nan
+5876.0s 326 U32                        0.079          0.085          0.076          0.747          0.737          0.740         -0.008          0.632          0.377          0.388
+5876.0s 327 rand32                     0.142          0.180          0.125          0.754          0.743          0.736         -0.019          0.630            nan            nan
+5876.0s 328 U8_plus_d                  0.080          0.093          0.075          0.750          0.743          0.736         -0.015          0.632          0.381          0.396
+5876.0s 329 d_only                     0.127          0.166          0.110          0.753          0.755          0.737         -0.016          0.630          0.380          0.396
+5876.0s 330 meandiff                   0.126          0.168          0.108          0.753          0.755          0.737         -0.016          0.630          0.380          0.396
+5876.0s 331 probe                      0.144          0.190          0.124          0.751          0.743          0.734         -0.018          0.629          0.381          0.401
+5876.0s 332 pca8                       0.133          0.171          0.117          0.749          0.748          0.734         -0.014          0.627          0.378          0.397
+5876.4s 333 -> NevIR test 0.145 | ExcluIR RR 0.629 | SciFact nDCG@10 0.750  (31.1 min)
+5876.7s 334 
+5876.7s 335 === Summary (mean ± sd over seeds) ===
+5876.7s 336 mode                      val_acc       general_val        nevir_test        excluir_RR      excluir_dR@1   excluir_dMRR@10    scifact_ndcg10scifact_ndcg10_negatedscifact_ndcg10_affirmative                 c
+5876.7s 337 zeroshot             0.173 ± 0.000      0.982 ± 0.000      0.145 ± 0.000      0.629 ± 0.000      0.259 ± 0.000      0.130 ± 0.000      0.750 ± 0.000      0.743 ± 0.000      0.751 ± 0.000        nan ± nan
+5876.7s 338 
+5876.7s 339 Results in /kaggle/working/rv_zs_gte
+5882.2s 340 Device: cuda
+5891.0s 341 Loading data ...
+5891.2s 342 Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+5894.0s 343 ExcluIR: 3452 queries; corpus 90406 docs (query field 'RQ_rewrite', indices 'corpus_sub_index', second index = positive)
+5894.0s 344 sanity check, first example:
+5894.0s 345 query: Apart from the 1982 American musical movie Annie, is there any other movie of the same name adapted from Broadway musical?
+5894.0s 346 POSITIVE: Annie (2014 film) | Annie is a 2014 American musical comedy-drama film directed by Will Gluck and produced by Village Road
+5894.0s 347 EXCLUDED: Annie (1982 film) | Annie is a 1982 American musical film adapted from the Broadway musical of the same name by Charles St
+5894.2s 348 ExcluIR queries with a detected scope: training detector 68.7%, extended (reflection-test) detector 88.1%
+5898.2s 349 BEIR nfcorpus [test]: 323 queries, 3633 documents
+5902.0s 350 BEIR fiqa [test]: 648 queries, 57638 documents
+5902.0s 351 NevIR train=948, validation=225, test=1383; general pairs=4000 train, 1000 held-out validation
+5902.0s 352 
+5902.0s 353 --- mode=zeroshot seed=1 ---
+5902.2s 354 config.json:   0%|                                    | 0.00/619 [00:00<?, ?B/s]
+config.json: 100%|█████████████████████████████| 619/619 [00:00<00:00, 1.71MB/s]
+5902.5s 355 
+5904.3s 356 pytorch_model.bin: reconstructing file:   0%|      |  0.00B /  438MB            [A
+pytorch_model.bin: downloading bytes:                       |  0.00B            
+pytorch_model.bin: downloading bytes: ▎                     | 5.58MB            
+pytorch_model.bin: downloading bytes: █▏                    | 22.6MB,  545kB/s  
+pytorch_model.bin: downloading bytes: ██▌                   | 50.3MB, 2.19MB/s  
+pytorch_model.bin: downloading bytes: █████▎                |  107MB, 4.86MB/s  
+pytorch_model.bin: downloading bytes: ███████▌              |  151MB, 10.3MB/s  
+pytorch_model.bin: downloading bytes: █████████▋            |  194MB, 14.4MB/s  
+pytorch_model.bin: downloading bytes: ████████████▍         |  246MB, 20.4MB/s
+5904.8s 357 pytorch_model.bin: reconstructing file:  15%|▉     | 67.1MB /  438MB            [A
+pytorch_model.bin: downloading bytes: ████████████████      |  319MB, 25.7MB/s  
+pytorch_model.bin: downloading bytes: ██████████████████▌   |  371MB, 29.5MB/s  
+pytorch_model.bin: downloading bytes: ████████████████████▊ |  413MB, 37.1MB/s
+5904.8s 358 pytorch_model.bin: reconstructing file: 100%|██████|  438MB /  438MB, 6.41MB/s  [A
+pytorch_model.bin: downloading bytes: ██████████████████████|  413MB, 37.5MB/s  
+pytorch_model.bin: downloading bytes: ██████████████████████|  413MB, 37.5MB/s
+5904.8s 359 pytorch_model.bin: reconstructing file: 100%|██████|  438MB /  438MB, 41.1MB/s
+5905.4s 360 Loading weights:   0%|                                  | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|█████████████████████| 199/199 [00:00<00:00, 10323.00it/s]
+5905.6s 361 
+5905.8s 362 model.safetensors: reconstructing file:   0%|      |  0.00B /  438MB            [A
+model.safetensors: downloading bytes:                       |  0.00B
+5905.8s 363 
+5905.8s 364 tokenizer_config.json:   0%|                          | 0.00/321 [00:00<?, ?B/s][A[A
+tokenizer_config.json: 100%|███████████████████| 321/321 [00:00<00:00, 1.70MB/s]
+5906.2s 365 
+5906.2s 366 
+5906.2s 367 vocab.txt:   0%|                                     | 0.00/232k [00:00<?, ?B/s][A[A
+vocab.txt: 100%|█████████████████████████████| 232k/232k [00:00<00:00, 14.2MB/s]
+5906.4s 368 
+5906.4s 369 
+5906.4s 370 tokenizer.json:   0%|                                | 0.00/466k [00:00<?, ?B/s][A[A
+tokenizer.json: 100%|████████████████████████| 466k/466k [00:00<00:00, 21.2MB/s]
+5906.5s 371 
+5906.5s 372 model.safetensors: reconstructing file:   0%|      | 12.8kB /  438MB            [A
+model.safetensors: downloading bytes: ▊                     | 16.8MB
+5906.5s 373 
+5906.5s 374 special_tokens_map.json:   0%|                        | 0.00/112 [00:00<?, ?B/s][A[A
+special_tokens_map.json: 100%|██████████████████| 112/112 [00:00<00:00, 322kB/s]
+5907.3s 375 model.safetensors: downloading bytes: ██▍                   | 48.1MB, 1.64MB/s  
+model.safetensors: downloading bytes: ████▋                 | 94.0MB, 4.68MB/s  
+model.safetensors: downloading bytes: ████████▏             |  162MB, 9.10MB/s  
+model.safetensors: downloading bytes: ███████████           |  220MB, 15.6MB/s  
+model.safetensors: downloading bytes: ██████████████▏       |  283MB, 21.1MB/s  
+model.safetensors: downloading bytes: █████████████████     |  340MB, 26.9MB/s
+5907.4s 376 model.safetensors: reconstructing file:  77%|████▌ |  335MB /  438MB, 1.26kB/s  [A
+model.safetensors: downloading bytes: ███████████████████▊  |  394MB, 35.7MB/s
+5907.7s 377 model.safetensors: reconstructing file:  92%|█████▌|  402MB /  438MB, 32.1MB/s  [A
+model.safetensors: downloading bytes: ██████████████████████|  413MB, 37.1MB/s  
+model.safetensors: downloading bytes: ██████████████████████|  413MB, 37.1MB/s
+5907.7s 378 model.safetensors: reconstructing file: 100%|██████|  438MB /  438MB, 40.5MB/s
+5933.3s 379 epoch 0  val=0.151  general_val=0.967
+6312.6s 380 SciFact nDCG@10 0.655 | negated claims (35) 0.679 | affirmative (265) 0.652
+6324.8s 381 analysis: 808 fitting pairs, dimension 768
+6432.1s 382 stability: overlap of half-sample U8 with full U8 = 0.644 (chance 0.010)
+6446.6s 383 held-out fit (share of aff/neg difference explained): translation_only=0.135, k1=0.166, k2=0.152, k4=0.153, k8=0.128, k16=0.100, k32=0.064
+6446.6s 384 residual after readout (median share of aff/neg difference kept): U8=0.880, U8_plus_d=0.859, d_only=0.925, rand8=0.995, meandiff=0.925, pca8=0.980
+6713.6s 385 embedding nfcorpus: 3633 documents, 323 queries
+6779.7s 386 embedding fiqa: 57638 documents, 648 queries
+7820.8s 387 readout                    nevir nevir_explicit nevir_implicit            sci        sci_neg sci_ctrl_negat sci_ctrl_penal     excluir_rr       nfcorpus           fiqa
+7820.8s 388 full                       0.097          0.112          0.090          0.655          0.679          0.656          0.004          0.617          0.319          0.285
+7820.8s 389 U1                         0.090          0.098          0.086          0.657          0.681          0.658          0.004          0.617          0.320          0.286
+7820.8s 390 rand1                      0.095          0.112          0.088          0.656          0.679          0.654          0.001          0.617            nan            nan
+7820.8s 391 U2                         0.091          0.095          0.089          0.656          0.681          0.657          0.005          0.618          0.321          0.287
+7820.8s 392 rand2                      0.097          0.110          0.091          0.657          0.679          0.656          0.003          0.619            nan            nan
+7820.8s 393 U4                         0.082          0.088          0.079          0.657          0.680          0.658          0.004          0.618          0.321          0.289
+7820.8s 394 rand4                      0.095          0.115          0.087          0.657          0.680          0.658          0.004          0.617            nan            nan
+7820.8s 395 U8                         0.078          0.080          0.077          0.657          0.681          0.658          0.004          0.618          0.324          0.288
+7820.8s 396 rand8                      0.096          0.112          0.089          0.655          0.691          0.648         -0.002          0.618          0.319          0.285
+7820.8s 397 U16                        0.078          0.080          0.077          0.657          0.682          0.653         -0.001          0.616          0.322          0.289
+7820.8s 398 rand16                     0.095          0.102          0.092          0.658          0.679          0.656          0.001          0.618            nan            nan
+7820.8s 399 U32                        0.076          0.080          0.074          0.660          0.681          0.653         -0.003          0.616          0.320          0.289
+7820.8s 400 rand32                     0.101          0.124          0.090          0.653          0.680          0.651          0.001          0.619            nan            nan
+7820.8s 401 U8_plus_d                  0.072          0.056          0.079          0.658          0.680          0.656          0.001          0.619          0.323          0.295
+7820.8s 402 d_only                     0.089          0.078          0.094          0.656          0.681          0.654          0.002          0.618          0.320          0.285
+7820.8s 403 meandiff                   0.088          0.076          0.094          0.656          0.681          0.654          0.002          0.618          0.320          0.285
+7820.8s 404 probe                      0.093          0.095          0.092          0.655          0.681          0.654          0.003          0.617          0.320          0.287
+7820.8s 405 pca8                       0.096          0.112          0.089          0.663          0.683          0.665          0.005          0.616          0.317          0.297
+7821.2s 406 -> NevIR test 0.097 | ExcluIR RR 0.617 | SciFact nDCG@10 0.655  (32.0 min)
+7821.5s 407 
+7821.5s 408 === Summary (mean ± sd over seeds) ===
+7821.5s 409 mode                      val_acc       general_val        nevir_test        excluir_RR      excluir_dR@1   excluir_dMRR@10    scifact_ndcg10scifact_ndcg10_negatedscifact_ndcg10_affirmative                 c
+7821.5s 410 zeroshot             0.151 ± 0.000      0.967 ± 0.000      0.097 ± 0.000      0.617 ± 0.000      0.235 ± 0.000      0.120 ± 0.000      0.655 ± 0.000      0.679 ± 0.000      0.652 ± 0.000        nan ± nan
+7821.5s 411 
+7821.5s 412 Results in /kaggle/working/rv_zs_contriever
+7826.1s 413 Device: cuda
+7833.6s 414 Loading data ...
+7833.7s 415 Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+7836.3s 416 ExcluIR: 3452 queries; corpus 90406 docs (query field 'RQ_rewrite', indices 'corpus_sub_index', second index = positive)
+7836.3s 417 sanity check, first example:
+7836.3s 418 query: Apart from the 1982 American musical movie Annie, is there any other movie of the same name adapted from Broadway musical?
+7836.3s 419 POSITIVE: Annie (2014 film) | Annie is a 2014 American musical comedy-drama film directed by Will Gluck and produced by Village Road
+7836.3s 420 EXCLUDED: Annie (1982 film) | Annie is a 1982 American musical film adapted from the Broadway musical of the same name by Charles St
+7836.5s 421 ExcluIR queries with a detected scope: training detector 68.7%, extended (reflection-test) detector 88.1%
+7840.4s 422 BEIR nfcorpus [test]: 323 queries, 3633 documents
+7843.7s 423 BEIR fiqa [test]: 648 queries, 57638 documents
+7843.7s 424 NevIR train=948, validation=225, test=1383; general pairs=4000 train, 1000 held-out validation
+7843.7s 425 
+7843.7s 426 --- mode=plain_ft seed=1 ---
+7844.6s 427 Loading weights:   0%|                                  | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|██████████████████████| 199/199 [00:00<00:00, 2665.63it/s]
+7869.3s 428 epoch 0  val=0.213  general_val=0.987
+7919.9s 429 step 50/368 loss=0.6223 (50s)
+7968.8s 430 step 100/368 loss=0.2674 (99s)
+8020.4s 431 step 150/368 loss=0.2364 (150s)
+8075.7s 432 step 200/368 loss=0.3890 (206s)
+8129.2s 433 step 250/368 loss=0.2733 (259s)
+8178.9s 434 step 300/368 loss=0.2031 (309s)
+8227.2s 435 step 350/368 loss=0.1985 (357s)
+8272.2s 436 epoch 1  val=0.427  general_val=0.980
+8321.4s 437 step 50/368 loss=0.1580 (49s)
+8371.3s 438 step 100/368 loss=0.1831 (98s)
+8422.3s 439 step 150/368 loss=0.2009 (150s)
+8473.5s 440 step 200/368 loss=0.2057 (201s)
+8526.9s 441 step 250/368 loss=0.2348 (254s)
+8579.2s 442 step 300/368 loss=0.1951 (306s)
+8632.2s 443 step 350/368 loss=0.2395 (359s)
+8678.0s 444 epoch 2  val=0.453  general_val=0.981
+9049.9s 445 SciFact nDCG@10 0.567 | negated claims (35) 0.433 | affirmative (265) 0.585
+9061.5s 446 analysis: 808 fitting pairs, dimension 768
+9133.7s 447 stability: overlap of half-sample U8 with full U8 = 0.816 (chance 0.010)
+9148.4s 448 held-out fit (share of aff/neg difference explained): translation_only=0.041, k1=0.325, k2=0.389, k4=0.404, k8=0.404, k16=0.395, k32=0.376
+9148.4s 449 residual after readout (median share of aff/neg difference kept): U8=0.617, U8_plus_d=0.605, d_only=0.954, rand8=0.995, meandiff=0.959, pca8=0.670
+9402.7s 450 embedding nfcorpus: 3633 documents, 323 queries
+9465.0s 451 embedding fiqa: 57638 documents, 648 queries
+10487.1s 452 readout                    nevir nevir_explicit nevir_implicit            sci        sci_neg sci_ctrl_negat sci_ctrl_penal     excluir_rr       nfcorpus           fiqa
+10487.1s 453 full                       0.480          0.534          0.457          0.567          0.433          0.409         -0.176          0.595          0.339          0.327
+10487.1s 454 U1                         0.359          0.395          0.344          0.612          0.514          0.453         -0.173          0.600          0.343          0.345
+10487.1s 455 rand1                      0.480          0.537          0.456          0.570          0.433          0.410         -0.178          0.595            nan            nan
+10487.1s 456 U2                         0.309          0.346          0.293          0.647          0.632          0.601         -0.048          0.603          0.345          0.355
+10487.1s 457 rand2                      0.479          0.534          0.455          0.568          0.434          0.411         -0.175          0.595            nan            nan
+10487.1s 458 U4                         0.279          0.337          0.255          0.648          0.646          0.619         -0.029          0.600          0.344          0.357
+10487.1s 459 rand4                      0.477          0.529          0.455          0.572          0.445          0.409         -0.180          0.595            nan            nan
+10487.1s 460 U8                         0.262          0.315          0.240          0.651          0.646          0.628         -0.023          0.603          0.345          0.356
+10487.1s 461 rand8                      0.482          0.539          0.457          0.571          0.435          0.408         -0.181          0.596          0.341          0.328
+10487.1s 462 U16                        0.252          0.295          0.234          0.652          0.645          0.634         -0.019          0.598          0.344          0.358
+10487.1s 463 rand16                     0.475          0.537          0.449          0.572          0.435          0.410         -0.181          0.594            nan            nan
+10487.1s 464 U32                        0.243          0.293          0.222          0.655          0.657          0.637         -0.018          0.599          0.344          0.356
+10487.1s 465 rand32                     0.479          0.537          0.455          0.568          0.431          0.410         -0.176          0.594            nan            nan
+10487.1s 466 U8_plus_d                  0.265          0.324          0.239          0.652          0.664          0.637         -0.014          0.600          0.346          0.358
+10487.1s 467 d_only                     0.481          0.532          0.459          0.608          0.541          0.572         -0.044          0.593          0.342          0.339
+10487.1s 468 meandiff                   0.483          0.534          0.461          0.606          0.543          0.563         -0.050          0.593          0.342          0.338
+10487.1s 469 probe                      0.480          0.534          0.457          0.568          0.433          0.407         -0.178          0.596          0.340          0.327
+10487.1s 470 pca8                       0.313          0.356          0.295          0.647          0.642          0.612         -0.036          0.602          0.351          0.356
+10487.3s 471 -> NevIR test 0.480 | ExcluIR RR 0.595 | SciFact nDCG@10 0.567  (44.1 min)
+10487.9s 472 
+10487.9s 473 --- mode=plain_ft seed=2 ---
+10488.7s 474 Loading weights:   0%|                                  | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|██████████████████████| 199/199 [00:00<00:00, 2300.92it/s]
+10516.7s 475 epoch 0  val=0.213  general_val=0.987
+10572.0s 476 step 50/368 loss=0.6008 (55s)
+10625.0s 477 step 100/368 loss=0.2853 (108s)
+10679.4s 478 step 150/368 loss=0.2891 (162s)
+10738.4s 479 step 200/368 loss=0.3917 (221s)
+10789.7s 480 step 250/368 loss=0.2125 (273s)
+10840.9s 481 step 300/368 loss=0.2015 (324s)
+10893.9s 482 step 350/368 loss=0.2335 (377s)
+10939.4s 483 epoch 1  val=0.400  general_val=0.982
+10991.1s 484 step 50/368 loss=0.1813 (51s)
+11045.8s 485 step 100/368 loss=0.2174 (106s)
+11097.6s 486 step 150/368 loss=0.1738 (158s)
+11152.4s 487 step 200/368 loss=0.2314 (213s)
+11206.1s 488 step 250/368 loss=0.1885 (266s)
+11257.9s 489 step 300/368 loss=0.1668 (318s)
+11312.7s 490 step 350/368 loss=0.2322 (373s)
+11362.6s 491 epoch 2  val=0.453  general_val=0.977
+11750.8s 492 SciFact nDCG@10 0.618 | negated claims (35) 0.577 | affirmative (265) 0.623
+11762.9s 493 analysis: 808 fitting pairs, dimension 768
+11838.6s 494 stability: overlap of half-sample U8 with full U8 = 0.815 (chance 0.010)
+11855.9s 495 held-out fit (share of aff/neg difference explained): translation_only=0.040, k1=0.290, k2=0.354, k4=0.366, k8=0.366, k16=0.356, k32=0.335
+11855.9s 496 residual after readout (median share of aff/neg difference kept): U8=0.646, U8_plus_d=0.633, d_only=0.874, rand8=0.995, meandiff=0.924, pca8=0.702
+12132.7s 497 embedding nfcorpus: 3633 documents, 323 queries
+12198.5s 498 embedding fiqa: 57638 documents, 648 queries
+13237.0s 499 readout                    nevir nevir_explicit nevir_implicit            sci        sci_neg sci_ctrl_negat sci_ctrl_penal     excluir_rr       nfcorpus           fiqa
+13237.0s 500 full                       0.490          0.522          0.477          0.618          0.577          0.572         -0.051          0.605          0.343          0.326
+13237.0s 501 U1                         0.343          0.346          0.342          0.652          0.618          0.610         -0.046          0.614          0.349          0.339
+13237.0s 502 rand1                      0.491          0.522          0.478          0.618          0.576          0.574         -0.050          0.606            nan            nan
+13237.0s 503 U2                         0.292          0.317          0.282          0.678          0.715          0.649         -0.024          0.616          0.354          0.345
+13237.0s 504 rand2                      0.491          0.522          0.478          0.618          0.576          0.574         -0.049          0.607            nan            nan
+13237.0s 505 U4                         0.267          0.302          0.252          0.673          0.723          0.658         -0.009          0.612          0.354          0.346
+13237.0s 506 rand4                      0.490          0.520          0.478          0.616          0.565          0.571         -0.052          0.605            nan            nan
+13237.0s 507 U8                         0.239          0.261          0.229          0.672          0.723          0.658         -0.007          0.612          0.353          0.347
+13237.0s 508 rand8                      0.489          0.520          0.476          0.617          0.580          0.575         -0.047          0.606          0.344          0.324
+13237.0s 509 U16                        0.228          0.251          0.219          0.672          0.720          0.660         -0.005          0.608          0.353          0.346
+13237.0s 510 rand16                     0.487          0.522          0.472          0.617          0.566          0.576         -0.048          0.605            nan            nan
+13237.0s 511 U32                        0.217          0.234          0.210          0.672          0.720          0.660         -0.005          0.613          0.354          0.344
+13237.0s 512 rand32                     0.487          0.520          0.474          0.618          0.579          0.574         -0.048          0.604            nan            nan
+13237.0s 513 U8_plus_d                  0.239          0.278          0.223          0.669          0.723          0.661         -0.001          0.611          0.352          0.348
+13237.0s 514 d_only                     0.421          0.424          0.419          0.655          0.658          0.632         -0.023          0.611          0.349          0.336
+13237.0s 515 meandiff                   0.475          0.495          0.467          0.647          0.660          0.639         -0.005          0.607          0.347          0.335
+13237.0s 516 probe                      0.490          0.522          0.477          0.618          0.577          0.572         -0.051          0.605          0.344          0.326
+13237.0s 517 pca8                       0.280          0.310          0.267          0.670          0.708          0.644         -0.020          0.609          0.350          0.348
+13237.2s 518 -> NevIR test 0.490 | ExcluIR RR 0.605 | SciFact nDCG@10 0.618  (45.8 min)
+13237.7s 519 
+13237.7s 520 --- mode=plain_ft seed=3 ---
+13238.5s 521 Loading weights:   0%|                                  | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|██████████████████████| 199/199 [00:00<00:00, 2612.36it/s]
+13266.6s 522 epoch 0  val=0.213  general_val=0.987
+13322.5s 523 step 50/368 loss=0.6236 (56s)
+13375.0s 524 step 100/368 loss=0.2554 (108s)
+13430.0s 525 step 150/368 loss=0.2838 (163s)
+13483.9s 526 step 200/368 loss=0.2547 (217s)
+13537.4s 527 step 250/368 loss=0.2514 (271s)
+13590.2s 528 step 300/368 loss=0.2481 (324s)
+13642.1s 529 step 350/368 loss=0.2357 (375s)
+13689.5s 530 epoch 1  val=0.440  general_val=0.984
+13745.2s 531 step 50/368 loss=0.2355 (55s)
+13799.3s 532 step 100/368 loss=0.2101 (110s)
+13854.3s 533 step 150/368 loss=0.2349 (164s)
+13906.5s 534 step 200/368 loss=0.1881 (217s)
+13958.7s 535 step 250/368 loss=0.1842 (269s)
+14013.1s 536 step 300/368 loss=0.2125 (323s)
+14064.3s 537 step 350/368 loss=0.1797 (375s)
+14111.8s 538 epoch 2  val=0.444  general_val=0.981
+14500.6s 539 SciFact nDCG@10 0.599 | negated claims (35) 0.499 | affirmative (265) 0.612
+14512.8s 540 analysis: 808 fitting pairs, dimension 768
+14588.6s 541 stability: overlap of half-sample U8 with full U8 = 0.778 (chance 0.010)
+14606.0s 542 held-out fit (share of aff/neg difference explained): translation_only=0.030, k1=0.277, k2=0.341, k4=0.354, k8=0.355, k16=0.348, k32=0.329
+14606.0s 543 residual after readout (median share of aff/neg difference kept): U8=0.656, U8_plus_d=0.642, d_only=0.930, rand8=0.995, meandiff=0.951, pca8=0.709
+14883.8s 544 embedding nfcorpus: 3633 documents, 323 queries
+14950.1s 545 embedding fiqa: 57638 documents, 648 queries
+15992.1s 546 readout                    nevir nevir_explicit nevir_implicit            sci        sci_neg sci_ctrl_negat sci_ctrl_penal     excluir_rr       nfcorpus           fiqa
+15992.1s 547 full                       0.475          0.537          0.449          0.599          0.499          0.494         -0.118          0.619          0.343          0.319
+15992.1s 548 U1                         0.338          0.376          0.323          0.637          0.548          0.549         -0.100          0.623          0.344          0.340
+15992.1s 549 rand1                      0.472          0.532          0.447          0.600          0.499          0.493         -0.121          0.619            nan            nan
+15992.1s 550 U2                         0.283          0.307          0.273          0.669          0.701          0.639         -0.026          0.623          0.347          0.353
+15992.1s 551 rand2                      0.471          0.527          0.448          0.598          0.490          0.494         -0.118          0.620            nan            nan
+15992.1s 552 U4                         0.259          0.276          0.252          0.667          0.690          0.643         -0.022          0.621          0.349          0.354
+15992.1s 553 rand4                      0.472          0.537          0.445          0.602          0.494          0.496         -0.120          0.619            nan            nan
+15992.1s 554 U8                         0.247          0.273          0.235          0.669          0.690          0.649         -0.017          0.620          0.350          0.351
+15992.1s 555 rand8                      0.474          0.537          0.447          0.599          0.501          0.494         -0.118          0.620          0.343          0.320
+15992.1s 556 U16                        0.228          0.246          0.220          0.668          0.686          0.653         -0.013          0.622          0.350          0.350
+15992.1s 557 rand16                     0.475          0.539          0.448          0.598          0.490          0.489         -0.123          0.620            nan            nan
+15992.1s 558 U32                        0.228          0.246          0.220          0.670          0.686          0.646         -0.022          0.619          0.349          0.347
+15992.1s 559 rand32                     0.472          0.529          0.448          0.603          0.500          0.496         -0.121          0.619            nan            nan
+15992.1s 560 U8_plus_d                  0.247          0.263          0.240          0.671          0.689          0.649         -0.019          0.620          0.349          0.353
+15992.1s 561 d_only                     0.448          0.473          0.437          0.625          0.581          0.563         -0.068          0.621          0.346          0.337
+15992.1s 562 meandiff                   0.461          0.495          0.446          0.614          0.550          0.576         -0.047          0.618          0.346          0.330
+15992.1s 563 probe                      0.474          0.534          0.448          0.598          0.499          0.494         -0.118          0.619          0.343          0.320
+15992.1s 564 pca8                       0.290          0.317          0.279          0.656          0.672          0.627         -0.027          0.619          0.349          0.351
+15992.4s 565 -> NevIR test 0.475 | ExcluIR RR 0.619 | SciFact nDCG@10 0.599  (45.9 min)
+15992.9s 566 
+15992.9s 567 === Summary (mean ± sd over seeds) ===
+15992.9s 568 mode                      val_acc       general_val        nevir_test        excluir_RR      excluir_dR@1   excluir_dMRR@10    scifact_ndcg10scifact_ndcg10_negatedscifact_ndcg10_affirmative                 c
+15992.9s 569 plain_ft             0.450 ± 0.004      0.980 ± 0.002      0.482 ± 0.006      0.606 ± 0.010      0.205 ± 0.018      0.126 ± 0.011      0.595 ± 0.021      0.503 ± 0.059      0.607 ± 0.016        nan ± nan
+15992.9s 570 
+15992.9s 571 Results in /kaggle/working/rv_ft_e5
+15997.4s 572 Device: cuda
+16004.8s 573 Loading data ...
+16004.9s 574 Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+16007.4s 575 ExcluIR: 3452 queries; corpus 90406 docs (query field 'RQ_rewrite', indices 'corpus_sub_index', second index = positive)
+16007.4s 576 sanity check, first example:
+16007.4s 577 query: Apart from the 1982 American musical movie Annie, is there any other movie of the same name adapted from Broadway musical?
+16007.4s 578 POSITIVE: Annie (2014 film) | Annie is a 2014 American musical comedy-drama film directed by Will Gluck and produced by Village Road
+16007.4s 579 EXCLUDED: Annie (1982 film) | Annie is a 1982 American musical film adapted from the Broadway musical of the same name by Charles St
+16007.6s 580 ExcluIR queries with a detected scope: training detector 68.7%, extended (reflection-test) detector 88.1%
+16011.6s 581 BEIR nfcorpus [test]: 323 queries, 3633 documents
+16015.1s 582 BEIR fiqa [test]: 648 queries, 57638 documents
+16015.1s 583 NevIR train=948, validation=225, test=1383; general pairs=4000 train, 1000 held-out validation
+16015.1s 584 
+16015.1s 585 --- mode=plain_ft seed=1 ---
+16016.0s 586 Loading weights:   0%|                                  | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|██████████████████████| 199/199 [00:00<00:00, 2548.17it/s]
+16046.4s 587 epoch 0  val=0.147  general_val=0.991
+16105.0s 588 step 50/368 loss=0.2910 (58s)
+16159.2s 589 step 100/368 loss=0.2605 (112s)
+16214.1s 590 step 150/368 loss=0.2261 (167s)
+16273.8s 591 step 200/368 loss=0.3689 (227s)
+16331.7s 592 step 250/368 loss=0.2839 (285s)
+16385.3s 593 step 300/368 loss=0.1995 (338s)
+16437.3s 594 step 350/368 loss=0.1979 (390s)
+16487.0s 595 epoch 1  val=0.351  general_val=0.992
+16540.4s 596 step 50/368 loss=0.1470 (53s)
+16594.5s 597 step 100/368 loss=0.1937 (107s)
+16649.2s 598 step 150/368 loss=0.1975 (162s)
+16704.6s 599 step 200/368 loss=0.2079 (217s)
+16762.7s 600 step 250/368 loss=0.2362 (275s)
+16818.4s 601 step 300/368 loss=0.1986 (331s)
+16876.1s 602 step 350/368 loss=0.2409 (389s)
+16926.5s 603 epoch 2  val=0.520  general_val=0.989
+17341.6s 604 SciFact nDCG@10 0.617 | negated claims (35) 0.624 | affirmative (265) 0.616
+17354.5s 605 analysis: 808 fitting pairs, dimension 768
+17427.1s 606 stability: overlap of half-sample U8 with full U8 = 0.844 (chance 0.010)
+17445.5s 607 held-out fit (share of aff/neg difference explained): translation_only=-0.000, k1=0.310, k2=0.398, k4=0.416, k8=0.420, k16=0.413, k32=0.392
+17445.5s 608 residual after readout (median share of aff/neg difference kept): U8=0.623, U8_plus_d=0.611, d_only=0.946, rand8=0.996, meandiff=0.939, pca8=0.681
+17743.0s 609 embedding nfcorpus: 3633 documents, 323 queries
+17815.6s 610 embedding fiqa: 57638 documents, 648 queries
+18930.2s 611 readout                    nevir nevir_explicit nevir_implicit            sci        sci_neg sci_ctrl_negat sci_ctrl_penal     excluir_rr       nfcorpus           fiqa
+18930.2s 612 full                       0.509          0.588          0.476          0.617          0.624          0.599         -0.017          0.696          0.323          0.447
+18930.2s 613 U1                         0.404          0.449          0.385          0.624          0.624          0.607         -0.017          0.697          0.326          0.449
+18930.2s 614 rand1                      0.508          0.588          0.475          0.618          0.624          0.597         -0.020          0.696            nan            nan
+18930.2s 615 U2                         0.330          0.383          0.308          0.635          0.669          0.623         -0.008          0.695          0.330          0.452
+18930.2s 616 rand2                      0.510          0.588          0.477          0.618          0.623          0.597         -0.019          0.696            nan            nan
+18930.2s 617 U4                         0.304          0.356          0.282          0.635          0.680          0.626         -0.003          0.696          0.331          0.452
+18930.2s 618 rand4                      0.511          0.588          0.479          0.617          0.624          0.601         -0.015          0.696            nan            nan
+18930.2s 619 U8                         0.278          0.332          0.256          0.638          0.690          0.633          0.002          0.698          0.328          0.451
+18930.2s 620 rand8                      0.510          0.590          0.477          0.616          0.626          0.601         -0.014          0.695          0.325          0.449
+18930.2s 621 U16                        0.263          0.320          0.239          0.637          0.680          0.629         -0.002          0.696          0.330          0.452
+18930.2s 622 rand16                     0.508          0.590          0.473          0.618          0.624          0.598         -0.019          0.697            nan            nan
+18930.2s 623 U32                        0.253          0.295          0.235          0.635          0.680          0.630          0.002          0.695          0.328          0.454
+18930.2s 624 rand32                     0.515          0.588          0.484          0.620          0.624          0.597         -0.023          0.693            nan            nan
+18930.2s 625 U8_plus_d                  0.282          0.346          0.255          0.637          0.690          0.633          0.003          0.697          0.327          0.452
+18930.2s 626 d_only                     0.481          0.561          0.447          0.631          0.697          0.607         -0.015          0.694          0.328          0.452
+18930.2s 627 meandiff                   0.482          0.537          0.458          0.629          0.676          0.615         -0.007          0.696          0.328          0.449
+18930.2s 628 probe                      0.509          0.588          0.476          0.617          0.624          0.597         -0.019          0.695          0.324          0.448
+18930.2s 629 pca8                       0.342          0.376          0.328          0.640          0.677          0.623         -0.013          0.699          0.333          0.452
+18930.4s 630 -> NevIR test 0.509 | ExcluIR RR 0.696 | SciFact nDCG@10 0.617  (48.6 min)
+18931.1s 631 
+18931.1s 632 --- mode=plain_ft seed=2 ---
+18931.9s 633 Loading weights:   0%|                                  | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|██████████████████████| 199/199 [00:00<00:00, 2623.19it/s]
+18963.1s 634 epoch 0  val=0.147  general_val=0.991
+19020.0s 635 step 50/368 loss=0.2940 (57s)
+19075.1s 636 step 100/368 loss=0.2604 (112s)
+19131.6s 637 step 150/368 loss=0.2837 (168s)
+19193.0s 638 step 200/368 loss=0.4000 (230s)
+19246.6s 639 step 250/368 loss=0.2228 (283s)
+19299.5s 640 step 300/368 loss=0.2054 (336s)
+19354.3s 641 step 350/368 loss=0.2250 (391s)
+19402.0s 642 epoch 1  val=0.387  general_val=0.988
+19455.6s 643 step 50/368 loss=0.1895 (53s)
+19512.5s 644 step 100/368 loss=0.2247 (110s)
+19566.7s 645 step 150/368 loss=0.1805 (164s)
+19624.2s 646 step 200/368 loss=0.2348 (222s)
+19679.7s 647 step 250/368 loss=0.2002 (277s)
+19733.0s 648 step 300/368 loss=0.1661 (331s)
+19789.5s 649 step 350/368 loss=0.2407 (387s)
+19841.9s 650 epoch 2  val=0.511  general_val=0.986
+20256.7s 651 SciFact nDCG@10 0.616 | negated claims (35) 0.631 | affirmative (265) 0.614
+20269.8s 652 analysis: 808 fitting pairs, dimension 768
+20338.2s 653 stability: overlap of half-sample U8 with full U8 = 0.823 (chance 0.010)
+20356.6s 654 held-out fit (share of aff/neg difference explained): translation_only=0.046, k1=0.298, k2=0.360, k4=0.369, k8=0.375, k16=0.369, k32=0.348
+20356.6s 655 residual after readout (median share of aff/neg difference kept): U8=0.653, U8_plus_d=0.642, d_only=0.904, rand8=0.996, meandiff=0.942, pca8=0.691
+20655.3s 656 embedding nfcorpus: 3633 documents, 323 queries
+20727.8s 657 embedding fiqa: 57638 documents, 648 queries
+21846.7s 658 readout                    nevir nevir_explicit nevir_implicit            sci        sci_neg sci_ctrl_negat sci_ctrl_penal     excluir_rr       nfcorpus           fiqa
+21846.7s 659 full                       0.512          0.590          0.479          0.616          0.631          0.573         -0.041          0.651          0.313          0.438
+21846.7s 660 U1                         0.385          0.449          0.358          0.634          0.643          0.605         -0.027          0.655          0.315          0.453
+21846.7s 661 rand1                      0.511          0.590          0.478          0.615          0.631          0.573         -0.040          0.652            nan            nan
+21846.7s 662 U2                         0.333          0.380          0.312          0.637          0.680          0.626         -0.005          0.654          0.318          0.451
+21846.7s 663 rand2                      0.511          0.588          0.479          0.615          0.632          0.573         -0.040          0.650            nan            nan
+21846.7s 664 U4                         0.304          0.344          0.287          0.643          0.680          0.628         -0.010          0.654          0.317          0.452
+21846.7s 665 rand4                      0.515          0.593          0.482          0.616          0.632          0.575         -0.039          0.651            nan            nan
+21846.7s 666 U8                         0.290          0.334          0.271          0.640          0.680          0.630         -0.005          0.655          0.320          0.449
+21846.7s 667 rand8                      0.510          0.588          0.478          0.618          0.631          0.571         -0.045          0.651          0.311          0.439
+21846.7s 668 U16                        0.273          0.310          0.257          0.642          0.681          0.627         -0.009          0.655          0.321          0.453
+21846.7s 669 rand16                     0.512          0.593          0.478          0.616          0.632          0.572         -0.042          0.653            nan            nan
+21846.7s 670 U32                        0.266          0.315          0.246          0.640          0.681          0.629         -0.005          0.654          0.319          0.453
+21846.7s 671 rand32                     0.509          0.593          0.474          0.617          0.643          0.573         -0.041          0.651            nan            nan
+21846.7s 672 U8_plus_d                  0.290          0.337          0.270          0.639          0.673          0.631         -0.004          0.654          0.319          0.450
+21846.7s 673 d_only                     0.472          0.527          0.449          0.625          0.656          0.617         -0.005          0.652          0.315          0.444
+21846.7s 674 meandiff                   0.489          0.568          0.455          0.619          0.645          0.607         -0.009          0.651          0.314          0.440
+21846.7s 675 probe                      0.511          0.588          0.479          0.616          0.632          0.573         -0.040          0.651          0.313          0.439
+21846.7s 676 pca8                       0.349          0.400          0.327          0.642          0.676          0.627         -0.010          0.658          0.323          0.453
+21846.9s 677 -> NevIR test 0.512 | ExcluIR RR 0.651 | SciFact nDCG@10 0.616  (48.6 min)
+21847.6s 678 
+21847.6s 679 === Summary (mean ± sd over seeds) ===
+21847.6s 680 mode                      val_acc       general_val        nevir_test        excluir_RR      excluir_dR@1   excluir_dMRR@10    scifact_ndcg10scifact_ndcg10_negatedscifact_ndcg10_affirmative                 c
+21847.6s 681 plain_ft             0.516 ± 0.004      0.987 ± 0.001      0.510 ± 0.001      0.674 ± 0.022      0.347 ± 0.045      0.226 ± 0.026      0.616 ± 0.001      0.628 ± 0.004      0.615 ± 0.001        nan ± nan
+21847.6s 682 
+21847.6s 683 Results in /kaggle/working/rv_ft_mpnet
+21852.1s 684 Device: cuda
+21859.9s 685 Loading data ...
+21860.0s 686 Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+21862.7s 687 ExcluIR: 3452 queries; corpus 90406 docs (query field 'RQ_rewrite', indices 'corpus_sub_index', second index = positive)
+21862.7s 688 sanity check, first example:
+21862.7s 689 query: Apart from the 1982 American musical movie Annie, is there any other movie of the same name adapted from Broadway musical?
+21862.7s 690 POSITIVE: Annie (2014 film) | Annie is a 2014 American musical comedy-drama film directed by Will Gluck and produced by Village Road
+21862.7s 691 EXCLUDED: Annie (1982 film) | Annie is a 1982 American musical film adapted from the Broadway musical of the same name by Charles St
+21863.0s 692 ExcluIR queries with a detected scope: training detector 68.7%, extended (reflection-test) detector 88.1%
+21867.0s 693 BEIR nfcorpus [test]: 323 queries, 3633 documents
+21870.4s 694 BEIR fiqa [test]: 648 queries, 57638 documents
+21870.4s 695 NevIR train=948, validation=225, test=1383; general pairs=4000 train, 1000 held-out validation
+21870.4s 696 
+21870.4s 697 --- mode=plain_ft seed=1 ---
+21871.3s 698 Loading weights:   0%|                                  | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|██████████████████████| 199/199 [00:00<00:00, 2520.52it/s]
+21899.2s 699 epoch 0  val=0.173  general_val=0.982
+21955.5s 700 step 50/368 loss=0.7915 (56s)
+22007.4s 701 step 100/368 loss=0.3529 (108s)
+22059.8s 702 step 150/368 loss=0.2670 (160s)
+22117.2s 703 step 200/368 loss=0.4096 (217s)
+22172.4s 704 step 250/368 loss=0.2991 (273s)
+22223.9s 705 step 300/368 loss=0.2304 (324s)
+22274.0s 706 step 350/368 loss=0.2066 (374s)
+22321.0s 707 epoch 1  val=0.156  general_val=0.976
+22371.6s 708 step 50/368 loss=0.1760 (51s)
+22423.4s 709 step 100/368 loss=0.2257 (102s)
+22475.0s 710 step 150/368 loss=0.2488 (154s)
+22526.4s 711 step 200/368 loss=0.2590 (205s)
+22580.2s 712 step 250/368 loss=0.2812 (259s)
+22631.8s 713 step 300/368 loss=0.2258 (311s)
+22684.8s 714 step 350/368 loss=0.2805 (364s)
+22730.0s 715 epoch 2  val=0.378  general_val=0.977
+23112.9s 716 SciFact nDCG@10 0.692 | negated claims (35) 0.651 | affirmative (265) 0.698
+23125.1s 717 analysis: 808 fitting pairs, dimension 768
+23204.3s 718 stability: overlap of half-sample U8 with full U8 = 0.710 (chance 0.010)
+23221.6s 719 held-out fit (share of aff/neg difference explained): translation_only=0.127, k1=0.330, k2=0.358, k4=0.357, k8=0.344, k16=0.323, k32=0.290
+23221.6s 720 residual after readout (median share of aff/neg difference kept): U8=0.663, U8_plus_d=0.621, d_only=0.892, rand8=0.996, meandiff=0.898, pca8=0.685
+23500.1s 721 embedding nfcorpus: 3633 documents, 323 queries
+23565.9s 722 embedding fiqa: 57638 documents, 648 queries
+24611.7s 723 readout                    nevir nevir_explicit nevir_implicit            sci        sci_neg sci_ctrl_negat sci_ctrl_penal     excluir_rr       nfcorpus           fiqa
+24611.7s 724 full                       0.333          0.395          0.307          0.692          0.651          0.681         -0.016          0.633          0.321          0.305
+24611.7s 725 U1                         0.223          0.273          0.202          0.695          0.652          0.695         -0.005          0.636          0.321          0.313
+24611.7s 726 rand1                      0.336          0.395          0.311          0.692          0.651          0.680         -0.017          0.633            nan            nan
+24611.7s 727 U2                         0.172          0.207          0.157          0.694          0.654          0.702          0.003          0.635          0.321          0.316
+24611.7s 728 rand2                      0.333          0.395          0.306          0.693          0.651          0.680         -0.018          0.632            nan            nan
+24611.7s 729 U4                         0.171          0.200          0.159          0.695          0.652          0.703          0.002          0.636          0.322          0.316
+24611.7s 730 rand4                      0.333          0.395          0.306          0.692          0.651          0.679         -0.018          0.633            nan            nan
+24611.7s 731 U8                         0.162          0.190          0.150          0.697          0.652          0.703          0.000          0.636          0.324          0.314
+24611.7s 732 rand8                      0.334          0.400          0.306          0.692          0.651          0.678         -0.020          0.632          0.320          0.304
+24611.7s 733 U16                        0.157          0.193          0.142          0.694          0.643          0.701          0.001          0.635          0.322          0.311
+24611.7s 734 rand16                     0.333          0.398          0.306          0.694          0.652          0.679         -0.021          0.631            nan            nan
+24611.7s 735 U32                        0.150          0.188          0.135          0.695          0.643          0.701         -0.002          0.634          0.322          0.309
+24611.7s 736 rand32                     0.327          0.398          0.297          0.697          0.673          0.679         -0.021          0.632            nan            nan
+24611.7s 737 U8_plus_d                  0.163          0.195          0.150          0.707          0.693          0.707         -0.001          0.637          0.333          0.319
+24611.7s 738 d_only                     0.310          0.359          0.290          0.698          0.675          0.701         -0.000          0.632          0.322          0.305
+24611.7s 739 meandiff                   0.311          0.361          0.290          0.698          0.675          0.698         -0.003          0.633          0.321          0.305
+24611.7s 740 probe                      0.333          0.395          0.306          0.692          0.651          0.681         -0.017          0.632          0.320          0.305
+24611.7s 741 pca8                       0.197          0.239          0.179          0.722          0.711          0.717         -0.006          0.636          0.348          0.325
+24612.0s 742 -> NevIR test 0.333 | ExcluIR RR 0.633 | SciFact nDCG@10 0.692  (45.7 min)
+24612.5s 743 
+24612.5s 744 --- mode=plain_ft seed=2 ---
+24613.4s 745 Loading weights:   0%|                                  | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|██████████████████████| 199/199 [00:00<00:00, 2578.73it/s]
+24641.7s 746 epoch 0  val=0.173  general_val=0.982
+24696.5s 747 step 50/368 loss=0.7905 (55s)
+24749.1s 748 step 100/368 loss=0.3525 (107s)
+24802.9s 749 step 150/368 loss=0.3288 (161s)
+24861.8s 750 step 200/368 loss=0.4351 (220s)
+24913.0s 751 step 250/368 loss=0.2231 (271s)
+24963.6s 752 step 300/368 loss=0.2392 (322s)
+25015.9s 753 step 350/368 loss=0.2521 (374s)
+25060.3s 754 epoch 1  val=0.093  general_val=0.980
+25111.0s 755 step 50/368 loss=0.2060 (51s)
+25165.1s 756 step 100/368 loss=0.2645 (105s)
+25216.9s 757 step 150/368 loss=0.2138 (157s)
+25271.5s 758 step 200/368 loss=0.2720 (211s)
+25324.1s 759 step 250/368 loss=0.2531 (264s)
+25375.1s 760 step 300/368 loss=0.1933 (315s)
+25429.0s 761 step 350/368 loss=0.2692 (369s)
+25478.3s 762 epoch 2  val=0.373  general_val=0.977
+25866.7s 763 SciFact nDCG@10 0.690 | negated claims (35) 0.671 | affirmative (265) 0.692
+25878.8s 764 analysis: 808 fitting pairs, dimension 768
+25959.1s 765 stability: overlap of half-sample U8 with full U8 = 0.708 (chance 0.010)
+25976.8s 766 held-out fit (share of aff/neg difference explained): translation_only=0.112, k1=0.334, k2=0.349, k4=0.347, k8=0.336, k16=0.315, k32=0.281
+25976.8s 767 residual after readout (median share of aff/neg difference kept): U8=0.696, U8_plus_d=0.661, d_only=0.855, rand8=0.996, meandiff=0.892, pca8=0.797
+26254.1s 768 embedding nfcorpus: 3633 documents, 323 queries
+26320.2s 769 embedding fiqa: 57638 documents, 648 queries
+27362.5s 770 readout                    nevir nevir_explicit nevir_implicit            sci        sci_neg sci_ctrl_negat sci_ctrl_penal     excluir_rr       nfcorpus           fiqa
+27362.5s 771 full                       0.330          0.398          0.301          0.690          0.671          0.665         -0.027          0.625          0.311          0.301
+27362.5s 772 U1                         0.218          0.271          0.195          0.696          0.694          0.678         -0.018          0.628          0.316          0.311
+27362.5s 773 rand1                      0.330          0.398          0.302          0.689          0.669          0.663         -0.029          0.626            nan            nan
+27362.5s 774 U2                         0.184          0.212          0.173          0.701          0.693          0.681         -0.021          0.629          0.317          0.312
+27362.5s 775 rand2                      0.329          0.398          0.300          0.689          0.659          0.665         -0.029          0.624            nan            nan
+27362.5s 776 U4                         0.175          0.185          0.171          0.698          0.693          0.683         -0.016          0.628          0.316          0.311
+27362.5s 777 rand4                      0.326          0.393          0.298          0.690          0.669          0.663         -0.029          0.625            nan            nan
+27362.5s 778 U8                         0.166          0.180          0.160          0.700          0.693          0.684         -0.017          0.628          0.316          0.311
+27362.5s 779 rand8                      0.328          0.402          0.296          0.690          0.672          0.662         -0.031          0.624          0.312          0.300
+27362.5s 780 U16                        0.158          0.176          0.151          0.700          0.695          0.687         -0.014          0.626          0.317          0.310
+27362.5s 781 rand16                     0.330          0.398          0.302          0.691          0.672          0.660         -0.034          0.625            nan            nan
+27362.5s 782 U32                        0.153          0.161          0.149          0.700          0.695          0.684         -0.018          0.625          0.317          0.308
+27362.5s 783 rand32                     0.330          0.398          0.301          0.699          0.688          0.663         -0.037          0.624            nan            nan
+27362.5s 784 U8_plus_d                  0.167          0.190          0.157          0.698          0.687          0.681         -0.018          0.628          0.315          0.310
+27362.5s 785 d_only                     0.268          0.315          0.249          0.695          0.658          0.682         -0.018          0.631          0.317          0.307
+27362.5s 786 meandiff                   0.302          0.376          0.270          0.696          0.665          0.678         -0.022          0.629          0.314          0.304
+27362.5s 787 probe                      0.330          0.398          0.301          0.690          0.670          0.665         -0.027          0.625          0.312          0.301
+27362.5s 788 pca8                       0.222          0.249          0.211          0.715          0.714          0.693         -0.023          0.627          0.362          0.337
+27362.6s 789 -> NevIR test 0.330 | ExcluIR RR 0.625 | SciFact nDCG@10 0.690  (45.8 min)
+27363.3s 790 
+27363.3s 791 === Summary (mean ± sd over seeds) ===
+27363.3s 792 mode                      val_acc       general_val        nevir_test        excluir_RR      excluir_dR@1   excluir_dMRR@10    scifact_ndcg10scifact_ndcg10_negatedscifact_ndcg10_affirmative                 c
+27363.3s 793 plain_ft             0.376 ± 0.002      0.977 ± 0.000      0.332 ± 0.002      0.629 ± 0.004      0.258 ± 0.007      0.151 ± 0.006      0.691 ± 0.001      0.661 ± 0.010      0.695 ± 0.003        nan ± nan
+27363.3s 794 
+27363.3s 795 Results in /kaggle/working/rv_ft_gte
+27367.6s 796 /usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\|'
+27367.6s 797 cells[i][c] = re.sub('\\\\\|', '|', cell)
+27367.8s 798 /usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\_'
+27367.8s 799 text = re.sub(r'_', '\_', text) # Escape underscores in display text
+27368.6s 800 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+27368.7s 801 [NbConvertApp] Writing 91588 bytes to __notebook__.ipynb
+27371.2s 802 [NbConvertApp] Converting notebook __notebook__.ipynb to html
+27371.7s 803 [NbConvertApp] Writing 359927 bytes to __results__.html

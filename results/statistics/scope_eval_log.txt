@@ -1,0 +1,9 @@
+full_papers  training detector  sentences   2670 (negated   339) | cue P 0.813 R 0.938 F1 0.871 | scope P 0.708 R 0.671 F1 0.689
+full_papers  extended detector  sentences   2670 (negated   339) | cue P 0.817 R 0.959 F1 0.882 | scope P 0.707 R 0.695 F1 0.701
+   most common false-positive cues: [('not', 39), ('no', 10), ('excluding', 7), ('excluded', 4), ('absence', 4), ('cannot', 2)]
+   most common missed cues:         [('rather than', 8), ('failed', 7), ('fail', 3), ('failure', 2), ('fails', 1), ('missing', 1)]
+abstracts    training detector  sentences  11871 (negated  1597) | cue P 0.886 R 0.936 F1 0.910 | scope P 0.851 R 0.680 F1 0.755
+abstracts    extended detector  sentences  11871 (negated  1597) | cue P 0.885 R 0.947 F1 0.915 | scope P 0.850 R 0.689 F1 0.761
+   most common false-positive cues: [('not', 92), ('no', 37), ('absence', 35), ('absent', 9), ('instead', 8), ('except', 6)]
+   most common missed cues:         [('failed', 35), ('unable', 23), ('rather than', 17), ('fails', 6), ('with the exception of', 4), ('lacked', 4)]
+clinical: text masked in the distributed corpus (gold cues appear as '*'); not evaluable.

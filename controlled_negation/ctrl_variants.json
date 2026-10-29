@@ -1,0 +1,2632 @@
+[
+ {
+  "qid": "1",
+  "variants": {
+   "v1_rule": "It is not the case that 0-dimensional biomaterials show inductive properties.",
+   "neg_v2": "0-dimensional biomaterials do not show inductive properties.",
+   "ctrl_matched": "0-dimensional biomaterials do show inductive properties.",
+   "ctrl_indeed": "0-dimensional biomaterials indeed show inductive properties.",
+   "ctrl_prefix": "It is the case that 0-dimensional biomaterials show inductive properties."
+  }
+ },
+ {
+  "qid": "3",
+  "variants": {
+   "v1_rule": "It is not the case that 1,000 genomes project enables mapping of genetic sequence variation consisting of rare variants with larger penetrance effects than common variants.",
+   "neg_v2": "1,000 genomes project does not enable mapping of genetic sequence variation consisting of rare variants with larger penetrance effects than common variants.",
+   "ctrl_matched": "1,000 genomes project does enable mapping of genetic sequence variation consisting of rare variants with larger penetrance effects than common variants.",
+   "ctrl_indeed": "1,000 genomes project indeed enables mapping of genetic sequence variation consisting of rare variants with larger penetrance effects than common variants.",
+   "ctrl_prefix": "It is the case that 1,000 genomes project enables mapping of genetic sequence variation consisting of rare variants with larger penetrance effects than common variants."
+  }
+ },
+ {
+  "qid": "5",
+  "variants": {
+   "v1_rule": "1/2000 in UK have not abnormal PrP positivity.",
+   "neg_v2": "1/2000 in UK do not have abnormal PrP positivity.",
+   "ctrl_matched": "1/2000 in UK do have abnormal PrP positivity.",
+   "ctrl_indeed": "1/2000 in UK indeed have abnormal PrP positivity.",
+   "ctrl_prefix": "It is the case that 1/2000 in UK have abnormal PrP positivity."
+  }
+ },
+ {
+  "qid": "13",
+  "variants": {
+   "v1_rule": "5% of perinatal mortality is not due to low birth weight.",
+   "neg_v2": "5% of perinatal mortality is not due to low birth weight.",
+   "ctrl_matched": "5% of perinatal mortality is indeed due to low birth weight.",
+   "ctrl_indeed": "5% of perinatal mortality is indeed due to low birth weight.",
+   "ctrl_prefix": "It is the case that 5% of perinatal mortality is due to low birth weight."
+  }
+ },
+ {
+  "qid": "36",
+  "variants": {
+   "v1_rule": "It is not the case that a deficiency of vitamin B12 increases blood levels of homocysteine.",
+   "neg_v2": "A deficiency of vitamin B12 does not increase blood levels of homocysteine.",
+   "ctrl_matched": "A deficiency of vitamin B12 does increase blood levels of homocysteine.",
+   "ctrl_indeed": "A deficiency of vitamin B12 indeed increases blood levels of homocysteine.",
+   "ctrl_prefix": "It is the case that a deficiency of vitamin B12 increases blood levels of homocysteine."
+  }
+ },
+ {
+  "qid": "42",
+  "variants": {
+   "v1_rule": "It is not the case that a high microerythrocyte count raises vulnerability to severe anemia in homozygous alpha (+)- thalassemia trait subjects.",
+   "neg_v2": "A high microerythrocyte count does not raise vulnerability to severe anemia in homozygous alpha (+)- thalassemia trait subjects.",
+   "ctrl_matched": "A high microerythrocyte count does raise vulnerability to severe anemia in homozygous alpha (+)- thalassemia trait subjects.",
+   "ctrl_indeed": "A high microerythrocyte count indeed raises vulnerability to severe anemia in homozygous alpha (+)- thalassemia trait subjects.",
+   "ctrl_prefix": "It is the case that a high microerythrocyte count raises vulnerability to severe anemia in homozygous alpha (+)- thalassemia trait subjects."
+  }
+ },
+ {
+  "qid": "48",
+  "variants": {
+   "v1_rule": "A total of 1,000 people in the UK are not asymptomatic carriers of vCJD infection.",
+   "neg_v2": "A total of 1,000 people in the UK are not asymptomatic carriers of vCJD infection.",
+   "ctrl_matched": "A total of 1,000 people in the UK are indeed asymptomatic carriers of vCJD infection.",
+   "ctrl_indeed": "A total of 1,000 people in the UK are indeed asymptomatic carriers of vCJD infection.",
+   "ctrl_prefix": "It is the case that a total of 1,000 people in the UK are asymptomatic carriers of vCJD infection."
+  }
+ },
+ {
+  "qid": "49",
+  "variants": {
+   "v1_rule": "It is not the case that aDAR1 binds to Dicer to cleave pre-miRNA.",
+   "neg_v2": "ADAR1 does not bind to Dicer to cleave pre-miRNA.",
+   "ctrl_matched": "ADAR1 does bind to Dicer to cleave pre-miRNA.",
+   "ctrl_indeed": "ADAR1 indeed binds to Dicer to cleave pre-miRNA.",
+   "ctrl_prefix": "It is the case that aDAR1 binds to Dicer to cleave pre-miRNA."
+  }
+ },
+ {
+  "qid": "50",
+  "variants": {
+   "v1_rule": "AIRE is not expressed in some skin tumors.",
+   "neg_v2": "AIRE is not expressed in some skin tumors.",
+   "ctrl_matched": "AIRE is indeed expressed in some skin tumors.",
+   "ctrl_indeed": "AIRE is indeed expressed in some skin tumors.",
+   "ctrl_prefix": "It is the case that aIRE is expressed in some skin tumors."
+  }
+ },
+ {
+  "qid": "51",
+  "variants": {
+   "v1_rule": "ALDH1 expression is not associated with better breast cancer outcomes.",
+   "neg_v2": "ALDH1 expression is not associated with better breast cancer outcomes.",
+   "ctrl_matched": "ALDH1 expression is indeed associated with better breast cancer outcomes.",
+   "ctrl_indeed": "ALDH1 expression is indeed associated with better breast cancer outcomes.",
+   "ctrl_prefix": "It is the case that aLDH1 expression is associated with better breast cancer outcomes."
+  }
+ },
+ {
+  "qid": "53",
+  "variants": {
+   "v1_rule": "ALDH1 expression is not associated with poorer prognosis in breast cancer.",
+   "neg_v2": "ALDH1 expression is not associated with poorer prognosis in breast cancer.",
+   "ctrl_matched": "ALDH1 expression is indeed associated with poorer prognosis in breast cancer.",
+   "ctrl_indeed": "ALDH1 expression is indeed associated with poorer prognosis in breast cancer.",
+   "ctrl_prefix": "It is the case that aLDH1 expression is associated with poorer prognosis in breast cancer."
+  }
+ },
+ {
+  "qid": "54",
+  "variants": {
+   "v1_rule": "It is not the case that aMP-activated protein kinase (AMPK) activation increases inflammation-related fibrosis in the lungs.",
+   "neg_v2": "AMP-activated protein kinase (AMPK) activation does not increase inflammation-related fibrosis in the lungs.",
+   "ctrl_matched": "AMP-activated protein kinase (AMPK) activation does increase inflammation-related fibrosis in the lungs.",
+   "ctrl_indeed": "AMP-activated protein kinase (AMPK) activation indeed increases inflammation-related fibrosis in the lungs.",
+   "ctrl_prefix": "It is the case that aMP-activated protein kinase (AMPK) activation increases inflammation-related fibrosis in the lungs."
+  }
+ },
+ {
+  "qid": "56",
+  "variants": {
+   "v1_rule": "It is not the case that aPOE4 expression in iPSC-derived neurons increases AlphaBeta production and tau phosphorylation causing GABA neuron degeneration.",
+   "neg_v2": "APOE4 expression in iPSC-derived neurons does not increase AlphaBeta production and tau phosphorylation causing GABA neuron degeneration.",
+   "ctrl_matched": "APOE4 expression in iPSC-derived neurons does increase AlphaBeta production and tau phosphorylation causing GABA neuron degeneration.",
+   "ctrl_indeed": "APOE4 expression in iPSC-derived neurons indeed increases AlphaBeta production and tau phosphorylation causing GABA neuron degeneration.",
+   "ctrl_prefix": "It is the case that aPOE4 expression in iPSC-derived neurons increases AlphaBeta production and tau phosphorylation causing GABA neuron degeneration."
+  }
+ },
+ {
+  "qid": "57",
+  "variants": {
+   "v1_rule": "It is not the case that aPOE4 expression in iPSC-derived neurons increases AlphaBeta production and tau phosphorylation, delaying GABA neuron degeneration.",
+   "neg_v2": "APOE4 expression in iPSC-derived neurons does not increase AlphaBeta production and tau phosphorylation, delaying GABA neuron degeneration.",
+   "ctrl_matched": "APOE4 expression in iPSC-derived neurons does increase AlphaBeta production and tau phosphorylation, delaying GABA neuron degeneration.",
+   "ctrl_indeed": "APOE4 expression in iPSC-derived neurons indeed increases AlphaBeta production and tau phosphorylation, delaying GABA neuron degeneration.",
+   "ctrl_prefix": "It is the case that aPOE4 expression in iPSC-derived neurons increases AlphaBeta production and tau phosphorylation, delaying GABA neuron degeneration."
+  }
+ },
+ {
+  "qid": "70",
+  "variants": {
+   "v1_rule": "It is not the case that activation of PPM1D suppresses p53 function.",
+   "neg_v2": "Activation of PPM1D does not suppress p53 function.",
+   "ctrl_matched": "Activation of PPM1D does suppress p53 function.",
+   "ctrl_indeed": "Activation of PPM1D indeed suppresses p53 function.",
+   "ctrl_prefix": "It is the case that activation of PPM1D suppresses p53 function."
+  }
+ },
+ {
+  "qid": "72",
+  "variants": {
+   "v1_rule": "Activator-inhibitor pairs are not provided dorsally by Admpchordin.",
+   "neg_v2": "Activator-inhibitor pairs are not provided dorsally by Admpchordin.",
+   "ctrl_matched": "Activator-inhibitor pairs are indeed provided dorsally by Admpchordin.",
+   "ctrl_indeed": "Activator-inhibitor pairs are indeed provided dorsally by Admpchordin.",
+   "ctrl_prefix": "It is the case that activator-inhibitor pairs are provided dorsally by Admpchordin."
+  }
+ },
+ {
+  "qid": "75",
+  "variants": {
+   "v1_rule": "Active H. pylori urease has not a polymeric structure that compromises two subunits, UreA and UreB.",
+   "neg_v2": "Active H. pylori urease does not have a polymeric structure that compromises two subunits, UreA and UreB.",
+   "ctrl_matched": "Active H. pylori urease does have a polymeric structure that compromises two subunits, UreA and UreB.",
+   "ctrl_indeed": "Active H. pylori urease indeed has a polymeric structure that compromises two subunits, UreA and UreB.",
+   "ctrl_prefix": "It is the case that active H. pylori urease has a polymeric structure that compromises two subunits, UreA and UreB."
+  }
+ },
+ {
+  "qid": "94",
+  "variants": {
+   "v1_rule": "Albendazole is not used to treat lymphatic filariasis.",
+   "neg_v2": "Albendazole is not used to treat lymphatic filariasis.",
+   "ctrl_matched": "Albendazole is indeed used to treat lymphatic filariasis.",
+   "ctrl_indeed": "Albendazole is indeed used to treat lymphatic filariasis.",
+   "ctrl_prefix": "It is the case that albendazole is used to treat lymphatic filariasis."
+  }
+ },
+ {
+  "qid": "99",
+  "variants": {
+   "v1_rule": "It is not the case that alizarin forms hydrogen bonds with residues involved in PGAM1 substrate binding.",
+   "neg_v2": "Alizarin does not form hydrogen bonds with residues involved in PGAM1 substrate binding.",
+   "ctrl_matched": "Alizarin does form hydrogen bonds with residues involved in PGAM1 substrate binding.",
+   "ctrl_indeed": "Alizarin indeed forms hydrogen bonds with residues involved in PGAM1 substrate binding.",
+   "ctrl_prefix": "It is the case that alizarin forms hydrogen bonds with residues involved in PGAM1 substrate binding."
+  }
+ },
+ {
+  "qid": "100",
+  "variants": {
+   "v1_rule": "It is not the case that all hematopoietic stem cells segregate their chromosomes randomly.",
+   "neg_v2": "Not all hematopoietic stem cells segregate their chromosomes randomly.",
+   "ctrl_matched": "All hematopoietic stem cells do segregate their chromosomes randomly.",
+   "ctrl_indeed": "All hematopoietic stem cells indeed segregate their chromosomes randomly.",
+   "ctrl_prefix": "It is the case that all hematopoietic stem cells segregate their chromosomes randomly."
+  }
+ },
+ {
+  "qid": "113",
+  "variants": {
+   "v1_rule": "Angiotensin converting enzyme inhibitors are not associated with increased risk for functional renal insufficiency.",
+   "neg_v2": "Angiotensin converting enzyme inhibitors are not associated with increased risk for functional renal insufficiency.",
+   "ctrl_matched": "Angiotensin converting enzyme inhibitors are indeed associated with increased risk for functional renal insufficiency.",
+   "ctrl_indeed": "Angiotensin converting enzyme inhibitors are indeed associated with increased risk for functional renal insufficiency.",
+   "ctrl_prefix": "It is the case that angiotensin converting enzyme inhibitors are associated with increased risk for functional renal insufficiency."
+  }
+ },
+ {
+  "qid": "115",
+  "variants": {
+   "v1_rule": "Anthrax spores can not be disposed of easily after they are dispersed.",
+   "neg_v2": "Anthrax spores can not be disposed of easily after they are dispersed.",
+   "ctrl_matched": "Anthrax spores can indeed be disposed of easily after they are dispersed.",
+   "ctrl_indeed": "Anthrax spores can indeed be disposed of easily after they are dispersed.",
+   "ctrl_prefix": "It is the case that anthrax spores can be disposed of easily after they are dispersed."
+  }
+ },
+ {
+  "qid": "118",
+  "variants": {
+   "v1_rule": "It is not the case that antibiotic induced alterations in the gut microbiome reduce resistance against Clostridium difficile",
+   "neg_v2": "Antibiotic induced alterations in the gut microbiome do not reduce resistance against Clostridium difficile",
+   "ctrl_matched": "Antibiotic induced alterations in the gut microbiome do reduce resistance against Clostridium difficile",
+   "ctrl_indeed": "Antibiotic induced alterations in the gut microbiome indeed reduce resistance against Clostridium difficile",
+   "ctrl_prefix": "It is the case that antibiotic induced alterations in the gut microbiome reduce resistance against Clostridium difficile"
+  }
+ },
+ {
+  "qid": "124",
+  "variants": {
+   "v1_rule": "It is not the case that antiretroviral therapy reduces rates of tuberculosis across a broad range of CD4 strata.",
+   "neg_v2": "Antiretroviral therapy does not reduce rates of tuberculosis across a broad range of CD4 strata.",
+   "ctrl_matched": "Antiretroviral therapy does reduce rates of tuberculosis across a broad range of CD4 strata.",
+   "ctrl_indeed": "Antiretroviral therapy indeed reduces rates of tuberculosis across a broad range of CD4 strata.",
+   "ctrl_prefix": "It is the case that antiretroviral therapy reduces rates of tuberculosis across a broad range of CD4 strata."
+  }
+ },
+ {
+  "qid": "127",
+  "variants": {
+   "v1_rule": "Arginine 90 in p150n is not important for interaction with EB1.",
+   "neg_v2": "Arginine 90 in p150n is not important for interaction with EB1.",
+   "ctrl_matched": "Arginine 90 in p150n is indeed important for interaction with EB1.",
+   "ctrl_indeed": "Arginine 90 in p150n is indeed important for interaction with EB1.",
+   "ctrl_prefix": "It is the case that arginine 90 in p150n is important for interaction with EB1."
+  }
+ },
+ {
+  "qid": "128",
+  "variants": {
+   "v1_rule": "Arterioles have not a larger lumen diameter than venules.",
+   "neg_v2": "Arterioles do not have a larger lumen diameter than venules.",
+   "ctrl_matched": "Arterioles do have a larger lumen diameter than venules.",
+   "ctrl_indeed": "Arterioles indeed have a larger lumen diameter than venules.",
+   "ctrl_prefix": "It is the case that arterioles have a larger lumen diameter than venules."
+  }
+ },
+ {
+  "qid": "129",
+  "variants": {
+   "v1_rule": "Articles published in open access format are not less likely to be cited than traditional journals.",
+   "neg_v2": "Articles published in open access format are not less likely to be cited than traditional journals.",
+   "ctrl_matched": "Articles published in open access format are indeed less likely to be cited than traditional journals.",
+   "ctrl_indeed": "Articles published in open access format are indeed less likely to be cited than traditional journals.",
+   "ctrl_prefix": "It is the case that articles published in open access format are less likely to be cited than traditional journals."
+  }
+ },
+ {
+  "qid": "130",
+  "variants": {
+   "v1_rule": "Articles published in open access format are not more likely to be cited than traditional journals.",
+   "neg_v2": "Articles published in open access format are not more likely to be cited than traditional journals.",
+   "ctrl_matched": "Articles published in open access format are indeed more likely to be cited than traditional journals.",
+   "ctrl_indeed": "Articles published in open access format are indeed more likely to be cited than traditional journals.",
+   "ctrl_prefix": "It is the case that articles published in open access format are more likely to be cited than traditional journals."
+  }
+ },
+ {
+  "qid": "132",
+  "variants": {
+   "v1_rule": "It is not the case that aspirin inhibits the production of PGE2.",
+   "neg_v2": "Aspirin does not inhibit the production of PGE2.",
+   "ctrl_matched": "Aspirin does inhibit the production of PGE2.",
+   "ctrl_indeed": "Aspirin indeed inhibits the production of PGE2.",
+   "ctrl_prefix": "It is the case that aspirin inhibits the production of PGE2."
+  }
+ },
+ {
+  "qid": "133",
+  "variants": {
+   "v1_rule": "Assembly of invadopodia is not triggered by focal generation of phosphatidylinositol-3,4-biphosphate and the activation of the nonreceptor tyrosine kinase Src.",
+   "neg_v2": "Assembly of invadopodia is not triggered by focal generation of phosphatidylinositol-3,4-biphosphate and the activation of the nonreceptor tyrosine kinase Src.",
+   "ctrl_matched": "Assembly of invadopodia is indeed triggered by focal generation of phosphatidylinositol-3,4-biphosphate and the activation of the nonreceptor tyrosine kinase Src.",
+   "ctrl_indeed": "Assembly of invadopodia is indeed triggered by focal generation of phosphatidylinositol-3,4-biphosphate and the activation of the nonreceptor tyrosine kinase Src.",
+   "ctrl_prefix": "It is the case that assembly of invadopodia is triggered by focal generation of phosphatidylinositol-3,4-biphosphate and the activation of the nonreceptor tyrosine kinase Src."
+  }
+ },
+ {
+  "qid": "141",
+  "variants": {
+   "v1_rule": "Auditory entrainment is not strengthened when people see congruent visual and auditory information.",
+   "neg_v2": "Auditory entrainment is not strengthened when people see congruent visual and auditory information.",
+   "ctrl_matched": "Auditory entrainment is indeed strengthened when people see congruent visual and auditory information.",
+   "ctrl_indeed": "Auditory entrainment is indeed strengthened when people see congruent visual and auditory information.",
+   "ctrl_prefix": "It is the case that auditory entrainment is strengthened when people see congruent visual and auditory information."
+  }
+ },
+ {
+  "qid": "142",
+  "variants": {
+   "v1_rule": "It is not the case that autologous transplantation of mesenchymal stem cells causes a higher rate of opportunistic infections than induction therapy with anti-interleukin-2 receptor antibodies.",
+   "neg_v2": "Autologous transplantation of mesenchymal stem cells does not cause a higher rate of opportunistic infections than induction therapy with anti-interleukin-2 receptor antibodies.",
+   "ctrl_matched": "Autologous transplantation of mesenchymal stem cells does cause a higher rate of opportunistic infections than induction therapy with anti-interleukin-2 receptor antibodies.",
+   "ctrl_indeed": "Autologous transplantation of mesenchymal stem cells indeed causes a higher rate of opportunistic infections than induction therapy with anti-interleukin-2 receptor antibodies.",
+   "ctrl_prefix": "It is the case that autologous transplantation of mesenchymal stem cells causes a higher rate of opportunistic infections than induction therapy with anti-interleukin-2 receptor antibodies."
+  }
+ },
+ {
+  "qid": "143",
+  "variants": {
+   "v1_rule": "It is not the case that autologous transplantation of mesenchymal stem cells causes fewer opportunistic infections than induction therapy with anti-interleukin-2 receptor antibodies.",
+   "neg_v2": "Autologous transplantation of mesenchymal stem cells does not cause fewer opportunistic infections than induction therapy with anti-interleukin-2 receptor antibodies.",
+   "ctrl_matched": "Autologous transplantation of mesenchymal stem cells does cause fewer opportunistic infections than induction therapy with anti-interleukin-2 receptor antibodies.",
+   "ctrl_indeed": "Autologous transplantation of mesenchymal stem cells indeed causes fewer opportunistic infections than induction therapy with anti-interleukin-2 receptor antibodies.",
+   "ctrl_prefix": "It is the case that autologous transplantation of mesenchymal stem cells causes fewer opportunistic infections than induction therapy with anti-interleukin-2 receptor antibodies."
+  }
+ },
+ {
+  "qid": "146",
+  "variants": {
+   "v1_rule": "Autologous transplantation of mesenchymal stem cells has not lower rates of rejection than induction therapy with anti-interleukin-2 receptor antibodies.",
+   "neg_v2": "Autologous transplantation of mesenchymal stem cells does not have lower rates of rejection than induction therapy with anti-interleukin-2 receptor antibodies.",
+   "ctrl_matched": "Autologous transplantation of mesenchymal stem cells does have lower rates of rejection than induction therapy with anti-interleukin-2 receptor antibodies.",
+   "ctrl_indeed": "Autologous transplantation of mesenchymal stem cells indeed has lower rates of rejection than induction therapy with anti-interleukin-2 receptor antibodies.",
+   "ctrl_prefix": "It is the case that autologous transplantation of mesenchymal stem cells has lower rates of rejection than induction therapy with anti-interleukin-2 receptor antibodies."
+  }
+ },
+ {
+  "qid": "148",
+  "variants": {
+   "v1_rule": "It is not the case that autophagy declines in aged organisms.",
+   "neg_v2": "Autophagy does not decline in aged organisms.",
+   "ctrl_matched": "Autophagy does decline in aged organisms.",
+   "ctrl_indeed": "Autophagy indeed declines in aged organisms.",
+   "ctrl_prefix": "It is the case that autophagy declines in aged organisms."
+  }
+ },
+ {
+  "qid": "163",
+  "variants": {
+   "v1_rule": "Bariatric surgery has not a positive impact on mental health.",
+   "neg_v2": "Bariatric surgery does not have a positive impact on mental health.",
+   "ctrl_matched": "Bariatric surgery does have a positive impact on mental health.",
+   "ctrl_indeed": "Bariatric surgery indeed has a positive impact on mental health.",
+   "ctrl_prefix": "It is the case that bariatric surgery has a positive impact on mental health."
+  }
+ },
+ {
+  "qid": "171",
+  "variants": {
+   "v1_rule": "It is not the case that basophils counteract disease development in patients with systemic lupus erythematosus (SLE).",
+   "neg_v2": "Basophils do not counteract disease development in patients with systemic lupus erythematosus (SLE).",
+   "ctrl_matched": "Basophils do counteract disease development in patients with systemic lupus erythematosus (SLE).",
+   "ctrl_indeed": "Basophils indeed counteract disease development in patients with systemic lupus erythematosus (SLE).",
+   "ctrl_prefix": "It is the case that basophils counteract disease development in patients with systemic lupus erythematosus (SLE)."
+  }
+ },
+ {
+  "qid": "179",
+  "variants": {
+   "v1_rule": "Birth-weight is not positively associated with breast cancer.",
+   "neg_v2": "Birth-weight is not positively associated with breast cancer.",
+   "ctrl_matched": "Birth-weight is indeed positively associated with breast cancer.",
+   "ctrl_indeed": "Birth-weight is indeed positively associated with breast cancer.",
+   "ctrl_prefix": "It is the case that birth-weight is positively associated with breast cancer."
+  }
+ },
+ {
+  "qid": "180",
+  "variants": {
+   "v1_rule": "It is not the case that blocking the interaction between TDP-43 and respiratory complex I proteins ND3 and ND6 leads to increased TDP-43-induced neuronal loss.",
+   "neg_v2": "Blocking the interaction between TDP-43 and respiratory complex I proteins ND3 and ND6 does not lead to increased TDP-43-induced neuronal loss.",
+   "ctrl_matched": "Blocking the interaction between TDP-43 and respiratory complex I proteins ND3 and ND6 does lead to increased TDP-43-induced neuronal loss.",
+   "ctrl_indeed": "Blocking the interaction between TDP-43 and respiratory complex I proteins ND3 and ND6 indeed leads to increased TDP-43-induced neuronal loss.",
+   "ctrl_prefix": "It is the case that blocking the interaction between TDP-43 and respiratory complex I proteins ND3 and ND6 leads to increased TDP-43-induced neuronal loss."
+  }
+ },
+ {
+  "qid": "183",
+  "variants": {
+   "v1_rule": "It is not the case that bone marrow cells contribute to adult macrophage compartments.",
+   "neg_v2": "Bone marrow cells do not contribute to adult macrophage compartments.",
+   "ctrl_matched": "Bone marrow cells do contribute to adult macrophage compartments.",
+   "ctrl_indeed": "Bone marrow cells indeed contribute to adult macrophage compartments.",
+   "ctrl_prefix": "It is the case that bone marrow cells contribute to adult macrophage compartments."
+  }
+ },
+ {
+  "qid": "185",
+  "variants": {
+   "v1_rule": "Breast cancer development is not determined exclusively by genetic factors.",
+   "neg_v2": "Breast cancer development is not determined exclusively by genetic factors.",
+   "ctrl_matched": "Breast cancer development is indeed determined exclusively by genetic factors.",
+   "ctrl_indeed": "Breast cancer development is indeed determined exclusively by genetic factors.",
+   "ctrl_prefix": "It is the case that breast cancer development is determined exclusively by genetic factors."
+  }
+ },
+ {
+  "qid": "212",
+  "variants": {
+   "v1_rule": "CR is not associated with higher methylation age.",
+   "neg_v2": "CR is not associated with higher methylation age.",
+   "ctrl_matched": "CR is indeed associated with higher methylation age.",
+   "ctrl_indeed": "CR is indeed associated with higher methylation age.",
+   "ctrl_prefix": "It is the case that cR is associated with higher methylation age."
+  }
+ },
+ {
+  "qid": "216",
+  "variants": {
+   "v1_rule": "It is not the case that cX3CR1 on the Th2 cells impairs T cell survival",
+   "neg_v2": "CX3CR1 on the Th2 cells does not impair T cell survival",
+   "ctrl_matched": "CX3CR1 on the Th2 cells does impair T cell survival",
+   "ctrl_indeed": "CX3CR1 on the Th2 cells indeed impairs T cell survival",
+   "ctrl_prefix": "It is the case that cX3CR1 on the Th2 cells impairs T cell survival"
+  }
+ },
+ {
+  "qid": "217",
+  "variants": {
+   "v1_rule": "It is not the case that cX3CR1 on the Th2 cells promotes T cell survival",
+   "neg_v2": "CX3CR1 on the Th2 cells does not promote T cell survival",
+   "ctrl_matched": "CX3CR1 on the Th2 cells does promote T cell survival",
+   "ctrl_indeed": "CX3CR1 on the Th2 cells indeed promotes T cell survival",
+   "ctrl_prefix": "It is the case that cX3CR1 on the Th2 cells promotes T cell survival"
+  }
+ },
+ {
+  "qid": "218",
+  "variants": {
+   "v1_rule": "It is not the case that cX3CR1 on the Th2 cells promotes airway inflammation.",
+   "neg_v2": "CX3CR1 on the Th2 cells does not promote airway inflammation.",
+   "ctrl_matched": "CX3CR1 on the Th2 cells does promote airway inflammation.",
+   "ctrl_indeed": "CX3CR1 on the Th2 cells indeed promotes airway inflammation.",
+   "ctrl_prefix": "It is the case that cX3CR1 on the Th2 cells promotes airway inflammation."
+  }
+ },
+ {
+  "qid": "219",
+  "variants": {
+   "v1_rule": "It is not the case that cX3CR1 on the Th2 cells suppresses airway inflammation.",
+   "neg_v2": "CX3CR1 on the Th2 cells does not suppress airway inflammation.",
+   "ctrl_matched": "CX3CR1 on the Th2 cells does suppress airway inflammation.",
+   "ctrl_indeed": "CX3CR1 on the Th2 cells indeed suppresses airway inflammation.",
+   "ctrl_prefix": "It is the case that cX3CR1 on the Th2 cells suppresses airway inflammation."
+  }
+ },
+ {
+  "qid": "230",
+  "variants": {
+   "v1_rule": "It is not the case that carriers of the alcohol aldehyde dehydrogenase deficiency mutation drink less that non-carries.",
+   "neg_v2": "Carriers of the alcohol aldehyde dehydrogenase deficiency mutation do not drink less that non-carries.",
+   "ctrl_matched": "Carriers of the alcohol aldehyde dehydrogenase deficiency mutation do drink less that non-carries.",
+   "ctrl_indeed": "Carriers of the alcohol aldehyde dehydrogenase deficiency mutation indeed drink less that non-carries.",
+   "ctrl_prefix": "It is the case that carriers of the alcohol aldehyde dehydrogenase deficiency mutation drink less that non-carries."
+  }
+ },
+ {
+  "qid": "232",
+  "variants": {
+   "v1_rule": "Cataract and trachoma are not the primary cause of blindness in Southern Sudan.",
+   "neg_v2": "Cataract and trachoma are not the primary cause of blindness in Southern Sudan.",
+   "ctrl_matched": "Cataract and trachoma are indeed the primary cause of blindness in Southern Sudan.",
+   "ctrl_indeed": "Cataract and trachoma are indeed the primary cause of blindness in Southern Sudan.",
+   "ctrl_prefix": "It is the case that cataract and trachoma are the primary cause of blindness in Southern Sudan."
+  }
+ },
+ {
+  "qid": "236",
+  "variants": {
+   "v1_rule": "It is not the case that cell autonomous sex determination in somatic cells occurs in Passeriformes.",
+   "neg_v2": "Cell autonomous sex determination in somatic cells does not occur in Passeriformes.",
+   "ctrl_matched": "Cell autonomous sex determination in somatic cells does occur in Passeriformes.",
+   "ctrl_indeed": "Cell autonomous sex determination in somatic cells indeed occurs in Passeriformes.",
+   "ctrl_prefix": "It is the case that cell autonomous sex determination in somatic cells occurs in Passeriformes."
+  }
+ },
+ {
+  "qid": "238",
+  "variants": {
+   "v1_rule": "Cells undergoing methionine restriction may not activate miRNAs.",
+   "neg_v2": "Cells undergoing methionine restriction may not activate miRNAs.",
+   "ctrl_matched": "Cells undergoing methionine restriction may indeed activate miRNAs.",
+   "ctrl_indeed": "Cells undergoing methionine restriction may indeed activate miRNAs.",
+   "ctrl_prefix": "It is the case that cells undergoing methionine restriction may activate miRNAs."
+  }
+ },
+ {
+  "qid": "239",
+  "variants": {
+   "v1_rule": "It is not the case that cellular aging closely links to an older appearance.",
+   "neg_v2": "Cellular aging does not closely link to an older appearance.",
+   "ctrl_matched": "Cellular aging does closely link to an older appearance.",
+   "ctrl_indeed": "Cellular aging indeed closely links to an older appearance.",
+   "ctrl_prefix": "It is the case that cellular aging closely links to an older appearance."
+  }
+ },
+ {
+  "qid": "248",
+  "variants": {
+   "v1_rule": "It is not the case that chenodeosycholic acid treatment increases whole-body energy expenditure.",
+   "neg_v2": "Chenodeosycholic acid treatment does not increase whole-body energy expenditure.",
+   "ctrl_matched": "Chenodeosycholic acid treatment does increase whole-body energy expenditure.",
+   "ctrl_indeed": "Chenodeosycholic acid treatment indeed increases whole-body energy expenditure.",
+   "ctrl_prefix": "It is the case that chenodeosycholic acid treatment increases whole-body energy expenditure."
+  }
+ },
+ {
+  "qid": "249",
+  "variants": {
+   "v1_rule": "It is not the case that chenodeosycholic acid treatment reduces whole-body energy expenditure.",
+   "neg_v2": "Chenodeosycholic acid treatment does not reduce whole-body energy expenditure.",
+   "ctrl_matched": "Chenodeosycholic acid treatment does reduce whole-body energy expenditure.",
+   "ctrl_indeed": "Chenodeosycholic acid treatment indeed reduces whole-body energy expenditure.",
+   "ctrl_prefix": "It is the case that chenodeosycholic acid treatment reduces whole-body energy expenditure."
+  }
+ },
+ {
+  "qid": "268",
+  "variants": {
+   "v1_rule": "It is not the case that cold exposure increases BAT recruitment.",
+   "neg_v2": "Cold exposure does not increase BAT recruitment.",
+   "ctrl_matched": "Cold exposure does increase BAT recruitment.",
+   "ctrl_indeed": "Cold exposure indeed increases BAT recruitment.",
+   "ctrl_prefix": "It is the case that cold exposure increases BAT recruitment."
+  }
+ },
+ {
+  "qid": "269",
+  "variants": {
+   "v1_rule": "It is not the case that cold exposure reduces BAT recruitment.",
+   "neg_v2": "Cold exposure does not reduce BAT recruitment.",
+   "ctrl_matched": "Cold exposure does reduce BAT recruitment.",
+   "ctrl_indeed": "Cold exposure indeed reduces BAT recruitment.",
+   "ctrl_prefix": "It is the case that cold exposure reduces BAT recruitment."
+  }
+ },
+ {
+  "qid": "274",
+  "variants": {
+   "v1_rule": "It is not the case that combination nicotine replacement therapies with varenicline or bupropion lead to significantly higher long-term abstinence rates at 52 weeks than varenicline monotherapy.",
+   "neg_v2": "Combination nicotine replacement therapies with varenicline or bupropion do not lead to significantly higher long-term abstinence rates at 52 weeks than varenicline monotherapy.",
+   "ctrl_matched": "Combination nicotine replacement therapies with varenicline or bupropion do lead to significantly higher long-term abstinence rates at 52 weeks than varenicline monotherapy.",
+   "ctrl_indeed": "Combination nicotine replacement therapies with varenicline or bupropion indeed lead to significantly higher long-term abstinence rates at 52 weeks than varenicline monotherapy.",
+   "ctrl_prefix": "It is the case that combination nicotine replacement therapies with varenicline or bupropion lead to significantly higher long-term abstinence rates at 52 weeks than varenicline monotherapy."
+  }
+ },
+ {
+  "qid": "275",
+  "variants": {
+   "v1_rule": "Combining phosphatidylinositide 3-kinase and MEK 1/2 inhibitors is not effective at treating KRAS mutant tumors.",
+   "neg_v2": "Combining phosphatidylinositide 3-kinase and MEK 1/2 inhibitors is not effective at treating KRAS mutant tumors.",
+   "ctrl_matched": "Combining phosphatidylinositide 3-kinase and MEK 1/2 inhibitors is indeed effective at treating KRAS mutant tumors.",
+   "ctrl_indeed": "Combining phosphatidylinositide 3-kinase and MEK 1/2 inhibitors is indeed effective at treating KRAS mutant tumors.",
+   "ctrl_prefix": "It is the case that combining phosphatidylinositide 3-kinase and MEK 1/2 inhibitors is effective at treating KRAS mutant tumors."
+  }
+ },
+ {
+  "qid": "279",
+  "variants": {
+   "v1_rule": "It is not the case that commelina yellow mottle virus' (ComYMV) genome consists of 7489 baise pairs.",
+   "neg_v2": "Commelina yellow mottle virus' (ComYMV) genome does not consist of 7489 baise pairs.",
+   "ctrl_matched": "Commelina yellow mottle virus' (ComYMV) genome does consist of 7489 baise pairs.",
+   "ctrl_indeed": "Commelina yellow mottle virus' (ComYMV) genome indeed consists of 7489 baise pairs.",
+   "ctrl_prefix": "It is the case that commelina yellow mottle virus' (ComYMV) genome consists of 7489 baise pairs."
+  }
+ },
+ {
+  "qid": "295",
+  "variants": {
+   "v1_rule": "Crosstalk between dendritic cells (DCs) and innate lymphoid cells (ILCs) is not important in the regulation of intestinal homeostasis.",
+   "neg_v2": "Crosstalk between dendritic cells (DCs) and innate lymphoid cells (ILCs) is not important in the regulation of intestinal homeostasis.",
+   "ctrl_matched": "Crosstalk between dendritic cells (DCs) and innate lymphoid cells (ILCs) is indeed important in the regulation of intestinal homeostasis.",
+   "ctrl_indeed": "Crosstalk between dendritic cells (DCs) and innate lymphoid cells (ILCs) is indeed important in the regulation of intestinal homeostasis.",
+   "ctrl_prefix": "It is the case that crosstalk between dendritic cells (DCs) and innate lymphoid cells (ILCs) is important in the regulation of intestinal homeostasis."
+  }
+ },
+ {
+  "qid": "298",
+  "variants": {
+   "v1_rule": "Cytochrome c is not released from the mitochondrial intermembrane space to cytosol during apoptosis.",
+   "neg_v2": "Cytochrome c is not released from the mitochondrial intermembrane space to cytosol during apoptosis.",
+   "ctrl_matched": "Cytochrome c is indeed released from the mitochondrial intermembrane space to cytosol during apoptosis.",
+   "ctrl_indeed": "Cytochrome c is indeed released from the mitochondrial intermembrane space to cytosol during apoptosis.",
+   "ctrl_prefix": "It is the case that cytochrome c is released from the mitochondrial intermembrane space to cytosol during apoptosis."
+  }
+ },
+ {
+  "qid": "303",
+  "variants": {
+   "v1_rule": "DMRT1 is not a sex-determining gene that is epigenetically regulated by the MHM region.",
+   "neg_v2": "DMRT1 is not a sex-determining gene that is epigenetically regulated by the MHM region.",
+   "ctrl_matched": "DMRT1 is indeed a sex-determining gene that is epigenetically regulated by the MHM region.",
+   "ctrl_indeed": "DMRT1 is indeed a sex-determining gene that is epigenetically regulated by the MHM region.",
+   "ctrl_prefix": "It is the case that dMRT1 is a sex-determining gene that is epigenetically regulated by the MHM region."
+  }
+ },
+ {
+  "qid": "312",
+  "variants": {
+   "v1_rule": "De novo assembly of sequence data has not more specific contigs than unassembled sequence data.",
+   "neg_v2": "De novo assembly of sequence data does not have more specific contigs than unassembled sequence data.",
+   "ctrl_matched": "De novo assembly of sequence data does have more specific contigs than unassembled sequence data.",
+   "ctrl_indeed": "De novo assembly of sequence data indeed has more specific contigs than unassembled sequence data.",
+   "ctrl_prefix": "It is the case that de novo assembly of sequence data has more specific contigs than unassembled sequence data."
+  }
+ },
+ {
+  "qid": "314",
+  "variants": {
+   "v1_rule": "It is not the case that deamination of cytidine to uridine on the minus strand of viral DNA results in catastrophic G-to-A mutations in the viral genome.",
+   "neg_v2": "Deamination of cytidine to uridine on the minus strand of viral DNA does not result in catastrophic G-to-A mutations in the viral genome.",
+   "ctrl_matched": "Deamination of cytidine to uridine on the minus strand of viral DNA does result in catastrophic G-to-A mutations in the viral genome.",
+   "ctrl_indeed": "Deamination of cytidine to uridine on the minus strand of viral DNA indeed results in catastrophic G-to-A mutations in the viral genome.",
+   "ctrl_prefix": "It is the case that deamination of cytidine to uridine on the minus strand of viral DNA results in catastrophic G-to-A mutations in the viral genome."
+  }
+ },
+ {
+  "qid": "324",
+  "variants": {
+   "v1_rule": "It is not the case that deleting Raptor reduces G-CSF levels.",
+   "neg_v2": "Deleting Raptor does not reduce G-CSF levels.",
+   "ctrl_matched": "Deleting Raptor does reduce G-CSF levels.",
+   "ctrl_indeed": "Deleting Raptor indeed reduces G-CSF levels.",
+   "ctrl_prefix": "It is the case that deleting Raptor reduces G-CSF levels."
+  }
+ },
+ {
+  "qid": "338",
+  "variants": {
+   "v1_rule": "It is not the case that dexamethasone decreases risk of postoperative bleeding.",
+   "neg_v2": "Dexamethasone does not decrease risk of postoperative bleeding.",
+   "ctrl_matched": "Dexamethasone does decrease risk of postoperative bleeding.",
+   "ctrl_indeed": "Dexamethasone indeed decreases risk of postoperative bleeding.",
+   "ctrl_prefix": "It is the case that dexamethasone decreases risk of postoperative bleeding."
+  }
+ },
+ {
+  "qid": "343",
+  "variants": {
+   "v1_rule": "It is not the case that diabetic patients with acute coronary syndrome experience increased short-term and long-term risk for bleeding events.",
+   "neg_v2": "Diabetic patients with acute coronary syndrome do not experience increased short-term and long-term risk for bleeding events.",
+   "ctrl_matched": "Diabetic patients with acute coronary syndrome do experience increased short-term and long-term risk for bleeding events.",
+   "ctrl_indeed": "Diabetic patients with acute coronary syndrome indeed experience increased short-term and long-term risk for bleeding events.",
+   "ctrl_prefix": "It is the case that diabetic patients with acute coronary syndrome experience increased short-term and long-term risk for bleeding events."
+  }
+ },
+ {
+  "qid": "350",
+  "variants": {
+   "v1_rule": "It is not the case that discrimination between the initiator and elongation tRNAs depends on the translation initiation factor IF3.",
+   "neg_v2": "Discrimination between the initiator and elongation tRNAs does not depend on the translation initiation factor IF3.",
+   "ctrl_matched": "Discrimination between the initiator and elongation tRNAs does depend on the translation initiation factor IF3.",
+   "ctrl_indeed": "Discrimination between the initiator and elongation tRNAs indeed depends on the translation initiation factor IF3.",
+   "ctrl_prefix": "It is the case that discrimination between the initiator and elongation tRNAs depends on the translation initiation factor IF3."
+  }
+ },
+ {
+  "qid": "354",
+  "variants": {
+   "v1_rule": "It is not the case that downregulation and mislocalization of Scribble prevents cell transformation and mammary tumorigenesis.",
+   "neg_v2": "Downregulation and mislocalization of Scribble does not prevent cell transformation and mammary tumorigenesis.",
+   "ctrl_matched": "Downregulation and mislocalization of Scribble does prevent cell transformation and mammary tumorigenesis.",
+   "ctrl_indeed": "Downregulation and mislocalization of Scribble indeed prevents cell transformation and mammary tumorigenesis.",
+   "ctrl_prefix": "It is the case that downregulation and mislocalization of Scribble prevents cell transformation and mammary tumorigenesis."
+  }
+ },
+ {
+  "qid": "362",
+  "variants": {
+   "v1_rule": "During the primary early antibody response activated B cells migrate toward the inner-and outer paracortical areas where oxysterol accumulation is not generated by stromal cells.",
+   "neg_v2": "During the primary early antibody response activated B cells do not migrate toward the inner-and outer paracortical areas where oxysterol accumulation is generated by stromal cells.",
+   "ctrl_matched": "During the primary early antibody response activated B cells do migrate toward the inner-and outer paracortical areas where oxysterol accumulation is generated by stromal cells.",
+   "ctrl_indeed": "During the primary early antibody response activated B cells indeed migrate toward the inner-and outer paracortical areas where oxysterol accumulation is generated by stromal cells.",
+   "ctrl_prefix": "It is the case that during the primary early antibody response activated B cells migrate toward the inner-and outer paracortical areas where oxysterol accumulation is generated by stromal cells."
+  }
+ },
+ {
+  "qid": "380",
+  "variants": {
+   "v1_rule": "It is not the case that enhanced early production of inflammatory chemokines improves viral control in the lung.",
+   "neg_v2": "Enhanced early production of inflammatory chemokines does not improve viral control in the lung.",
+   "ctrl_matched": "Enhanced early production of inflammatory chemokines does improve viral control in the lung.",
+   "ctrl_indeed": "Enhanced early production of inflammatory chemokines indeed improves viral control in the lung.",
+   "ctrl_prefix": "It is the case that enhanced early production of inflammatory chemokines improves viral control in the lung."
+  }
+ },
+ {
+  "qid": "384",
+  "variants": {
+   "v1_rule": "Epidemiological disease burden from noncommunicable diseases is not more prevalent in low economic settings.",
+   "neg_v2": "Epidemiological disease burden from noncommunicable diseases is not more prevalent in low economic settings.",
+   "ctrl_matched": "Epidemiological disease burden from noncommunicable diseases is indeed more prevalent in low economic settings.",
+   "ctrl_indeed": "Epidemiological disease burden from noncommunicable diseases is indeed more prevalent in low economic settings.",
+   "ctrl_prefix": "It is the case that epidemiological disease burden from noncommunicable diseases is more prevalent in low economic settings."
+  }
+ },
+ {
+  "qid": "385",
+  "variants": {
+   "v1_rule": "It is not the case that epigenetic modulating agents (EMAs) modulate antitumor immune response in a cancer model system.",
+   "neg_v2": "Epigenetic modulating agents (EMAs) do not modulate antitumor immune response in a cancer model system.",
+   "ctrl_matched": "Epigenetic modulating agents (EMAs) do modulate antitumor immune response in a cancer model system.",
+   "ctrl_indeed": "Epigenetic modulating agents (EMAs) indeed modulate antitumor immune response in a cancer model system.",
+   "ctrl_prefix": "It is the case that epigenetic modulating agents (EMAs) modulate antitumor immune response in a cancer model system."
+  }
+ },
+ {
+  "qid": "386",
+  "variants": {
+   "v1_rule": "Errors in peripheral IV drug administration are not most common during bolus administration and multiple-step medicine preparations.",
+   "neg_v2": "Errors in peripheral IV drug administration are not most common during bolus administration and multiple-step medicine preparations.",
+   "ctrl_matched": "Errors in peripheral IV drug administration are indeed most common during bolus administration and multiple-step medicine preparations.",
+   "ctrl_indeed": "Errors in peripheral IV drug administration are indeed most common during bolus administration and multiple-step medicine preparations.",
+   "ctrl_prefix": "It is the case that errors in peripheral IV drug administration are most common during bolus administration and multiple-step medicine preparations."
+  }
+ },
+ {
+  "qid": "388",
+  "variants": {
+   "v1_rule": "It is not the case that ethanol stress decreases the expression of IBP in bacteria.",
+   "neg_v2": "Ethanol stress does not decrease the expression of IBP in bacteria.",
+   "ctrl_matched": "Ethanol stress does decrease the expression of IBP in bacteria.",
+   "ctrl_indeed": "Ethanol stress indeed decreases the expression of IBP in bacteria.",
+   "ctrl_prefix": "It is the case that ethanol stress decreases the expression of IBP in bacteria."
+  }
+ },
+ {
+  "qid": "399",
+  "variants": {
+   "v1_rule": "Exposure to fine particulate air pollution is not relate to anxiety prevalence.",
+   "neg_v2": "Exposure to fine particulate air pollution is not relate to anxiety prevalence.",
+   "ctrl_matched": "Exposure to fine particulate air pollution is indeed relate to anxiety prevalence.",
+   "ctrl_indeed": "Exposure to fine particulate air pollution is indeed relate to anxiety prevalence.",
+   "ctrl_prefix": "It is the case that exposure to fine particulate air pollution is relate to anxiety prevalence."
+  }
+ },
+ {
+  "qid": "410",
+  "variants": {
+   "v1_rule": "It is not the case that febrile seizures increase the threshold for development of epilepsy.",
+   "neg_v2": "Febrile seizures do not increase the threshold for development of epilepsy.",
+   "ctrl_matched": "Febrile seizures do increase the threshold for development of epilepsy.",
+   "ctrl_indeed": "Febrile seizures indeed increase the threshold for development of epilepsy.",
+   "ctrl_prefix": "It is the case that febrile seizures increase the threshold for development of epilepsy."
+  }
+ },
+ {
+  "qid": "411",
+  "variants": {
+   "v1_rule": "It is not the case that febrile seizures reduce the threshold for development of epilepsy.",
+   "neg_v2": "Febrile seizures do not reduce the threshold for development of epilepsy.",
+   "ctrl_matched": "Febrile seizures do reduce the threshold for development of epilepsy.",
+   "ctrl_indeed": "Febrile seizures indeed reduce the threshold for development of epilepsy.",
+   "ctrl_prefix": "It is the case that febrile seizures reduce the threshold for development of epilepsy."
+  }
+ },
+ {
+  "qid": "415",
+  "variants": {
+   "v1_rule": "Female carriers of the Apolipoprotein E4 (APOE4) allele have not increased risk for dementia.",
+   "neg_v2": "Female carriers of the Apolipoprotein E4 (APOE4) allele do not have increased risk for dementia.",
+   "ctrl_matched": "Female carriers of the Apolipoprotein E4 (APOE4) allele do have increased risk for dementia.",
+   "ctrl_indeed": "Female carriers of the Apolipoprotein E4 (APOE4) allele indeed have increased risk for dementia.",
+   "ctrl_prefix": "It is the case that female carriers of the Apolipoprotein E4 (APOE4) allele have increased risk for dementia."
+  }
+ },
+ {
+  "qid": "421",
+  "variants": {
+   "v1_rule": "It is not the case that flexible molecules experience greater steric hindrance in the tumor microenviroment than rigid molecules.",
+   "neg_v2": "Flexible molecules do not experience greater steric hindrance in the tumor microenviroment than rigid molecules.",
+   "ctrl_matched": "Flexible molecules do experience greater steric hindrance in the tumor microenviroment than rigid molecules.",
+   "ctrl_indeed": "Flexible molecules indeed experience greater steric hindrance in the tumor microenviroment than rigid molecules.",
+   "ctrl_prefix": "It is the case that flexible molecules experience greater steric hindrance in the tumor microenviroment than rigid molecules."
+  }
+ },
+ {
+  "qid": "431",
+  "variants": {
+   "v1_rule": "FoxO3a activation in neuronal death is not mediated by reactive oxygen species (ROS).",
+   "neg_v2": "FoxO3a activation in neuronal death is not mediated by reactive oxygen species (ROS).",
+   "ctrl_matched": "FoxO3a activation in neuronal death is indeed mediated by reactive oxygen species (ROS).",
+   "ctrl_indeed": "FoxO3a activation in neuronal death is indeed mediated by reactive oxygen species (ROS).",
+   "ctrl_prefix": "It is the case that foxO3a activation in neuronal death is mediated by reactive oxygen species (ROS)."
+  }
+ },
+ {
+  "qid": "436",
+  "variants": {
+   "v1_rule": "Free histones are not degraded by a Rad53-dependent mechanism once DNA has been replicated.",
+   "neg_v2": "Free histones are not degraded by a Rad53-dependent mechanism once DNA has been replicated.",
+   "ctrl_matched": "Free histones are indeed degraded by a Rad53-dependent mechanism once DNA has been replicated.",
+   "ctrl_indeed": "Free histones are indeed degraded by a Rad53-dependent mechanism once DNA has been replicated.",
+   "ctrl_prefix": "It is the case that free histones are degraded by a Rad53-dependent mechanism once DNA has been replicated."
+  }
+ },
+ {
+  "qid": "439",
+  "variants": {
+   "v1_rule": "It is not the case that fz/PCP-dependent Pk localizes to the anterior membrane of neuroectoderm cells during zebrafish neuralation",
+   "neg_v2": "Fz/PCP-dependent Pk does not localize to the anterior membrane of neuroectoderm cells during zebrafish neuralation",
+   "ctrl_matched": "Fz/PCP-dependent Pk does localize to the anterior membrane of neuroectoderm cells during zebrafish neuralation",
+   "ctrl_indeed": "Fz/PCP-dependent Pk indeed localizes to the anterior membrane of neuroectoderm cells during zebrafish neuralation",
+   "ctrl_prefix": "It is the case that fz/PCP-dependent Pk localizes to the anterior membrane of neuroectoderm cells during zebrafish neuralation"
+  }
+ },
+ {
+  "qid": "440",
+  "variants": {
+   "v1_rule": "It is not the case that fz/PCP-dependent Pk localizes to the anterior membrane of notochord cells during zebrafish neuralation.",
+   "neg_v2": "Fz/PCP-dependent Pk does not localize to the anterior membrane of notochord cells during zebrafish neuralation.",
+   "ctrl_matched": "Fz/PCP-dependent Pk does localize to the anterior membrane of notochord cells during zebrafish neuralation.",
+   "ctrl_indeed": "Fz/PCP-dependent Pk indeed localizes to the anterior membrane of notochord cells during zebrafish neuralation.",
+   "ctrl_prefix": "It is the case that fz/PCP-dependent Pk localizes to the anterior membrane of notochord cells during zebrafish neuralation."
+  }
+ },
+ {
+  "qid": "443",
+  "variants": {
+   "v1_rule": "GATA-3 is not important for hematopoietic stem cell (HSC) function.",
+   "neg_v2": "GATA-3 is not important for hematopoietic stem cell (HSC) function.",
+   "ctrl_matched": "GATA-3 is indeed important for hematopoietic stem cell (HSC) function.",
+   "ctrl_indeed": "GATA-3 is indeed important for hematopoietic stem cell (HSC) function.",
+   "ctrl_prefix": "It is the case that gATA-3 is important for hematopoietic stem cell (HSC) function."
+  }
+ },
+ {
+  "qid": "475",
+  "variants": {
+   "v1_rule": "Glycolysis is not one of the primary glycometabolic pathways in cells.",
+   "neg_v2": "Glycolysis is not one of the primary glycometabolic pathways in cells.",
+   "ctrl_matched": "Glycolysis is indeed one of the primary glycometabolic pathways in cells.",
+   "ctrl_indeed": "Glycolysis is indeed one of the primary glycometabolic pathways in cells.",
+   "ctrl_prefix": "It is the case that glycolysis is one of the primary glycometabolic pathways in cells."
+  }
+ },
+ {
+  "qid": "478",
+  "variants": {
+   "v1_rule": "Golli-deficient T-cells prefer to differentiate into an anergic phenotype in the adaptive immune response when there are not increased levels of Ca2+ in the cytosol.",
+   "neg_v2": "Golli-deficient T-cells do not prefer to differentiate into an anergic phenotype in the adaptive immune response when there are increased levels of Ca2+ in the cytosol.",
+   "ctrl_matched": "Golli-deficient T-cells do prefer to differentiate into an anergic phenotype in the adaptive immune response when there are increased levels of Ca2+ in the cytosol.",
+   "ctrl_indeed": "Golli-deficient T-cells indeed prefer to differentiate into an anergic phenotype in the adaptive immune response when there are increased levels of Ca2+ in the cytosol.",
+   "ctrl_prefix": "It is the case that golli-deficient T-cells prefer to differentiate into an anergic phenotype in the adaptive immune response when there are increased levels of Ca2+ in the cytosol."
+  }
+ },
+ {
+  "qid": "491",
+  "variants": {
+   "v1_rule": "HNF4A mutations can not cause diabetes in mutant carriers by the age of 14 years",
+   "neg_v2": "HNF4A mutations can not cause diabetes in mutant carriers by the age of 14 years",
+   "ctrl_matched": "HNF4A mutations can indeed cause diabetes in mutant carriers by the age of 14 years",
+   "ctrl_indeed": "HNF4A mutations can indeed cause diabetes in mutant carriers by the age of 14 years",
+   "ctrl_prefix": "It is the case that hNF4A mutations can cause diabetes in mutant carriers by the age of 14 years"
+  }
+ },
+ {
+  "qid": "502",
+  "variants": {
+   "v1_rule": "Healthcare delivery efficiency in crowded delivery centers is not impaired by improving structural, logistical, and interpersonal elements.",
+   "neg_v2": "Healthcare delivery efficiency in crowded delivery centers is not impaired by improving structural, logistical, and interpersonal elements.",
+   "ctrl_matched": "Healthcare delivery efficiency in crowded delivery centers is indeed impaired by improving structural, logistical, and interpersonal elements.",
+   "ctrl_indeed": "Healthcare delivery efficiency in crowded delivery centers is indeed impaired by improving structural, logistical, and interpersonal elements.",
+   "ctrl_prefix": "It is the case that healthcare delivery efficiency in crowded delivery centers is impaired by improving structural, logistical, and interpersonal elements."
+  }
+ },
+ {
+  "qid": "507",
+  "variants": {
+   "v1_rule": "It is not the case that helminths interfere with immune system control of macrophages activated by IL-4 favor Mycobacterium tuberculosis replication.",
+   "neg_v2": "Helminths do not interfere with immune system control of macrophages activated by IL-4 favor Mycobacterium tuberculosis replication.",
+   "ctrl_matched": "Helminths do interfere with immune system control of macrophages activated by IL-4 favor Mycobacterium tuberculosis replication.",
+   "ctrl_indeed": "Helminths indeed interfere with immune system control of macrophages activated by IL-4 favor Mycobacterium tuberculosis replication.",
+   "ctrl_prefix": "It is the case that helminths interfere with immune system control of macrophages activated by IL-4 favor Mycobacterium tuberculosis replication."
+  }
+ },
+ {
+  "qid": "508",
+  "variants": {
+   "v1_rule": "It is not the case that hematopoietic Stem Cell purification reaches purity rate of up to 50%.",
+   "neg_v2": "Hematopoietic Stem Cell purification does not reach purity rate of up to 50%.",
+   "ctrl_matched": "Hematopoietic Stem Cell purification does reach purity rate of up to 50%.",
+   "ctrl_indeed": "Hematopoietic Stem Cell purification indeed reaches purity rate of up to 50%.",
+   "ctrl_prefix": "It is the case that hematopoietic Stem Cell purification reaches purity rate of up to 50%."
+  }
+ },
+ {
+  "qid": "513",
+  "variants": {
+   "v1_rule": "It is not the case that high cardiopulmonary fitness causes increased mortality rate.",
+   "neg_v2": "High cardiopulmonary fitness does not cause increased mortality rate.",
+   "ctrl_matched": "High cardiopulmonary fitness does cause increased mortality rate.",
+   "ctrl_indeed": "High cardiopulmonary fitness indeed causes increased mortality rate.",
+   "ctrl_prefix": "It is the case that high cardiopulmonary fitness causes increased mortality rate."
+  }
+ },
+ {
+  "qid": "514",
+  "variants": {
+   "v1_rule": "High dietary calcium intakes are not unnecessary for prevention of secondary hyperparathyroidism in subjects with 25(OH)D levels above 75 nmol/liter.",
+   "neg_v2": "High dietary calcium intakes are not unnecessary for prevention of secondary hyperparathyroidism in subjects with 25(OH)D levels above 75 nmol/liter.",
+   "ctrl_matched": "High dietary calcium intakes are indeed unnecessary for prevention of secondary hyperparathyroidism in subjects with 25(OH)D levels above 75 nmol/liter.",
+   "ctrl_indeed": "High dietary calcium intakes are indeed unnecessary for prevention of secondary hyperparathyroidism in subjects with 25(OH)D levels above 75 nmol/liter.",
+   "ctrl_prefix": "It is the case that high dietary calcium intakes are unnecessary for prevention of secondary hyperparathyroidism in subjects with 25(OH)D levels above 75 nmol/liter."
+  }
+ },
+ {
+  "qid": "516",
+  "variants": {
+   "v1_rule": "It is not the case that high levels of CRP reduces the risk of exacerbations in chronic obstructive pulmonary disease (COPD).",
+   "neg_v2": "High levels of CRP does not reduce the risk of exacerbations in chronic obstructive pulmonary disease (COPD).",
+   "ctrl_matched": "High levels of CRP does reduce the risk of exacerbations in chronic obstructive pulmonary disease (COPD).",
+   "ctrl_indeed": "High levels of CRP indeed reduces the risk of exacerbations in chronic obstructive pulmonary disease (COPD).",
+   "ctrl_prefix": "It is the case that high levels of CRP reduces the risk of exacerbations in chronic obstructive pulmonary disease (COPD)."
+  }
+ },
+ {
+  "qid": "517",
+  "variants": {
+   "v1_rule": "It is not the case that high levels of copeptin decrease risk of diabetes.",
+   "neg_v2": "High levels of copeptin do not decrease risk of diabetes.",
+   "ctrl_matched": "High levels of copeptin do decrease risk of diabetes.",
+   "ctrl_indeed": "High levels of copeptin indeed decrease risk of diabetes.",
+   "ctrl_prefix": "It is the case that high levels of copeptin decrease risk of diabetes."
+  }
+ },
+ {
+  "qid": "525",
+  "variants": {
+   "v1_rule": "Histone demethylase recruitment and a transient decrease in histone methylation is not necessary for ligand-dependent induction of transcription by nuclear receptors.",
+   "neg_v2": "Histone demethylase recruitment and a transient decrease in histone methylation is not necessary for ligand-dependent induction of transcription by nuclear receptors.",
+   "ctrl_matched": "Histone demethylase recruitment and a transient decrease in histone methylation is indeed necessary for ligand-dependent induction of transcription by nuclear receptors.",
+   "ctrl_indeed": "Histone demethylase recruitment and a transient decrease in histone methylation is indeed necessary for ligand-dependent induction of transcription by nuclear receptors.",
+   "ctrl_prefix": "It is the case that histone demethylase recruitment and a transient decrease in histone methylation is necessary for ligand-dependent induction of transcription by nuclear receptors."
+  }
+ },
+ {
+  "qid": "527",
+  "variants": {
+   "v1_rule": "It is not the case that homozygous deletion of murine Sbds gene from osterix-expressing mesenchymal stem and progenitor cells (MPCs) prevents oxidative stress.",
+   "neg_v2": "Homozygous deletion of murine Sbds gene from osterix-expressing mesenchymal stem and progenitor cells (MPCs) does not prevent oxidative stress.",
+   "ctrl_matched": "Homozygous deletion of murine Sbds gene from osterix-expressing mesenchymal stem and progenitor cells (MPCs) does prevent oxidative stress.",
+   "ctrl_indeed": "Homozygous deletion of murine Sbds gene from osterix-expressing mesenchymal stem and progenitor cells (MPCs) indeed prevents oxidative stress.",
+   "ctrl_prefix": "It is the case that homozygous deletion of murine Sbds gene from osterix-expressing mesenchymal stem and progenitor cells (MPCs) prevents oxidative stress."
+  }
+ },
+ {
+  "qid": "528",
+  "variants": {
+   "v1_rule": "It is not the case that human T-lymphotropic virus type-I-associated myelopathy / tropical spastic paraparesis (HAM/TSP) patients produce Immunoglobulin G (IgG) antibodies which cross-react with an immunodominant epitope in Tax.",
+   "neg_v2": "Human T-lymphotropic virus type-I-associated myelopathy / tropical spastic paraparesis (HAM/TSP) patients do not produce Immunoglobulin G (IgG) antibodies which cross-react with an immunodominant epitope in Tax.",
+   "ctrl_matched": "Human T-lymphotropic virus type-I-associated myelopathy / tropical spastic paraparesis (HAM/TSP) patients do produce Immunoglobulin G (IgG) antibodies which cross-react with an immunodominant epitope in Tax.",
+   "ctrl_indeed": "Human T-lymphotropic virus type-I-associated myelopathy / tropical spastic paraparesis (HAM/TSP) patients indeed produce Immunoglobulin G (IgG) antibodies which cross-react with an immunodominant epitope in Tax.",
+   "ctrl_prefix": "It is the case that human T-lymphotropic virus type-I-associated myelopathy / tropical spastic paraparesis (HAM/TSP) patients produce Immunoglobulin G (IgG) antibodies which cross-react with an immunodominant epitope in Tax."
+  }
+ },
+ {
+  "qid": "532",
+  "variants": {
+   "v1_rule": "It is not the case that hyperfibrinogenemia decreases rates of femoropopliteal bypass thrombosis.",
+   "neg_v2": "Hyperfibrinogenemia does not decrease rates of femoropopliteal bypass thrombosis.",
+   "ctrl_matched": "Hyperfibrinogenemia does decrease rates of femoropopliteal bypass thrombosis.",
+   "ctrl_indeed": "Hyperfibrinogenemia indeed decreases rates of femoropopliteal bypass thrombosis.",
+   "ctrl_prefix": "It is the case that hyperfibrinogenemia decreases rates of femoropopliteal bypass thrombosis."
+  }
+ },
+ {
+  "qid": "533",
+  "variants": {
+   "v1_rule": "It is not the case that hyperfibrinogenemia increases rates of femoropopliteal bypass thrombosis.",
+   "neg_v2": "Hyperfibrinogenemia does not increase rates of femoropopliteal bypass thrombosis.",
+   "ctrl_matched": "Hyperfibrinogenemia does increase rates of femoropopliteal bypass thrombosis.",
+   "ctrl_indeed": "Hyperfibrinogenemia indeed increases rates of femoropopliteal bypass thrombosis.",
+   "ctrl_prefix": "It is the case that hyperfibrinogenemia increases rates of femoropopliteal bypass thrombosis."
+  }
+ },
+ {
+  "qid": "535",
+  "variants": {
+   "v1_rule": "Hypertension is not frequently observed in type 1 diabetes patients.",
+   "neg_v2": "Hypertension is not frequently observed in type 1 diabetes patients.",
+   "ctrl_matched": "Hypertension is indeed frequently observed in type 1 diabetes patients.",
+   "ctrl_indeed": "Hypertension is indeed frequently observed in type 1 diabetes patients.",
+   "ctrl_prefix": "It is the case that hypertension is frequently observed in type 1 diabetes patients."
+  }
+ },
+ {
+  "qid": "536",
+  "variants": {
+   "v1_rule": "It is not the case that hypocretin neurones induce panicprone state in rats.",
+   "neg_v2": "Hypocretin neurones do not induce panicprone state in rats.",
+   "ctrl_matched": "Hypocretin neurones do induce panicprone state in rats.",
+   "ctrl_indeed": "Hypocretin neurones indeed induce panicprone state in rats.",
+   "ctrl_prefix": "It is the case that hypocretin neurones induce panicprone state in rats."
+  }
+ },
+ {
+  "qid": "539",
+  "variants": {
+   "v1_rule": "It is not the case that hypoglycemia increases the risk of dementia.",
+   "neg_v2": "Hypoglycemia does not increase the risk of dementia.",
+   "ctrl_matched": "Hypoglycemia does increase the risk of dementia.",
+   "ctrl_indeed": "Hypoglycemia indeed increases the risk of dementia.",
+   "ctrl_prefix": "It is the case that hypoglycemia increases the risk of dementia."
+  }
+ },
+ {
+  "qid": "540",
+  "variants": {
+   "v1_rule": "Hypothalamic glutamate neurotransmission is not crucial to energy balance.",
+   "neg_v2": "Hypothalamic glutamate neurotransmission is not crucial to energy balance.",
+   "ctrl_matched": "Hypothalamic glutamate neurotransmission is indeed crucial to energy balance.",
+   "ctrl_indeed": "Hypothalamic glutamate neurotransmission is indeed crucial to energy balance.",
+   "ctrl_prefix": "It is the case that hypothalamic glutamate neurotransmission is crucial to energy balance."
+  }
+ },
+ {
+  "qid": "544",
+  "variants": {
+   "v1_rule": "It is not the case that iFIT1 restricts viral replication by sequestrating mis-capped viral RNAs.",
+   "neg_v2": "IFIT1 does not restrict viral replication by sequestrating mis-capped viral RNAs.",
+   "ctrl_matched": "IFIT1 does restrict viral replication by sequestrating mis-capped viral RNAs.",
+   "ctrl_indeed": "IFIT1 indeed restricts viral replication by sequestrating mis-capped viral RNAs.",
+   "ctrl_prefix": "It is the case that iFIT1 restricts viral replication by sequestrating mis-capped viral RNAs."
+  }
+ },
+ {
+  "qid": "549",
+  "variants": {
+   "v1_rule": "IRG1 has not antiviral effects against neurotropic viruses.",
+   "neg_v2": "IRG1 does not have antiviral effects against neurotropic viruses.",
+   "ctrl_matched": "IRG1 does have antiviral effects against neurotropic viruses.",
+   "ctrl_indeed": "IRG1 indeed has antiviral effects against neurotropic viruses.",
+   "ctrl_prefix": "It is the case that iRG1 has antiviral effects against neurotropic viruses."
+  }
+ },
+ {
+  "qid": "551",
+  "variants": {
+   "v1_rule": "It is not the case that iTAM phosphorylation prevents the transfer of the T cell receptor (TCR) signal from the echo-domain to the cytoplasmic tail of the T cell receptor (TCR).",
+   "neg_v2": "ITAM phosphorylation does not prevent the transfer of the T cell receptor (TCR) signal from the echo-domain to the cytoplasmic tail of the T cell receptor (TCR).",
+   "ctrl_matched": "ITAM phosphorylation does prevent the transfer of the T cell receptor (TCR) signal from the echo-domain to the cytoplasmic tail of the T cell receptor (TCR).",
+   "ctrl_indeed": "ITAM phosphorylation indeed prevents the transfer of the T cell receptor (TCR) signal from the echo-domain to the cytoplasmic tail of the T cell receptor (TCR).",
+   "ctrl_prefix": "It is the case that iTAM phosphorylation prevents the transfer of the T cell receptor (TCR) signal from the echo-domain to the cytoplasmic tail of the T cell receptor (TCR)."
+  }
+ },
+ {
+  "qid": "552",
+  "variants": {
+   "v1_rule": "IgA plasma cells that are not specific for transglutaminase 2 accumulate in the duodenal mucosa on commencement of a gluten-free diet.",
+   "neg_v2": "IgA plasma cells that are specific for transglutaminase 2 do not accumulate in the duodenal mucosa on commencement of a gluten-free diet.",
+   "ctrl_matched": "IgA plasma cells that are specific for transglutaminase 2 do accumulate in the duodenal mucosa on commencement of a gluten-free diet.",
+   "ctrl_indeed": "IgA plasma cells that are specific for transglutaminase 2 indeed accumulate in the duodenal mucosa on commencement of a gluten-free diet.",
+   "ctrl_prefix": "It is the case that igA plasma cells that are specific for transglutaminase 2 accumulate in the duodenal mucosa on commencement of a gluten-free diet."
+  }
+ },
+ {
+  "qid": "554",
+  "variants": {
+   "v1_rule": "It is not the case that immune complex triggered cell death leads to extracellular release of neutrophil protein HMGB1.",
+   "neg_v2": "Immune complex triggered cell death does not lead to extracellular release of neutrophil protein HMGB1.",
+   "ctrl_matched": "Immune complex triggered cell death does lead to extracellular release of neutrophil protein HMGB1.",
+   "ctrl_indeed": "Immune complex triggered cell death indeed leads to extracellular release of neutrophil protein HMGB1.",
+   "ctrl_prefix": "It is the case that immune complex triggered cell death leads to extracellular release of neutrophil protein HMGB1."
+  }
+ },
+ {
+  "qid": "560",
+  "variants": {
+   "v1_rule": "It is not the case that immune responses result in the development of inflammatory Th17 cells and anti-inflammatory iTregs.",
+   "neg_v2": "Immune responses do not result in the development of inflammatory Th17 cells and anti-inflammatory iTregs.",
+   "ctrl_matched": "Immune responses do result in the development of inflammatory Th17 cells and anti-inflammatory iTregs.",
+   "ctrl_indeed": "Immune responses indeed result in the development of inflammatory Th17 cells and anti-inflammatory iTregs.",
+   "ctrl_prefix": "It is the case that immune responses result in the development of inflammatory Th17 cells and anti-inflammatory iTregs."
+  }
+ },
+ {
+  "qid": "569",
+  "variants": {
+   "v1_rule": "In adult tissue, most T cells are not memory T cells.",
+   "neg_v2": "In adult tissue, it is not the case that most T cells are memory T cells.",
+   "ctrl_matched": "In adult tissue, it is the case that most T cells are memory T cells.",
+   "ctrl_indeed": "In adult tissue, it is the case that most T cells are memory T cells.",
+   "ctrl_prefix": "It is the case that in adult tissue, most T cells are memory T cells."
+  }
+ },
+ {
+  "qid": "575",
+  "variants": {
+   "v1_rule": "In domesticated populations of Saccharomyces cerevisiae, whole chromosome aneuploidy is not very uncommon.",
+   "neg_v2": "In domesticated populations of Saccharomyces cerevisiae, whole chromosome aneuploidy is not very uncommon.",
+   "ctrl_matched": "In domesticated populations of Saccharomyces cerevisiae, whole chromosome aneuploidy is indeed very uncommon.",
+   "ctrl_indeed": "In domesticated populations of Saccharomyces cerevisiae, whole chromosome aneuploidy is indeed very uncommon.",
+   "ctrl_prefix": "It is the case that in domesticated populations of Saccharomyces cerevisiae, whole chromosome aneuploidy is very uncommon."
+  }
+ },
+ {
+  "qid": "577",
+  "variants": {
+   "v1_rule": "In mice, P. chabaudi parasites are not able to proliferate faster early in infection when inoculated at lower numbers than when inoculated at high numbers.",
+   "neg_v2": "In mice, P. chabaudi parasites are not able to proliferate faster early in infection when inoculated at lower numbers than when inoculated at high numbers.",
+   "ctrl_matched": "In mice, P. chabaudi parasites are indeed able to proliferate faster early in infection when inoculated at lower numbers than when inoculated at high numbers.",
+   "ctrl_indeed": "In mice, P. chabaudi parasites are indeed able to proliferate faster early in infection when inoculated at lower numbers than when inoculated at high numbers.",
+   "ctrl_prefix": "It is the case that in mice, P. chabaudi parasites are able to proliferate faster early in infection when inoculated at lower numbers than when inoculated at high numbers."
+  }
+ },
+ {
+  "qid": "578",
+  "variants": {
+   "v1_rule": "It is not the case that in mouse models, the loss of CSF1R facilitates MOZ-TIF2-induced leuekmogenesis.",
+   "neg_v2": "In mouse models, the loss of CSF1R does not facilitate MOZ-TIF2-induced leuekmogenesis.",
+   "ctrl_matched": "In mouse models, the loss of CSF1R does facilitate MOZ-TIF2-induced leuekmogenesis.",
+   "ctrl_indeed": "In mouse models, the loss of CSF1R indeed facilitates MOZ-TIF2-induced leuekmogenesis.",
+   "ctrl_prefix": "It is the case that in mouse models, the loss of CSF1R facilitates MOZ-TIF2-induced leuekmogenesis."
+  }
+ },
+ {
+  "qid": "587",
+  "variants": {
+   "v1_rule": "It is not the case that in transgenic mice harboring green florescent protein under the control of the Sox2 promoter, less than ten percent of the cells with green florescent colocalize with cell proliferation markers.",
+   "neg_v2": "In transgenic mice harboring green florescent protein under the control of the Sox2 promoter, it is not the case that less than ten percent of the cells with green florescent colocalize with cell proliferation markers.",
+   "ctrl_matched": "In transgenic mice harboring green florescent protein under the control of the Sox2 promoter, it is the case that less than ten percent of the cells with green florescent colocalize with cell proliferation markers.",
+   "ctrl_indeed": "In transgenic mice harboring green florescent protein under the control of the Sox2 promoter, it is the case that less than ten percent of the cells with green florescent colocalize with cell proliferation markers.",
+   "ctrl_prefix": "It is the case that in transgenic mice harboring green florescent protein under the control of the Sox2 promoter, less than ten percent of the cells with green florescent colocalize with cell proliferation markers."
+  }
+ },
+ {
+  "qid": "593",
+  "variants": {
+   "v1_rule": "It is not the case that incidence of heart failure decreased by 10% in women since 1979.",
+   "neg_v2": "Incidence of heart failure did not decrease by 10% in women since 1979.",
+   "ctrl_matched": "Incidence of heart failure did decrease by 10% in women since 1979.",
+   "ctrl_indeed": "Incidence of heart failure indeed decreased by 10% in women since 1979.",
+   "ctrl_prefix": "It is the case that incidence of heart failure decreased by 10% in women since 1979."
+  }
+ },
+ {
+  "qid": "597",
+  "variants": {
+   "v1_rule": "Incidence rates of cervical cancer have not decreased.",
+   "neg_v2": "Incidence rates of cervical cancer have not decreased.",
+   "ctrl_matched": "Incidence rates of cervical cancer have indeed decreased.",
+   "ctrl_indeed": "Incidence rates of cervical cancer have indeed decreased.",
+   "ctrl_prefix": "It is the case that incidence rates of cervical cancer have decreased."
+  }
+ },
+ {
+  "qid": "598",
+  "variants": {
+   "v1_rule": "Incidence rates of cervical cancer have not increased due to nationwide screening programs based primarily on cytology to detect uterine cervical cancer.",
+   "neg_v2": "Incidence rates of cervical cancer have not increased due to nationwide screening programs based primarily on cytology to detect uterine cervical cancer.",
+   "ctrl_matched": "Incidence rates of cervical cancer have indeed increased due to nationwide screening programs based primarily on cytology to detect uterine cervical cancer.",
+   "ctrl_indeed": "Incidence rates of cervical cancer have indeed increased due to nationwide screening programs based primarily on cytology to detect uterine cervical cancer.",
+   "ctrl_prefix": "It is the case that incidence rates of cervical cancer have increased due to nationwide screening programs based primarily on cytology to detect uterine cervical cancer."
+  }
+ },
+ {
+  "qid": "613",
+  "variants": {
+   "v1_rule": "It is not the case that increased microtubule acetylation repairs LRRK2 Roc-COR domain mutation induced locomotor deficits.",
+   "neg_v2": "Increased microtubule acetylation does not repair LRRK2 Roc-COR domain mutation induced locomotor deficits.",
+   "ctrl_matched": "Increased microtubule acetylation does repair LRRK2 Roc-COR domain mutation induced locomotor deficits.",
+   "ctrl_indeed": "Increased microtubule acetylation indeed repairs LRRK2 Roc-COR domain mutation induced locomotor deficits.",
+   "ctrl_prefix": "It is the case that increased microtubule acetylation repairs LRRK2 Roc-COR domain mutation induced locomotor deficits."
+  }
+ },
+ {
+  "qid": "619",
+  "variants": {
+   "v1_rule": "It is not the case that increased vessel density along with a reduction in fibrosis decreases the efficacy of chemotherapy treatments.",
+   "neg_v2": "Increased vessel density along with a reduction in fibrosis does not decrease the efficacy of chemotherapy treatments.",
+   "ctrl_matched": "Increased vessel density along with a reduction in fibrosis does decrease the efficacy of chemotherapy treatments.",
+   "ctrl_indeed": "Increased vessel density along with a reduction in fibrosis indeed decreases the efficacy of chemotherapy treatments.",
+   "ctrl_prefix": "It is the case that increased vessel density along with a reduction in fibrosis decreases the efficacy of chemotherapy treatments."
+  }
+ },
+ {
+  "qid": "623",
+  "variants": {
+   "v1_rule": "Individuals with low serum vitamin D concentrations have not increased risk of multiple sclerosis.",
+   "neg_v2": "Individuals with low serum vitamin D concentrations do not have increased risk of multiple sclerosis.",
+   "ctrl_matched": "Individuals with low serum vitamin D concentrations do have increased risk of multiple sclerosis.",
+   "ctrl_indeed": "Individuals with low serum vitamin D concentrations indeed have increased risk of multiple sclerosis.",
+   "ctrl_prefix": "It is the case that individuals with low serum vitamin D concentrations have increased risk of multiple sclerosis."
+  }
+ },
+ {
+  "qid": "628",
+  "variants": {
+   "v1_rule": "Infection of human T-cell lymphotropic virus type 1 is not most frequent in individuals of African origin.",
+   "neg_v2": "Infection of human T-cell lymphotropic virus type 1 is not most frequent in individuals of African origin.",
+   "ctrl_matched": "Infection of human T-cell lymphotropic virus type 1 is indeed most frequent in individuals of African origin.",
+   "ctrl_indeed": "Infection of human T-cell lymphotropic virus type 1 is indeed most frequent in individuals of African origin.",
+   "ctrl_prefix": "It is the case that infection of human T-cell lymphotropic virus type 1 is most frequent in individuals of African origin."
+  }
+ },
+ {
+  "qid": "636",
+  "variants": {
+   "v1_rule": "It is not the case that inositol lipid 3-phosphatase PTEN converts Ptdlns(3,4)P 2 into phosphatidylinositol 4-phosphate.",
+   "neg_v2": "Inositol lipid 3-phosphatase PTEN does not convert Ptdlns(3,4)P 2 into phosphatidylinositol 4-phosphate.",
+   "ctrl_matched": "Inositol lipid 3-phosphatase PTEN does convert Ptdlns(3,4)P 2 into phosphatidylinositol 4-phosphate.",
+   "ctrl_indeed": "Inositol lipid 3-phosphatase PTEN indeed converts Ptdlns(3,4)P 2 into phosphatidylinositol 4-phosphate.",
+   "ctrl_prefix": "It is the case that inositol lipid 3-phosphatase PTEN converts Ptdlns(3,4)P 2 into phosphatidylinositol 4-phosphate."
+  }
+ },
+ {
+  "qid": "637",
+  "variants": {
+   "v1_rule": "Input from  mental and physical health care professionals is not effective at decreasing homelessness.",
+   "neg_v2": "Input from  mental and physical health care professionals is not effective at decreasing homelessness.",
+   "ctrl_matched": "Input from  mental and physical health care professionals is indeed effective at decreasing homelessness.",
+   "ctrl_indeed": "Input from  mental and physical health care professionals is indeed effective at decreasing homelessness.",
+   "ctrl_prefix": "It is the case that input from  mental and physical health care professionals is effective at decreasing homelessness."
+  }
+ },
+ {
+  "qid": "641",
+  "variants": {
+   "v1_rule": "Insomnia can not be effectively treated with cognitive behavioral therapy.",
+   "neg_v2": "Insomnia can not be effectively treated with cognitive behavioral therapy.",
+   "ctrl_matched": "Insomnia can indeed be effectively treated with cognitive behavioral therapy.",
+   "ctrl_indeed": "Insomnia can indeed be effectively treated with cognitive behavioral therapy.",
+   "ctrl_prefix": "It is the case that insomnia can be effectively treated with cognitive behavioral therapy."
+  }
+ },
+ {
+  "qid": "644",
+  "variants": {
+   "v1_rule": "It is not the case that insulin increases risk of severe kidney failure.",
+   "neg_v2": "Insulin does not increase risk of severe kidney failure.",
+   "ctrl_matched": "Insulin does increase risk of severe kidney failure.",
+   "ctrl_indeed": "Insulin indeed increases risk of severe kidney failure.",
+   "ctrl_prefix": "It is the case that insulin increases risk of severe kidney failure."
+  }
+ },
+ {
+  "qid": "649",
+  "variants": {
+   "v1_rule": "It is not the case that integrating classroom-based collaborative learning with Web-based collaborative learning leads to subpar class performance",
+   "neg_v2": "Integrating classroom-based collaborative learning with Web-based collaborative learning does not lead to subpar class performance",
+   "ctrl_matched": "Integrating classroom-based collaborative learning with Web-based collaborative learning does lead to subpar class performance",
+   "ctrl_indeed": "Integrating classroom-based collaborative learning with Web-based collaborative learning indeed leads to subpar class performance",
+   "ctrl_prefix": "It is the case that integrating classroom-based collaborative learning with Web-based collaborative learning leads to subpar class performance"
+  }
+ },
+ {
+  "qid": "659",
+  "variants": {
+   "v1_rule": "Ivermectin is not used to treat lymphatic filariasis.",
+   "neg_v2": "Ivermectin is not used to treat lymphatic filariasis.",
+   "ctrl_matched": "Ivermectin is indeed used to treat lymphatic filariasis.",
+   "ctrl_indeed": "Ivermectin is indeed used to treat lymphatic filariasis.",
+   "ctrl_prefix": "It is the case that ivermectin is used to treat lymphatic filariasis."
+  }
+ },
+ {
+  "qid": "660",
+  "variants": {
+   "v1_rule": "Ivermectin is not used to treat onchocerciasis.",
+   "neg_v2": "Ivermectin is not used to treat onchocerciasis.",
+   "ctrl_matched": "Ivermectin is indeed used to treat onchocerciasis.",
+   "ctrl_indeed": "Ivermectin is indeed used to treat onchocerciasis.",
+   "ctrl_prefix": "It is the case that ivermectin is used to treat onchocerciasis."
+  }
+ },
+ {
+  "qid": "690",
+  "variants": {
+   "v1_rule": "Less than 10% of the gabonese children with Schimmelpenning-Feuerstein-Mims syndrome (SFM) had not a plasma lactate of more than 5mmol/L.",
+   "neg_v2": "It is not the case that less than 10% of the gabonese children with Schimmelpenning-Feuerstein-Mims syndrome (SFM) had a plasma lactate of more than 5mmol/L.",
+   "ctrl_matched": "It is the case that less than 10% of the gabonese children with Schimmelpenning-Feuerstein-Mims syndrome (SFM) had a plasma lactate of more than 5mmol/L.",
+   "ctrl_indeed": "It is the case that less than 10% of the gabonese children with Schimmelpenning-Feuerstein-Mims syndrome (SFM) had a plasma lactate of more than 5mmol/L.",
+   "ctrl_prefix": "It is the case that less than 10% of the gabonese children with Schimmelpenning-Feuerstein-Mims syndrome (SFM) had a plasma lactate of more than 5mmol/L."
+  }
+ },
+ {
+  "qid": "691",
+  "variants": {
+   "v1_rule": "It is not the case that leukemia associated Rho guanine nucleotide-exchange factor represses RhoA in response to SRC activation.",
+   "neg_v2": "Leukemia associated Rho guanine nucleotide-exchange factor does not repress RhoA in response to SRC activation.",
+   "ctrl_matched": "Leukemia associated Rho guanine nucleotide-exchange factor does repress RhoA in response to SRC activation.",
+   "ctrl_indeed": "Leukemia associated Rho guanine nucleotide-exchange factor indeed represses RhoA in response to SRC activation.",
+   "ctrl_prefix": "It is the case that leukemia associated Rho guanine nucleotide-exchange factor represses RhoA in response to SRC activation."
+  }
+ },
+ {
+  "qid": "692",
+  "variants": {
+   "v1_rule": "It is not the case that leuko-increased blood increases infectious complications in red blood cell transfusion.",
+   "neg_v2": "Leuko-increased blood does not increase infectious complications in red blood cell transfusion.",
+   "ctrl_matched": "Leuko-increased blood does increase infectious complications in red blood cell transfusion.",
+   "ctrl_indeed": "Leuko-increased blood indeed increases infectious complications in red blood cell transfusion.",
+   "ctrl_prefix": "It is the case that leuko-increased blood increases infectious complications in red blood cell transfusion."
+  }
+ },
+ {
+  "qid": "693",
+  "variants": {
+   "v1_rule": "It is not the case that leuko-reduced blood reduces infectious complications in red blood cell transfusion.",
+   "neg_v2": "Leuko-reduced blood does not reduce infectious complications in red blood cell transfusion.",
+   "ctrl_matched": "Leuko-reduced blood does reduce infectious complications in red blood cell transfusion.",
+   "ctrl_indeed": "Leuko-reduced blood indeed reduces infectious complications in red blood cell transfusion.",
+   "ctrl_prefix": "It is the case that leuko-reduced blood reduces infectious complications in red blood cell transfusion."
+  }
+ },
+ {
+  "qid": "715",
+  "variants": {
+   "v1_rule": "Low expression of miR7a does not represses target genes and exerts a biological function in ovaries.",
+   "neg_v2": "Low expression of miR7a does not repress target genes and does not exert a biological function in ovaries.",
+   "ctrl_matched": "Low expression of miR7a does repress target genes and does exert a biological function in ovaries.",
+   "ctrl_indeed": "Low expression of miR7a indeed represses target genes and exerts a biological function in ovaries.",
+   "ctrl_prefix": "It is the case that low expression of miR7a does represses target genes and exerts a biological function in ovaries."
+  }
+ },
+ {
+  "qid": "716",
+  "variants": {
+   "v1_rule": "It is not the case that low expression of miR7a exerts a biological function in testis.",
+   "neg_v2": "Low expression of miR7a does not exert a biological function in testis.",
+   "ctrl_matched": "Low expression of miR7a does exert a biological function in testis.",
+   "ctrl_indeed": "Low expression of miR7a indeed exerts a biological function in testis.",
+   "ctrl_prefix": "It is the case that low expression of miR7a exerts a biological function in testis."
+  }
+ },
+ {
+  "qid": "718",
+  "variants": {
+   "v1_rule": "It is not the case that low nucleosome occupancy correlates with low methylation levels across species.",
+   "neg_v2": "Low nucleosome occupancy does not correlate with low methylation levels across species.",
+   "ctrl_matched": "Low nucleosome occupancy does correlate with low methylation levels across species.",
+   "ctrl_indeed": "Low nucleosome occupancy indeed correlates with low methylation levels across species.",
+   "ctrl_prefix": "It is the case that low nucleosome occupancy correlates with low methylation levels across species."
+  }
+ },
+ {
+  "qid": "721",
+  "variants": {
+   "v1_rule": "Lupus-prone mice infected with curliproducing bacteria have not higher autoantibody titers compared to controls.",
+   "neg_v2": "Lupus-prone mice infected with curliproducing bacteria do not have higher autoantibody titers compared to controls.",
+   "ctrl_matched": "Lupus-prone mice infected with curliproducing bacteria do have higher autoantibody titers compared to controls.",
+   "ctrl_indeed": "Lupus-prone mice infected with curliproducing bacteria indeed have higher autoantibody titers compared to controls.",
+   "ctrl_prefix": "It is the case that lupus-prone mice infected with curliproducing bacteria have higher autoantibody titers compared to controls."
+  }
+ },
+ {
+  "qid": "723",
+  "variants": {
+   "v1_rule": "It is not the case that ly49Q directs the organization of neutrophil migration to inflammation sites by regulating membrane raft functions.",
+   "neg_v2": "Ly49Q does not direct the organization of neutrophil migration to inflammation sites by regulating membrane raft functions.",
+   "ctrl_matched": "Ly49Q does direct the organization of neutrophil migration to inflammation sites by regulating membrane raft functions.",
+   "ctrl_indeed": "Ly49Q indeed directs the organization of neutrophil migration to inflammation sites by regulating membrane raft functions.",
+   "ctrl_prefix": "It is the case that ly49Q directs the organization of neutrophil migration to inflammation sites by regulating membrane raft functions."
+  }
+ },
+ {
+  "qid": "727",
+  "variants": {
+   "v1_rule": "Ly6C hi monocytes have not a lower inflammatory capacity compared to their Ly6C lo counterparts.",
+   "neg_v2": "Ly6C hi monocytes do not have a lower inflammatory capacity compared to their Ly6C lo counterparts.",
+   "ctrl_matched": "Ly6C hi monocytes do have a lower inflammatory capacity compared to their Ly6C lo counterparts.",
+   "ctrl_indeed": "Ly6C hi monocytes indeed have a lower inflammatory capacity compared to their Ly6C lo counterparts.",
+   "ctrl_prefix": "It is the case that ly6C hi monocytes have a lower inflammatory capacity compared to their Ly6C lo counterparts."
+  }
+ },
+ {
+  "qid": "728",
+  "variants": {
+   "v1_rule": "Ly6C hi monocytes have not a lower inflammatory capacity than Ly6C lo monocytes.",
+   "neg_v2": "Ly6C hi monocytes do not have a lower inflammatory capacity than Ly6C lo monocytes.",
+   "ctrl_matched": "Ly6C hi monocytes do have a lower inflammatory capacity than Ly6C lo monocytes.",
+   "ctrl_indeed": "Ly6C hi monocytes indeed have a lower inflammatory capacity than Ly6C lo monocytes.",
+   "ctrl_prefix": "It is the case that ly6C hi monocytes have a lower inflammatory capacity than Ly6C lo monocytes."
+  }
+ },
+ {
+  "qid": "743",
+  "variants": {
+   "v1_rule": "It is not the case that macrolides protect against myocardial infarction.",
+   "neg_v2": "Macrolides do not protect against myocardial infarction.",
+   "ctrl_matched": "Macrolides do protect against myocardial infarction.",
+   "ctrl_indeed": "Macrolides indeed protect against myocardial infarction.",
+   "ctrl_prefix": "It is the case that macrolides protect against myocardial infarction."
+  }
+ },
+ {
+  "qid": "744",
+  "variants": {
+   "v1_rule": "It is not the case that macropinocytosis contributes to a cell's supply of amino acids via the intracellular uptake of protein.",
+   "neg_v2": "Macropinocytosis does not contribute to a cell's supply of amino acids via the intracellular uptake of protein.",
+   "ctrl_matched": "Macropinocytosis does contribute to a cell's supply of amino acids via the intracellular uptake of protein.",
+   "ctrl_indeed": "Macropinocytosis indeed contributes to a cell's supply of amino acids via the intracellular uptake of protein.",
+   "ctrl_prefix": "It is the case that macropinocytosis contributes to a cell's supply of amino acids via the intracellular uptake of protein."
+  }
+ },
+ {
+  "qid": "756",
+  "variants": {
+   "v1_rule": "Many proteins in human cells can not be post-translationally modified at lysine residues via acetylation.",
+   "neg_v2": "It is not the case that many proteins in human cells can be post-translationally modified at lysine residues via acetylation.",
+   "ctrl_matched": "It is the case that many proteins in human cells can be post-translationally modified at lysine residues via acetylation.",
+   "ctrl_indeed": "It is the case that many proteins in human cells can be post-translationally modified at lysine residues via acetylation.",
+   "ctrl_prefix": "It is the case that many proteins in human cells can be post-translationally modified at lysine residues via acetylation."
+  }
+ },
+ {
+  "qid": "759",
+  "variants": {
+   "v1_rule": "Mathematical models predict that using Artemisinin-based combination therapy over nongametocytocidal drugs have not a dramatic impact in reducing malaria transmission.",
+   "neg_v2": "Mathematical models do not predict that using Artemisinin-based combination therapy over nongametocytocidal drugs have a dramatic impact in reducing malaria transmission.",
+   "ctrl_matched": "Mathematical models do predict that using Artemisinin-based combination therapy over nongametocytocidal drugs have a dramatic impact in reducing malaria transmission.",
+   "ctrl_indeed": "Mathematical models indeed predict that using Artemisinin-based combination therapy over nongametocytocidal drugs have a dramatic impact in reducing malaria transmission.",
+   "ctrl_prefix": "It is the case that mathematical models predict that using Artemisinin-based combination therapy over nongametocytocidal drugs have a dramatic impact in reducing malaria transmission."
+  }
+ },
+ {
+  "qid": "768",
+  "variants": {
+   "v1_rule": "Mercaptopurine is not anabolized into the inactive methylmercaptopurine by thiopurine methyltrasnferase (TPMT).",
+   "neg_v2": "Mercaptopurine is not anabolized into the inactive methylmercaptopurine by thiopurine methyltrasnferase (TPMT).",
+   "ctrl_matched": "Mercaptopurine is indeed anabolized into the inactive methylmercaptopurine by thiopurine methyltrasnferase (TPMT).",
+   "ctrl_indeed": "Mercaptopurine is indeed anabolized into the inactive methylmercaptopurine by thiopurine methyltrasnferase (TPMT).",
+   "ctrl_prefix": "It is the case that mercaptopurine is anabolized into the inactive methylmercaptopurine by thiopurine methyltrasnferase (TPMT)."
+  }
+ },
+ {
+  "qid": "770",
+  "variants": {
+   "v1_rule": "It is not the case that metastatic colorectal cancer treated with a single agent fluoropyrimidines resulted in reduced efficacy and lower quality of life when compared with oxaliplatin-based chemotherapy in elderly patients.",
+   "neg_v2": "Metastatic colorectal cancer treated with a single agent fluoropyrimidines did not result in reduced efficacy and lower quality of life when compared with oxaliplatin-based chemotherapy in elderly patients.",
+   "ctrl_matched": "Metastatic colorectal cancer treated with a single agent fluoropyrimidines did result in reduced efficacy and lower quality of life when compared with oxaliplatin-based chemotherapy in elderly patients.",
+   "ctrl_indeed": "Metastatic colorectal cancer treated with a single agent fluoropyrimidines indeed resulted in reduced efficacy and lower quality of life when compared with oxaliplatin-based chemotherapy in elderly patients.",
+   "ctrl_prefix": "It is the case that metastatic colorectal cancer treated with a single agent fluoropyrimidines resulted in reduced efficacy and lower quality of life when compared with oxaliplatin-based chemotherapy in elderly patients."
+  }
+ },
+ {
+  "qid": "775",
+  "variants": {
+   "v1_rule": "It is not the case that mice defective for deoxyribonucleic acid (DNA) polymerase I (polI) reveal increased sensitivity to ionizing radiation (IR).",
+   "neg_v2": "Mice defective for deoxyribonucleic acid (DNA) polymerase I (polI) do not reveal increased sensitivity to ionizing radiation (IR).",
+   "ctrl_matched": "Mice defective for deoxyribonucleic acid (DNA) polymerase I (polI) do reveal increased sensitivity to ionizing radiation (IR).",
+   "ctrl_indeed": "Mice defective for deoxyribonucleic acid (DNA) polymerase I (polI) indeed reveal increased sensitivity to ionizing radiation (IR).",
+   "ctrl_prefix": "It is the case that mice defective for deoxyribonucleic acid (DNA) polymerase I (polI) reveal increased sensitivity to ionizing radiation (IR)."
+  }
+ },
+ {
+  "qid": "784",
+  "variants": {
+   "v1_rule": "MicroRNA is not involved in the regulation of Neural Stem Cell (NSC) differentiation and proliferation dynamic homeostasis",
+   "neg_v2": "MicroRNA is not involved in the regulation of Neural Stem Cell (NSC) differentiation and proliferation dynamic homeostasis",
+   "ctrl_matched": "MicroRNA is indeed involved in the regulation of Neural Stem Cell (NSC) differentiation and proliferation dynamic homeostasis",
+   "ctrl_indeed": "MicroRNA is indeed involved in the regulation of Neural Stem Cell (NSC) differentiation and proliferation dynamic homeostasis",
+   "ctrl_prefix": "It is the case that microRNA is involved in the regulation of Neural Stem Cell (NSC) differentiation and proliferation dynamic homeostasis"
+  }
+ },
+ {
+  "qid": "785",
+  "variants": {
+   "v1_rule": "It is not the case that microarray results from culture-amplified mixtures of serotypes correlate poorly with microarray results from uncultured mixtures.",
+   "neg_v2": "Microarray results from culture-amplified mixtures of serotypes do not correlate poorly with microarray results from uncultured mixtures.",
+   "ctrl_matched": "Microarray results from culture-amplified mixtures of serotypes do correlate poorly with microarray results from uncultured mixtures.",
+   "ctrl_indeed": "Microarray results from culture-amplified mixtures of serotypes indeed correlate poorly with microarray results from uncultured mixtures.",
+   "ctrl_prefix": "It is the case that microarray results from culture-amplified mixtures of serotypes correlate poorly with microarray results from uncultured mixtures."
+  }
+ },
+ {
+  "qid": "793",
+  "variants": {
+   "v1_rule": "Mitochondria are not uninvolved in apoptosis.",
+   "neg_v2": "Mitochondria are not uninvolved in apoptosis.",
+   "ctrl_matched": "Mitochondria are indeed uninvolved in apoptosis.",
+   "ctrl_indeed": "Mitochondria are indeed uninvolved in apoptosis.",
+   "ctrl_prefix": "It is the case that mitochondria are uninvolved in apoptosis."
+  }
+ },
+ {
+  "qid": "800",
+  "variants": {
+   "v1_rule": "It is not the case that modifying the epigenome in the brain affects the normal human aging process by affecting certain genes related to neurogenesis.",
+   "neg_v2": "Modifying the epigenome in the brain does not affect the normal human aging process by affecting certain genes related to neurogenesis.",
+   "ctrl_matched": "Modifying the epigenome in the brain does affect the normal human aging process by affecting certain genes related to neurogenesis.",
+   "ctrl_indeed": "Modifying the epigenome in the brain indeed affects the normal human aging process by affecting certain genes related to neurogenesis.",
+   "ctrl_prefix": "It is the case that modifying the epigenome in the brain affects the normal human aging process by affecting certain genes related to neurogenesis."
+  }
+ },
+ {
+  "qid": "805",
+  "variants": {
+   "v1_rule": "It is not the case that monoclonal antibody targeting of N-cadherin inhibits metastasis.",
+   "neg_v2": "Monoclonal antibody targeting of N-cadherin does not inhibit metastasis.",
+   "ctrl_matched": "Monoclonal antibody targeting of N-cadherin does inhibit metastasis.",
+   "ctrl_indeed": "Monoclonal antibody targeting of N-cadherin indeed inhibits metastasis.",
+   "ctrl_prefix": "It is the case that monoclonal antibody targeting of N-cadherin inhibits metastasis."
+  }
+ },
+ {
+  "qid": "808",
+  "variants": {
+   "v1_rule": "Most termination events in Okazaki fragments are not sequence specific.",
+   "neg_v2": "It is not the case that most termination events in Okazaki fragments are sequence specific.",
+   "ctrl_matched": "It is the case that most termination events in Okazaki fragments are sequence specific.",
+   "ctrl_indeed": "It is the case that most termination events in Okazaki fragments are sequence specific.",
+   "ctrl_prefix": "It is the case that most termination events in Okazaki fragments are sequence specific."
+  }
+ },
+ {
+  "qid": "814",
+  "variants": {
+   "v1_rule": "Mutations in G-Beta protein GNB2 are not present in many cancers, resulting in loss of interaction with G-alpha subunits and concomitant activation of AKT pathway.",
+   "neg_v2": "Mutations in G-Beta protein GNB2 are not present in many cancers, resulting in loss of interaction with G-alpha subunits and concomitant activation of AKT pathway.",
+   "ctrl_matched": "Mutations in G-Beta protein GNB2 are indeed present in many cancers, resulting in loss of interaction with G-alpha subunits and concomitant activation of AKT pathway.",
+   "ctrl_indeed": "Mutations in G-Beta protein GNB2 are indeed present in many cancers, resulting in loss of interaction with G-alpha subunits and concomitant activation of AKT pathway.",
+   "ctrl_prefix": "It is the case that mutations in G-Beta protein GNB2 are present in many cancers, resulting in loss of interaction with G-alpha subunits and concomitant activation of AKT pathway."
+  }
+ },
+ {
+  "qid": "820",
+  "variants": {
+   "v1_rule": "It is not the case that n-terminal cleavage increases success identifying transcription start sites.",
+   "neg_v2": "N-terminal cleavage does not increase success identifying transcription start sites.",
+   "ctrl_matched": "N-terminal cleavage does increase success identifying transcription start sites.",
+   "ctrl_indeed": "N-terminal cleavage indeed increases success identifying transcription start sites.",
+   "ctrl_prefix": "It is the case that n-terminal cleavage increases success identifying transcription start sites."
+  }
+ },
+ {
+  "qid": "821",
+  "variants": {
+   "v1_rule": "It is not the case that n-terminal cleavage reduces success identifying transcription start sites.",
+   "neg_v2": "N-terminal cleavage does not reduce success identifying transcription start sites.",
+   "ctrl_matched": "N-terminal cleavage does reduce success identifying transcription start sites.",
+   "ctrl_indeed": "N-terminal cleavage indeed reduces success identifying transcription start sites.",
+   "ctrl_prefix": "It is the case that n-terminal cleavage reduces success identifying transcription start sites."
+  }
+ },
+ {
+  "qid": "823",
+  "variants": {
+   "v1_rule": "It is not the case that n348I mutations cause resistance to zidovudine (AZT).",
+   "neg_v2": "N348I mutations do not cause resistance to zidovudine (AZT).",
+   "ctrl_matched": "N348I mutations do cause resistance to zidovudine (AZT).",
+   "ctrl_indeed": "N348I mutations indeed cause resistance to zidovudine (AZT).",
+   "ctrl_prefix": "It is the case that n348I mutations cause resistance to zidovudine (AZT)."
+  }
+ },
+ {
+  "qid": "830",
+  "variants": {
+   "v1_rule": "It is not the case that nF2 (Merlin) causes phosphorylation and subsequent cytoplasmic sequestration of YAP in Drosophila by activating LATS1/2 kinases.",
+   "neg_v2": "NF2 (Merlin) does not cause phosphorylation and subsequent cytoplasmic sequestration of YAP in Drosophila by activating LATS1/2 kinases.",
+   "ctrl_matched": "NF2 (Merlin) does cause phosphorylation and subsequent cytoplasmic sequestration of YAP in Drosophila by activating LATS1/2 kinases.",
+   "ctrl_indeed": "NF2 (Merlin) indeed causes phosphorylation and subsequent cytoplasmic sequestration of YAP in Drosophila by activating LATS1/2 kinases.",
+   "ctrl_prefix": "It is the case that nF2 (Merlin) causes phosphorylation and subsequent cytoplasmic sequestration of YAP in Drosophila by activating LATS1/2 kinases."
+  }
+ },
+ {
+  "qid": "831",
+  "variants": {
+   "v1_rule": "It is not the case that nF2 (Merlin) prevents phosphorylation and subsequent cytoplasmic sequestration of YAP in Drosophila.",
+   "neg_v2": "NF2 (Merlin) does not prevent phosphorylation and subsequent cytoplasmic sequestration of YAP in Drosophila.",
+   "ctrl_matched": "NF2 (Merlin) does prevent phosphorylation and subsequent cytoplasmic sequestration of YAP in Drosophila.",
+   "ctrl_indeed": "NF2 (Merlin) indeed prevents phosphorylation and subsequent cytoplasmic sequestration of YAP in Drosophila.",
+   "ctrl_prefix": "It is the case that nF2 (Merlin) prevents phosphorylation and subsequent cytoplasmic sequestration of YAP in Drosophila."
+  }
+ },
+ {
+  "qid": "832",
+  "variants": {
+   "v1_rule": "It is not the case that nFAT4 activation requires IP3R-mediated Ca2+ mobilization.",
+   "neg_v2": "NFAT4 activation does not require IP3R-mediated Ca2+ mobilization.",
+   "ctrl_matched": "NFAT4 activation does require IP3R-mediated Ca2+ mobilization.",
+   "ctrl_indeed": "NFAT4 activation indeed requires IP3R-mediated Ca2+ mobilization.",
+   "ctrl_prefix": "It is the case that nFAT4 activation requires IP3R-mediated Ca2+ mobilization."
+  }
+ },
+ {
+  "qid": "834",
+  "variants": {
+   "v1_rule": "NOX2-independent pathways can not generate peroxynitrite by reacting with nitrogen intermediates.",
+   "neg_v2": "NOX2-independent pathways can not generate peroxynitrite by reacting with nitrogen intermediates.",
+   "ctrl_matched": "NOX2-independent pathways can indeed generate peroxynitrite by reacting with nitrogen intermediates.",
+   "ctrl_indeed": "NOX2-independent pathways can indeed generate peroxynitrite by reacting with nitrogen intermediates.",
+   "ctrl_prefix": "It is the case that nOX2-independent pathways can generate peroxynitrite by reacting with nitrogen intermediates."
+  }
+ },
+ {
+  "qid": "837",
+  "variants": {
+   "v1_rule": "NR5A2 is not important in development of endometrial tissues.",
+   "neg_v2": "NR5A2 is not important in development of endometrial tissues.",
+   "ctrl_matched": "NR5A2 is indeed important in development of endometrial tissues.",
+   "ctrl_indeed": "NR5A2 is indeed important in development of endometrial tissues.",
+   "ctrl_prefix": "It is the case that nR5A2 is important in development of endometrial tissues."
+  }
+ },
+ {
+  "qid": "839",
+  "variants": {
+   "v1_rule": "Nanoparticles can not be targeted against specific cell types by incorporating aptamers into lipid nanoparticles.",
+   "neg_v2": "Nanoparticles can not be targeted against specific cell types by incorporating aptamers into lipid nanoparticles.",
+   "ctrl_matched": "Nanoparticles can indeed be targeted against specific cell types by incorporating aptamers into lipid nanoparticles.",
+   "ctrl_indeed": "Nanoparticles can indeed be targeted against specific cell types by incorporating aptamers into lipid nanoparticles.",
+   "ctrl_prefix": "It is the case that nanoparticles can be targeted against specific cell types by incorporating aptamers into lipid nanoparticles."
+  }
+ },
+ {
+  "qid": "845",
+  "variants": {
+   "v1_rule": "Neutrophil extracellular traps (NETs) are not released by ANCA-stimulated neutrophils.",
+   "neg_v2": "Neutrophil extracellular traps (NETs) are not released by ANCA-stimulated neutrophils.",
+   "ctrl_matched": "Neutrophil extracellular traps (NETs) are indeed released by ANCA-stimulated neutrophils.",
+   "ctrl_indeed": "Neutrophil extracellular traps (NETs) are indeed released by ANCA-stimulated neutrophils.",
+   "ctrl_prefix": "It is the case that neutrophil extracellular traps (NETs) are released by ANCA-stimulated neutrophils."
+  }
+ },
+ {
+  "qid": "852",
+  "variants": {
+   "v1_rule": "Non-invasive ventilation use should not be decreased if there is inadequate response to conventional treatment.",
+   "neg_v2": "Non-invasive ventilation use should not be decreased if there is inadequate response to conventional treatment.",
+   "ctrl_matched": "Non-invasive ventilation use should indeed be decreased if there is inadequate response to conventional treatment.",
+   "ctrl_indeed": "Non-invasive ventilation use should indeed be decreased if there is inadequate response to conventional treatment.",
+   "ctrl_prefix": "It is the case that non-invasive ventilation use should be decreased if there is inadequate response to conventional treatment."
+  }
+ },
+ {
+  "qid": "859",
+  "variants": {
+   "v1_rule": "Normal expression of RUNX1 has not tumor-promoting effects.",
+   "neg_v2": "Normal expression of RUNX1 does not have tumor-promoting effects.",
+   "ctrl_matched": "Normal expression of RUNX1 does have tumor-promoting effects.",
+   "ctrl_indeed": "Normal expression of RUNX1 indeed has tumor-promoting effects.",
+   "ctrl_prefix": "It is the case that normal expression of RUNX1 has tumor-promoting effects."
+  }
+ },
+ {
+  "qid": "870",
+  "variants": {
+   "v1_rule": "It is not the case that obesity decreases life quality.",
+   "neg_v2": "Obesity does not decrease life quality.",
+   "ctrl_matched": "Obesity does decrease life quality.",
+   "ctrl_indeed": "Obesity indeed decreases life quality.",
+   "ctrl_prefix": "It is the case that obesity decreases life quality."
+  }
+ },
+ {
+  "qid": "873",
+  "variants": {
+   "v1_rule": "Obesity is not determined solely by environmental factors.",
+   "neg_v2": "Obesity is not determined solely by environmental factors.",
+   "ctrl_matched": "Obesity is indeed determined solely by environmental factors.",
+   "ctrl_indeed": "Obesity is indeed determined solely by environmental factors.",
+   "ctrl_prefix": "It is the case that obesity is determined solely by environmental factors."
+  }
+ },
+ {
+  "qid": "880",
+  "variants": {
+   "v1_rule": "It is not the case that occupancy of ribosomes by IncRNAs mirror 5 0-UTRs",
+   "neg_v2": "Occupancy of ribosomes by IncRNAs does not mirror 5 0-UTRs",
+   "ctrl_matched": "Occupancy of ribosomes by IncRNAs does mirror 5 0-UTRs",
+   "ctrl_indeed": "Occupancy of ribosomes by IncRNAs indeed mirror 5 0-UTRs",
+   "ctrl_prefix": "It is the case that occupancy of ribosomes by IncRNAs mirror 5 0-UTRs"
+  }
+ },
+ {
+  "qid": "882",
+  "variants": {
+   "v1_rule": "It is not the case that omnivores produce less trimethylamine N-oxide from dietary I-carnitine than vegetarians.",
+   "neg_v2": "Omnivores do not produce less trimethylamine N-oxide from dietary I-carnitine than vegetarians.",
+   "ctrl_matched": "Omnivores do produce less trimethylamine N-oxide from dietary I-carnitine than vegetarians.",
+   "ctrl_indeed": "Omnivores indeed produce less trimethylamine N-oxide from dietary I-carnitine than vegetarians.",
+   "ctrl_prefix": "It is the case that omnivores produce less trimethylamine N-oxide from dietary I-carnitine than vegetarians."
+  }
+ },
+ {
+  "qid": "887",
+  "variants": {
+   "v1_rule": "It is not the case that only a minority of cells survive development after differentiation into stress-resistant spores.",
+   "neg_v2": "It is not the case that only a minority of cells survive development after differentiation into stress-resistant spores.",
+   "ctrl_matched": "It is the case that only a minority of cells survive development after differentiation into stress-resistant spores.",
+   "ctrl_indeed": "It is the case that only a minority of cells survive development after differentiation into stress-resistant spores.",
+   "ctrl_prefix": "It is the case that only a minority of cells survive development after differentiation into stress-resistant spores."
+  }
+ },
+ {
+  "qid": "903",
+  "variants": {
+   "v1_rule": "It is not the case that pD-1 triggering on monocytes reduces IL-10 production by monocytes.",
+   "neg_v2": "PD-1 triggering on monocytes does not reduce IL-10 production by monocytes.",
+   "ctrl_matched": "PD-1 triggering on monocytes does reduce IL-10 production by monocytes.",
+   "ctrl_indeed": "PD-1 triggering on monocytes indeed reduces IL-10 production by monocytes.",
+   "ctrl_prefix": "It is the case that pD-1 triggering on monocytes reduces IL-10 production by monocytes."
+  }
+ },
+ {
+  "qid": "904",
+  "variants": {
+   "v1_rule": "It is not the case that pDPN promotes efficient motility along stromal surfaces by activating the C-type lectin receptor to rearrange the actin cytoskeleton in dendritic cells.",
+   "neg_v2": "PDPN does not promote efficient motility along stromal surfaces by activating the C-type lectin receptor to rearrange the actin cytoskeleton in dendritic cells.",
+   "ctrl_matched": "PDPN does promote efficient motility along stromal surfaces by activating the C-type lectin receptor to rearrange the actin cytoskeleton in dendritic cells.",
+   "ctrl_indeed": "PDPN indeed promotes efficient motility along stromal surfaces by activating the C-type lectin receptor to rearrange the actin cytoskeleton in dendritic cells.",
+   "ctrl_prefix": "It is the case that pDPN promotes efficient motility along stromal surfaces by activating the C-type lectin receptor to rearrange the actin cytoskeleton in dendritic cells."
+  }
+ },
+ {
+  "qid": "907",
+  "variants": {
+   "v1_rule": "It is not the case that pGE 2 promotes intestinal tumor growth by altering the expression of tumor suppressing and DNA repair genes.",
+   "neg_v2": "PGE 2 does not promote intestinal tumor growth by altering the expression of tumor suppressing and DNA repair genes.",
+   "ctrl_matched": "PGE 2 does promote intestinal tumor growth by altering the expression of tumor suppressing and DNA repair genes.",
+   "ctrl_indeed": "PGE 2 indeed promotes intestinal tumor growth by altering the expression of tumor suppressing and DNA repair genes.",
+   "ctrl_prefix": "It is the case that pGE 2 promotes intestinal tumor growth by altering the expression of tumor suppressing and DNA repair genes."
+  }
+ },
+ {
+  "qid": "911",
+  "variants": {
+   "v1_rule": "It is not the case that pKG-la plays an essential role in expression of pain hypersensitivity in PGK-la knockout mice.",
+   "neg_v2": "PKG-la does not play an essential role in expression of pain hypersensitivity in PGK-la knockout mice.",
+   "ctrl_matched": "PKG-la does play an essential role in expression of pain hypersensitivity in PGK-la knockout mice.",
+   "ctrl_indeed": "PKG-la indeed plays an essential role in expression of pain hypersensitivity in PGK-la knockout mice.",
+   "ctrl_prefix": "It is the case that pKG-la plays an essential role in expression of pain hypersensitivity in PGK-la knockout mice."
+  }
+ },
+ {
+  "qid": "913",
+  "variants": {
+   "v1_rule": "PPAR-RXRs are not inhibited by PPAR ligands.",
+   "neg_v2": "PPAR-RXRs are not inhibited by PPAR ligands.",
+   "ctrl_matched": "PPAR-RXRs are indeed inhibited by PPAR ligands.",
+   "ctrl_indeed": "PPAR-RXRs are indeed inhibited by PPAR ligands.",
+   "ctrl_prefix": "It is the case that pPAR-RXRs are inhibited by PPAR ligands."
+  }
+ },
+ {
+  "qid": "914",
+  "variants": {
+   "v1_rule": "PPAR-RXRs can not be activated by PPAR ligands.",
+   "neg_v2": "PPAR-RXRs can not be activated by PPAR ligands.",
+   "ctrl_matched": "PPAR-RXRs can indeed be activated by PPAR ligands.",
+   "ctrl_indeed": "PPAR-RXRs can indeed be activated by PPAR ligands.",
+   "ctrl_prefix": "It is the case that pPAR-RXRs can be activated by PPAR ligands."
+  }
+ },
+ {
+  "qid": "921",
+  "variants": {
+   "v1_rule": "It is not the case that participating in six months of physical activity improves cognitive functioning.",
+   "neg_v2": "Participating in six months of physical activity does not improve cognitive functioning.",
+   "ctrl_matched": "Participating in six months of physical activity does improve cognitive functioning.",
+   "ctrl_indeed": "Participating in six months of physical activity indeed improves cognitive functioning.",
+   "ctrl_prefix": "It is the case that participating in six months of physical activity improves cognitive functioning."
+  }
+ },
+ {
+  "qid": "922",
+  "variants": {
+   "v1_rule": "Patients in stable partnerships have not a faster progression from HIV to AIDS.",
+   "neg_v2": "Patients in stable partnerships do not have a faster progression from HIV to AIDS.",
+   "ctrl_matched": "Patients in stable partnerships do have a faster progression from HIV to AIDS.",
+   "ctrl_indeed": "Patients in stable partnerships indeed have a faster progression from HIV to AIDS.",
+   "ctrl_prefix": "It is the case that patients in stable partnerships have a faster progression from HIV to AIDS."
+  }
+ },
+ {
+  "qid": "936",
+  "variants": {
+   "v1_rule": "Peroxynitrite is not required for nitration of TCR/CD8.",
+   "neg_v2": "Peroxynitrite is not required for nitration of TCR/CD8.",
+   "ctrl_matched": "Peroxynitrite is indeed required for nitration of TCR/CD8.",
+   "ctrl_indeed": "Peroxynitrite is indeed required for nitration of TCR/CD8.",
+   "ctrl_prefix": "It is the case that peroxynitrite is required for nitration of TCR/CD8."
+  }
+ },
+ {
+  "qid": "956",
+  "variants": {
+   "v1_rule": "It is not the case that pleiotropic coupling of GLP-1R to intracellular effectors promotes distinct profiles of cellular signaling.",
+   "neg_v2": "Pleiotropic coupling of GLP-1R to intracellular effectors does not promote distinct profiles of cellular signaling.",
+   "ctrl_matched": "Pleiotropic coupling of GLP-1R to intracellular effectors does promote distinct profiles of cellular signaling.",
+   "ctrl_indeed": "Pleiotropic coupling of GLP-1R to intracellular effectors indeed promotes distinct profiles of cellular signaling.",
+   "ctrl_prefix": "It is the case that pleiotropic coupling of GLP-1R to intracellular effectors promotes distinct profiles of cellular signaling."
+  }
+ },
+ {
+  "qid": "957",
+  "variants": {
+   "v1_rule": "Podocytes are not motile and migrate in the presence of injury.",
+   "neg_v2": "Podocytes are not motile and do not migrate in the presence of injury.",
+   "ctrl_matched": "Podocytes are indeed motile and do migrate in the presence of injury.",
+   "ctrl_indeed": "Podocytes are indeed motile and indeed migrate in the presence of injury.",
+   "ctrl_prefix": "It is the case that podocytes are motile and migrate in the presence of injury."
+  }
+ },
+ {
+  "qid": "960",
+  "variants": {
+   "v1_rule": "It is not the case that polymeal nutrition reduces cardiovascular mortality.",
+   "neg_v2": "Polymeal nutrition does not reduce cardiovascular mortality.",
+   "ctrl_matched": "Polymeal nutrition does reduce cardiovascular mortality.",
+   "ctrl_indeed": "Polymeal nutrition indeed reduces cardiovascular mortality.",
+   "ctrl_prefix": "It is the case that polymeal nutrition reduces cardiovascular mortality."
+  }
+ },
+ {
+  "qid": "967",
+  "variants": {
+   "v1_rule": "It is not the case that pretreatment with the Arp2/3 inhibitor CK-666 affects lamelliopodia formation.",
+   "neg_v2": "Pretreatment with the Arp2/3 inhibitor CK-666 does not affect lamelliopodia formation.",
+   "ctrl_matched": "Pretreatment with the Arp2/3 inhibitor CK-666 does affect lamelliopodia formation.",
+   "ctrl_indeed": "Pretreatment with the Arp2/3 inhibitor CK-666 indeed affects lamelliopodia formation.",
+   "ctrl_prefix": "It is the case that pretreatment with the Arp2/3 inhibitor CK-666 affects lamelliopodia formation."
+  }
+ },
+ {
+  "qid": "971",
+  "variants": {
+   "v1_rule": "Primary cervical cancer screening with HPV detection has not higher longitudinal sensitivity than conventional cytology to detect cervical intraepithelial neoplasia grade 2.",
+   "neg_v2": "Primary cervical cancer screening with HPV detection does not have higher longitudinal sensitivity than conventional cytology to detect cervical intraepithelial neoplasia grade 2.",
+   "ctrl_matched": "Primary cervical cancer screening with HPV detection does have higher longitudinal sensitivity than conventional cytology to detect cervical intraepithelial neoplasia grade 2.",
+   "ctrl_indeed": "Primary cervical cancer screening with HPV detection indeed has higher longitudinal sensitivity than conventional cytology to detect cervical intraepithelial neoplasia grade 2.",
+   "ctrl_prefix": "It is the case that primary cervical cancer screening with HPV detection has higher longitudinal sensitivity than conventional cytology to detect cervical intraepithelial neoplasia grade 2."
+  }
+ },
+ {
+  "qid": "975",
+  "variants": {
+   "v1_rule": "It is not the case that primary pro-inflammatory cytokines induce secondary pro- and anti-inflammatory mediators.",
+   "neg_v2": "Primary pro-inflammatory cytokines do not induce secondary pro- and anti-inflammatory mediators.",
+   "ctrl_matched": "Primary pro-inflammatory cytokines do induce secondary pro- and anti-inflammatory mediators.",
+   "ctrl_indeed": "Primary pro-inflammatory cytokines indeed induce secondary pro- and anti-inflammatory mediators.",
+   "ctrl_prefix": "It is the case that primary pro-inflammatory cytokines induce secondary pro- and anti-inflammatory mediators."
+  }
+ },
+ {
+  "qid": "982",
+  "variants": {
+   "v1_rule": "Proteins synthesized at the growth cone are not ubiquitinated at a higher rate than proteins from the cell body.",
+   "neg_v2": "Proteins synthesized at the growth cone are not ubiquitinated at a higher rate than proteins from the cell body.",
+   "ctrl_matched": "Proteins synthesized at the growth cone are indeed ubiquitinated at a higher rate than proteins from the cell body.",
+   "ctrl_indeed": "Proteins synthesized at the growth cone are indeed ubiquitinated at a higher rate than proteins from the cell body.",
+   "ctrl_prefix": "It is the case that proteins synthesized at the growth cone are ubiquitinated at a higher rate than proteins from the cell body."
+  }
+ },
+ {
+  "qid": "985",
+  "variants": {
+   "v1_rule": "It is not the case that pseudogene PTENP1 regulates the expression of PTEN by functioning as an miRNA decoy.",
+   "neg_v2": "Pseudogene PTENP1 does not regulate the expression of PTEN by functioning as an miRNA decoy.",
+   "ctrl_matched": "Pseudogene PTENP1 does regulate the expression of PTEN by functioning as an miRNA decoy.",
+   "ctrl_indeed": "Pseudogene PTENP1 indeed regulates the expression of PTEN by functioning as an miRNA decoy.",
+   "ctrl_prefix": "It is the case that pseudogene PTENP1 regulates the expression of PTEN by functioning as an miRNA decoy."
+  }
+ },
+ {
+  "qid": "993",
+  "variants": {
+   "v1_rule": "It is not the case that pyridostatin destabilizes the G - quadruplex in the telomeric region.",
+   "neg_v2": "Pyridostatin does not destabilize the G - quadruplex in the telomeric region.",
+   "ctrl_matched": "Pyridostatin does destabilize the G - quadruplex in the telomeric region.",
+   "ctrl_indeed": "Pyridostatin indeed destabilizes the G - quadruplex in the telomeric region.",
+   "ctrl_prefix": "It is the case that pyridostatin destabilizes the G - quadruplex in the telomeric region."
+  }
+ },
+ {
+  "qid": "1012",
+  "variants": {
+   "v1_rule": "It is not the case that radioiodine treatment of non-toxic multinodular goitre reduces thyroid volume.",
+   "neg_v2": "Radioiodine treatment of non-toxic multinodular goitre does not reduce thyroid volume.",
+   "ctrl_matched": "Radioiodine treatment of non-toxic multinodular goitre does reduce thyroid volume.",
+   "ctrl_indeed": "Radioiodine treatment of non-toxic multinodular goitre indeed reduces thyroid volume.",
+   "ctrl_prefix": "It is the case that radioiodine treatment of non-toxic multinodular goitre reduces thyroid volume."
+  }
+ },
+ {
+  "qid": "1014",
+  "variants": {
+   "v1_rule": "It is not the case that rapamycin decreases the concentration of triacylglycerols in fruit flies.",
+   "neg_v2": "Rapamycin does not decrease the concentration of triacylglycerols in fruit flies.",
+   "ctrl_matched": "Rapamycin does decrease the concentration of triacylglycerols in fruit flies.",
+   "ctrl_indeed": "Rapamycin indeed decreases the concentration of triacylglycerols in fruit flies.",
+   "ctrl_prefix": "It is the case that rapamycin decreases the concentration of triacylglycerols in fruit flies."
+  }
+ },
+ {
+  "qid": "1019",
+  "variants": {
+   "v1_rule": "It is not the case that rapid phosphotransfer rates govern fidelity in two component systems",
+   "neg_v2": "Rapid phosphotransfer rates do not govern fidelity in two component systems",
+   "ctrl_matched": "Rapid phosphotransfer rates do govern fidelity in two component systems",
+   "ctrl_indeed": "Rapid phosphotransfer rates indeed govern fidelity in two component systems",
+   "ctrl_prefix": "It is the case that rapid phosphotransfer rates govern fidelity in two component systems"
+  }
+ },
+ {
+  "qid": "1020",
+  "variants": {
+   "v1_rule": "Rapid up-regulation and higher basal expression of interferon-induced genes increase survival of granule cell neurons that are not infected by West Nile virus.",
+   "neg_v2": "Rapid up-regulation and higher basal expression of interferon-induced genes do not increase survival of granule cell neurons that are infected by West Nile virus.",
+   "ctrl_matched": "Rapid up-regulation and higher basal expression of interferon-induced genes do increase survival of granule cell neurons that are infected by West Nile virus.",
+   "ctrl_indeed": "Rapid up-regulation and higher basal expression of interferon-induced genes indeed increase survival of granule cell neurons that are infected by West Nile virus.",
+   "ctrl_prefix": "It is the case that rapid up-regulation and higher basal expression of interferon-induced genes increase survival of granule cell neurons that are infected by West Nile virus."
+  }
+ },
+ {
+  "qid": "1021",
+  "variants": {
+   "v1_rule": "Rapid up-regulation and higher basal expression of interferon-induced genes reduce survival of granule cell neurons that are not infected by West Nile virus.",
+   "neg_v2": "Rapid up-regulation and higher basal expression of interferon-induced genes do not reduce survival of granule cell neurons that are infected by West Nile virus.",
+   "ctrl_matched": "Rapid up-regulation and higher basal expression of interferon-induced genes do reduce survival of granule cell neurons that are infected by West Nile virus.",
+   "ctrl_indeed": "Rapid up-regulation and higher basal expression of interferon-induced genes indeed reduce survival of granule cell neurons that are infected by West Nile virus.",
+   "ctrl_prefix": "It is the case that rapid up-regulation and higher basal expression of interferon-induced genes reduce survival of granule cell neurons that are infected by West Nile virus."
+  }
+ },
+ {
+  "qid": "1024",
+  "variants": {
+   "v1_rule": "It is not the case that recurrent mutations occur frequently within CTCF anchor sites adjacent to oncogenes.",
+   "neg_v2": "Recurrent mutations do not occur frequently within CTCF anchor sites adjacent to oncogenes.",
+   "ctrl_matched": "Recurrent mutations do occur frequently within CTCF anchor sites adjacent to oncogenes.",
+   "ctrl_indeed": "Recurrent mutations indeed occur frequently within CTCF anchor sites adjacent to oncogenes.",
+   "ctrl_prefix": "It is the case that recurrent mutations occur frequently within CTCF anchor sites adjacent to oncogenes."
+  }
+ },
+ {
+  "qid": "1029",
+  "variants": {
+   "v1_rule": "Reduced responsiveness to interleukin-2 in regulatory T cells is not associated with greater resistance to autoimmune diseases such as Type 1 Diabetes.",
+   "neg_v2": "Reduced responsiveness to interleukin-2 in regulatory T cells is not associated with greater resistance to autoimmune diseases such as Type 1 Diabetes.",
+   "ctrl_matched": "Reduced responsiveness to interleukin-2 in regulatory T cells is indeed associated with greater resistance to autoimmune diseases such as Type 1 Diabetes.",
+   "ctrl_indeed": "Reduced responsiveness to interleukin-2 in regulatory T cells is indeed associated with greater resistance to autoimmune diseases such as Type 1 Diabetes.",
+   "ctrl_prefix": "It is the case that reduced responsiveness to interleukin-2 in regulatory T cells is associated with greater resistance to autoimmune diseases such as Type 1 Diabetes."
+  }
+ },
+ {
+  "qid": "1041",
+  "variants": {
+   "v1_rule": "It is not the case that replacement of histone H2A with H2A.Z slows gene activation in yeasts by stabilizing +1 nucleosomes.",
+   "neg_v2": "Replacement of histone H2A with H2A.Z does not slow gene activation in yeasts by stabilizing +1 nucleosomes.",
+   "ctrl_matched": "Replacement of histone H2A with H2A.Z does slow gene activation in yeasts by stabilizing +1 nucleosomes.",
+   "ctrl_indeed": "Replacement of histone H2A with H2A.Z indeed slows gene activation in yeasts by stabilizing +1 nucleosomes.",
+   "ctrl_prefix": "It is the case that replacement of histone H2A with H2A.Z slows gene activation in yeasts by stabilizing +1 nucleosomes."
+  }
+ },
+ {
+  "qid": "1049",
+  "variants": {
+   "v1_rule": "Ribosomopathies have not a low degree of cell and tissue specific pathology.",
+   "neg_v2": "Ribosomopathies do not have a low degree of cell and tissue specific pathology.",
+   "ctrl_matched": "Ribosomopathies do have a low degree of cell and tissue specific pathology.",
+   "ctrl_indeed": "Ribosomopathies indeed have a low degree of cell and tissue specific pathology.",
+   "ctrl_prefix": "It is the case that ribosomopathies have a low degree of cell and tissue specific pathology."
+  }
+ },
+ {
+  "qid": "1062",
+  "variants": {
+   "v1_rule": "It is not the case that s-nitrosylated GAPDH physiologically transnitrosylates histone deacetylases.",
+   "neg_v2": "S-nitrosylated GAPDH does not physiologically transnitrosylate histone deacetylases.",
+   "ctrl_matched": "S-nitrosylated GAPDH does physiologically transnitrosylate histone deacetylases.",
+   "ctrl_indeed": "S-nitrosylated GAPDH indeed physiologically transnitrosylates histone deacetylases.",
+   "ctrl_prefix": "It is the case that s-nitrosylated GAPDH physiologically transnitrosylates histone deacetylases."
+  }
+ },
+ {
+  "qid": "1086",
+  "variants": {
+   "v1_rule": "It is not the case that sildenafil improves erectile function in men who experience sexual dysfunction as a result of the use of SSRI antidepressants.",
+   "neg_v2": "Sildenafil does not improve erectile function in men who experience sexual dysfunction as a result of the use of SSRI antidepressants.",
+   "ctrl_matched": "Sildenafil does improve erectile function in men who experience sexual dysfunction as a result of the use of SSRI antidepressants.",
+   "ctrl_indeed": "Sildenafil indeed improves erectile function in men who experience sexual dysfunction as a result of the use of SSRI antidepressants.",
+   "ctrl_prefix": "It is the case that sildenafil improves erectile function in men who experience sexual dysfunction as a result of the use of SSRI antidepressants."
+  }
+ },
+ {
+  "qid": "1088",
+  "variants": {
+   "v1_rule": "Silencing of Bcl2 is not important for the maintenance and progression of tumors.",
+   "neg_v2": "Silencing of Bcl2 is not important for the maintenance and progression of tumors.",
+   "ctrl_matched": "Silencing of Bcl2 is indeed important for the maintenance and progression of tumors.",
+   "ctrl_indeed": "Silencing of Bcl2 is indeed important for the maintenance and progression of tumors.",
+   "ctrl_prefix": "It is the case that silencing of Bcl2 is important for the maintenance and progression of tumors."
+  }
+ },
+ {
+  "qid": "1089",
+  "variants": {
+   "v1_rule": "It is not the case that smc5/6 engagment drives the activation of SUMO E3 ligase Mms21 by ATP-dependent remolding.",
+   "neg_v2": "Smc5/6 engagment does not drive the activation of SUMO E3 ligase Mms21 by ATP-dependent remolding.",
+   "ctrl_matched": "Smc5/6 engagment does drive the activation of SUMO E3 ligase Mms21 by ATP-dependent remolding.",
+   "ctrl_indeed": "Smc5/6 engagment indeed drives the activation of SUMO E3 ligase Mms21 by ATP-dependent remolding.",
+   "ctrl_prefix": "It is the case that smc5/6 engagment drives the activation of SUMO E3 ligase Mms21 by ATP-dependent remolding."
+  }
+ },
+ {
+  "qid": "1099",
+  "variants": {
+   "v1_rule": "It is not the case that statins decrease blood cholesterol.",
+   "neg_v2": "Statins do not decrease blood cholesterol.",
+   "ctrl_matched": "Statins do decrease blood cholesterol.",
+   "ctrl_indeed": "Statins indeed decrease blood cholesterol.",
+   "ctrl_prefix": "It is the case that statins decrease blood cholesterol."
+  }
+ },
+ {
+  "qid": "1100",
+  "variants": {
+   "v1_rule": "It is not the case that statins increase blood cholesterol.",
+   "neg_v2": "Statins do not increase blood cholesterol.",
+   "ctrl_matched": "Statins do increase blood cholesterol.",
+   "ctrl_indeed": "Statins indeed increase blood cholesterol.",
+   "ctrl_prefix": "It is the case that statins increase blood cholesterol."
+  }
+ },
+ {
+  "qid": "1104",
+  "variants": {
+   "v1_rule": "Stroke patients with prior use of direct oral anticoagulants have not a lower risk of in-hospital mortality than stroke patients with prior use of warfarin.",
+   "neg_v2": "Stroke patients with prior use of direct oral anticoagulants do not have a lower risk of in-hospital mortality than stroke patients with prior use of warfarin.",
+   "ctrl_matched": "Stroke patients with prior use of direct oral anticoagulants do have a lower risk of in-hospital mortality than stroke patients with prior use of warfarin.",
+   "ctrl_indeed": "Stroke patients with prior use of direct oral anticoagulants indeed have a lower risk of in-hospital mortality than stroke patients with prior use of warfarin.",
+   "ctrl_prefix": "It is the case that stroke patients with prior use of direct oral anticoagulants have a lower risk of in-hospital mortality than stroke patients with prior use of warfarin."
+  }
+ },
+ {
+  "qid": "1107",
+  "variants": {
+   "v1_rule": "It is not the case that subcutaneous fat depots undergo extensive browning processes after cold exposure.",
+   "neg_v2": "Subcutaneous fat depots do not undergo extensive browning processes after cold exposure.",
+   "ctrl_matched": "Subcutaneous fat depots do undergo extensive browning processes after cold exposure.",
+   "ctrl_indeed": "Subcutaneous fat depots indeed undergo extensive browning processes after cold exposure.",
+   "ctrl_prefix": "It is the case that subcutaneous fat depots undergo extensive browning processes after cold exposure."
+  }
+ },
+ {
+  "qid": "1121",
+  "variants": {
+   "v1_rule": "It is not the case that synaptic activity enhances local release of brain derived neurotrophic factor from postsynaptic dendrites.",
+   "neg_v2": "Synaptic activity does not enhance local release of brain derived neurotrophic factor from postsynaptic dendrites.",
+   "ctrl_matched": "Synaptic activity does enhance local release of brain derived neurotrophic factor from postsynaptic dendrites.",
+   "ctrl_indeed": "Synaptic activity indeed enhances local release of brain derived neurotrophic factor from postsynaptic dendrites.",
+   "ctrl_prefix": "It is the case that synaptic activity enhances local release of brain derived neurotrophic factor from postsynaptic dendrites."
+  }
+ },
+ {
+  "qid": "1132",
+  "variants": {
+   "v1_rule": "TCR/CD3 microdomains are not a required to induce the immunologic synapse to activate T cells.",
+   "neg_v2": "TCR/CD3 microdomains are not a required to induce the immunologic synapse to activate T cells.",
+   "ctrl_matched": "TCR/CD3 microdomains are indeed a required to induce the immunologic synapse to activate T cells.",
+   "ctrl_indeed": "TCR/CD3 microdomains are indeed a required to induce the immunologic synapse to activate T cells.",
+   "ctrl_prefix": "It is the case that tCR/CD3 microdomains are a required to induce the immunologic synapse to activate T cells."
+  }
+ },
+ {
+  "qid": "1137",
+  "variants": {
+   "v1_rule": "TNFAIP3 is not a tumor suppressor in glioblastoma.",
+   "neg_v2": "TNFAIP3 is not a tumor suppressor in glioblastoma.",
+   "ctrl_matched": "TNFAIP3 is indeed a tumor suppressor in glioblastoma.",
+   "ctrl_indeed": "TNFAIP3 is indeed a tumor suppressor in glioblastoma.",
+   "ctrl_prefix": "It is the case that tNFAIP3 is a tumor suppressor in glioblastoma."
+  }
+ },
+ {
+  "qid": "1140",
+  "variants": {
+   "v1_rule": "It is not the case that taking 400mg of α-tocopheryl acetate helps to prevent prostate cancer.",
+   "neg_v2": "Taking 400mg of α-tocopheryl acetate does not help to prevent prostate cancer.",
+   "ctrl_matched": "Taking 400mg of α-tocopheryl acetate does help to prevent prostate cancer.",
+   "ctrl_indeed": "Taking 400mg of α-tocopheryl acetate indeed helps to prevent prostate cancer.",
+   "ctrl_prefix": "It is the case that taking 400mg of α-tocopheryl acetate helps to prevent prostate cancer."
+  }
+ },
+ {
+  "qid": "1150",
+  "variants": {
+   "v1_rule": "Tetraspanin-3 is not a causative factor in the development of acute myelogenous leukemia",
+   "neg_v2": "Tetraspanin-3 is not a causative factor in the development of acute myelogenous leukemia",
+   "ctrl_matched": "Tetraspanin-3 is indeed a causative factor in the development of acute myelogenous leukemia",
+   "ctrl_indeed": "Tetraspanin-3 is indeed a causative factor in the development of acute myelogenous leukemia",
+   "ctrl_prefix": "It is the case that tetraspanin-3 is a causative factor in the development of acute myelogenous leukemia"
+  }
+ },
+ {
+  "qid": "1163",
+  "variants": {
+   "v1_rule": "The DdrB protein from Deinococcus radiodurans is not an alternative SSB.",
+   "neg_v2": "The DdrB protein from Deinococcus radiodurans is not an alternative SSB.",
+   "ctrl_matched": "The DdrB protein from Deinococcus radiodurans is indeed an alternative SSB.",
+   "ctrl_indeed": "The DdrB protein from Deinococcus radiodurans is indeed an alternative SSB.",
+   "ctrl_prefix": "It is the case that the DdrB protein from Deinococcus radiodurans is an alternative SSB."
+  }
+ },
+ {
+  "qid": "1175",
+  "variants": {
+   "v1_rule": "The PPR MDA5 has not two N-terminal CARD domains.",
+   "neg_v2": "The PPR MDA5 does not have two N-terminal CARD domains.",
+   "ctrl_matched": "The PPR MDA5 does have two N-terminal CARD domains.",
+   "ctrl_indeed": "The PPR MDA5 indeed has two N-terminal CARD domains.",
+   "ctrl_prefix": "It is the case that the PPR MDA5 has two N-terminal CARD domains."
+  }
+ },
+ {
+  "qid": "1179",
+  "variants": {
+   "v1_rule": "The PRR MDA5 has not a central DExD/H RNA helices domain.",
+   "neg_v2": "The PRR MDA5 does not have a central DExD/H RNA helices domain.",
+   "ctrl_matched": "The PRR MDA5 does have a central DExD/H RNA helices domain.",
+   "ctrl_indeed": "The PRR MDA5 indeed has a central DExD/H RNA helices domain.",
+   "ctrl_prefix": "It is the case that the PRR MDA5 has a central DExD/H RNA helices domain."
+  }
+ },
+ {
+  "qid": "1180",
+  "variants": {
+   "v1_rule": "The PRR MDA5 is not a sensor of RNA virus infection.",
+   "neg_v2": "The PRR MDA5 is not a sensor of RNA virus infection.",
+   "ctrl_matched": "The PRR MDA5 is indeed a sensor of RNA virus infection.",
+   "ctrl_indeed": "The PRR MDA5 is indeed a sensor of RNA virus infection.",
+   "ctrl_prefix": "It is the case that the PRR MDA5 is a sensor of RNA virus infection."
+  }
+ },
+ {
+  "qid": "1185",
+  "variants": {
+   "v1_rule": "The US health care system can not save up to $750 million if 7% of patients waiting for kidney transplants participate in the optimized national kidney paired donation program.",
+   "neg_v2": "The US health care system can not save up to $750 million if 7% of patients waiting for kidney transplants participate in the optimized national kidney paired donation program.",
+   "ctrl_matched": "The US health care system can indeed save up to $750 million if 7% of patients waiting for kidney transplants participate in the optimized national kidney paired donation program.",
+   "ctrl_indeed": "The US health care system can indeed save up to $750 million if 7% of patients waiting for kidney transplants participate in the optimized national kidney paired donation program.",
+   "ctrl_prefix": "It is the case that the US health care system can save up to $750 million if 7% of patients waiting for kidney transplants participate in the optimized national kidney paired donation program."
+  }
+ },
+ {
+  "qid": "1187",
+  "variants": {
+   "v1_rule": "It is not the case that the YAP1 and TEAD complex tanslocates into the nucleus where it interacts with transcription factors and DNA-binding proteins that modulate target gene transcription.",
+   "neg_v2": "The YAP1 and TEAD complex does not tanslocate into the nucleus where it interacts with transcription factors and DNA-binding proteins that modulate target gene transcription.",
+   "ctrl_matched": "The YAP1 and TEAD complex does tanslocate into the nucleus where it interacts with transcription factors and DNA-binding proteins that modulate target gene transcription.",
+   "ctrl_indeed": "The YAP1 and TEAD complex indeed tanslocates into the nucleus where it interacts with transcription factors and DNA-binding proteins that modulate target gene transcription.",
+   "ctrl_prefix": "It is the case that the YAP1 and TEAD complex tanslocates into the nucleus where it interacts with transcription factors and DNA-binding proteins that modulate target gene transcription."
+  }
+ },
+ {
+  "qid": "1191",
+  "variants": {
+   "v1_rule": "It is not the case that the amount of publicly available DNA data doubles every 10 years.",
+   "neg_v2": "The amount of publicly available DNA data does not double every 10 years.",
+   "ctrl_matched": "The amount of publicly available DNA data does double every 10 years.",
+   "ctrl_indeed": "The amount of publicly available DNA data indeed doubles every 10 years.",
+   "ctrl_prefix": "It is the case that the amount of publicly available DNA data doubles every 10 years."
+  }
+ },
+ {
+  "qid": "1194",
+  "variants": {
+   "v1_rule": "The arm density of TatAd complexes is not due to structural rearrangements within Class1 TatAd complexes such as the 'charge zipper mechanism'.",
+   "neg_v2": "The arm density of TatAd complexes is not due to structural rearrangements within Class1 TatAd complexes such as the 'charge zipper mechanism'.",
+   "ctrl_matched": "The arm density of TatAd complexes is indeed due to structural rearrangements within Class1 TatAd complexes such as the 'charge zipper mechanism'.",
+   "ctrl_indeed": "The arm density of TatAd complexes is indeed due to structural rearrangements within Class1 TatAd complexes such as the 'charge zipper mechanism'.",
+   "ctrl_prefix": "It is the case that the arm density of TatAd complexes is due to structural rearrangements within Class1 TatAd complexes such as the 'charge zipper mechanism'."
+  }
+ },
+ {
+  "qid": "1196",
+  "variants": {
+   "v1_rule": "The availability of safe places to study is not effective at decreasing homelessness.",
+   "neg_v2": "The availability of safe places to study is not effective at decreasing homelessness.",
+   "ctrl_matched": "The availability of safe places to study is indeed effective at decreasing homelessness.",
+   "ctrl_indeed": "The availability of safe places to study is indeed effective at decreasing homelessness.",
+   "ctrl_prefix": "It is the case that the availability of safe places to study is effective at decreasing homelessness."
+  }
+ },
+ {
+  "qid": "1199",
+  "variants": {
+   "v1_rule": "The benefits of colchicine were not achieved with effective widespread use of secondary prevention strategies such as high-dose statins.",
+   "neg_v2": "The benefits of colchicine were not achieved with effective widespread use of secondary prevention strategies such as high-dose statins.",
+   "ctrl_matched": "The benefits of colchicine were indeed achieved with effective widespread use of secondary prevention strategies such as high-dose statins.",
+   "ctrl_indeed": "The benefits of colchicine were indeed achieved with effective widespread use of secondary prevention strategies such as high-dose statins.",
+   "ctrl_prefix": "It is the case that the benefits of colchicine were achieved with effective widespread use of secondary prevention strategies such as high-dose statins."
+  }
+ },
+ {
+  "qid": "1200",
+  "variants": {
+   "v1_rule": "The binding orientation of the ML-SA1 activator at hTRPML2 is not different from the binding orientation of the ML-SA1 activator at hTRPML1.",
+   "neg_v2": "The binding orientation of the ML-SA1 activator at hTRPML2 is not different from the binding orientation of the ML-SA1 activator at hTRPML1.",
+   "ctrl_matched": "The binding orientation of the ML-SA1 activator at hTRPML2 is indeed different from the binding orientation of the ML-SA1 activator at hTRPML1.",
+   "ctrl_indeed": "The binding orientation of the ML-SA1 activator at hTRPML2 is indeed different from the binding orientation of the ML-SA1 activator at hTRPML1.",
+   "ctrl_prefix": "It is the case that the binding orientation of the ML-SA1 activator at hTRPML2 is different from the binding orientation of the ML-SA1 activator at hTRPML1."
+  }
+ },
+ {
+  "qid": "1202",
+  "variants": {
+   "v1_rule": "It is not the case that the center of the granuloma in an immune cell induces a pro-inflammatory immune response.",
+   "neg_v2": "The center of the granuloma in an immune cell does not induce a pro-inflammatory immune response.",
+   "ctrl_matched": "The center of the granuloma in an immune cell does induce a pro-inflammatory immune response.",
+   "ctrl_indeed": "The center of the granuloma in an immune cell indeed induces a pro-inflammatory immune response.",
+   "ctrl_prefix": "It is the case that the center of the granuloma in an immune cell induces a pro-inflammatory immune response."
+  }
+ },
+ {
+  "qid": "1204",
+  "variants": {
+   "v1_rule": "The combination of H3K4me3 and H3K79me2 is not found in quiescent hair follicle stem cells.",
+   "neg_v2": "The combination of H3K4me3 and H3K79me2 is not found in quiescent hair follicle stem cells.",
+   "ctrl_matched": "The combination of H3K4me3 and H3K79me2 is indeed found in quiescent hair follicle stem cells.",
+   "ctrl_indeed": "The combination of H3K4me3 and H3K79me2 is indeed found in quiescent hair follicle stem cells.",
+   "ctrl_prefix": "It is the case that the combination of H3K4me3 and H3K79me2 is found in quiescent hair follicle stem cells."
+  }
+ },
+ {
+  "qid": "1207",
+  "variants": {
+   "v1_rule": "It is not the case that the composition of myosin-II isoform switches from the polarizable B isoform to the more homogenous A isoform during hematopoietic differentiation.",
+   "neg_v2": "The composition of myosin-II isoform does not switch from the polarizable B isoform to the more homogenous A isoform during hematopoietic differentiation.",
+   "ctrl_matched": "The composition of myosin-II isoform does switch from the polarizable B isoform to the more homogenous A isoform during hematopoietic differentiation.",
+   "ctrl_indeed": "The composition of myosin-II isoform indeed switches from the polarizable B isoform to the more homogenous A isoform during hematopoietic differentiation.",
+   "ctrl_prefix": "It is the case that the composition of myosin-II isoform switches from the polarizable B isoform to the more homogenous A isoform during hematopoietic differentiation."
+  }
+ },
+ {
+  "qid": "1213",
+  "variants": {
+   "v1_rule": "The deregulated and prolonged activation of monocytes has not deleterious effects in inflammatory diseases.",
+   "neg_v2": "The deregulated and prolonged activation of monocytes does not have deleterious effects in inflammatory diseases.",
+   "ctrl_matched": "The deregulated and prolonged activation of monocytes does have deleterious effects in inflammatory diseases.",
+   "ctrl_indeed": "The deregulated and prolonged activation of monocytes indeed has deleterious effects in inflammatory diseases.",
+   "ctrl_prefix": "It is the case that the deregulated and prolonged activation of monocytes has deleterious effects in inflammatory diseases."
+  }
+ },
+ {
+  "qid": "1216",
+  "variants": {
+   "v1_rule": "The extracellular domain of TMEM27 is not cleaved in human beta cells.",
+   "neg_v2": "The extracellular domain of TMEM27 is not cleaved in human beta cells.",
+   "ctrl_matched": "The extracellular domain of TMEM27 is indeed cleaved in human beta cells.",
+   "ctrl_indeed": "The extracellular domain of TMEM27 is indeed cleaved in human beta cells.",
+   "ctrl_prefix": "It is the case that the extracellular domain of TMEM27 is cleaved in human beta cells."
+  }
+ },
+ {
+  "qid": "1221",
+  "variants": {
+   "v1_rule": "The genomic aberrations found in matasteses are not very similar to those found in the primary tumor.",
+   "neg_v2": "The genomic aberrations found in matasteses are not very similar to those found in the primary tumor.",
+   "ctrl_matched": "The genomic aberrations found in matasteses are indeed very similar to those found in the primary tumor.",
+   "ctrl_indeed": "The genomic aberrations found in matasteses are indeed very similar to those found in the primary tumor.",
+   "ctrl_prefix": "It is the case that the genomic aberrations found in matasteses are very similar to those found in the primary tumor."
+  }
+ },
+ {
+  "qid": "1225",
+  "variants": {
+   "v1_rule": "The locus rs647161 is not associated with colorectal carcinoma.",
+   "neg_v2": "The locus rs647161 is not associated with colorectal carcinoma.",
+   "ctrl_matched": "The locus rs647161 is indeed associated with colorectal carcinoma.",
+   "ctrl_indeed": "The locus rs647161 is indeed associated with colorectal carcinoma.",
+   "ctrl_prefix": "It is the case that the locus rs647161 is associated with colorectal carcinoma."
+  }
+ },
+ {
+  "qid": "1226",
+  "variants": {
+   "v1_rule": "The loss of the TET protein functions may not have dire biological consequences, such as myeloid cancers.",
+   "neg_v2": "The loss of the TET protein functions may not have dire biological consequences, such as myeloid cancers.",
+   "ctrl_matched": "The loss of the TET protein functions may indeed have dire biological consequences, such as myeloid cancers.",
+   "ctrl_indeed": "The loss of the TET protein functions may indeed have dire biological consequences, such as myeloid cancers.",
+   "ctrl_prefix": "It is the case that the loss of the TET protein functions may have dire biological consequences, such as myeloid cancers."
+  }
+ },
+ {
+  "qid": "1232",
+  "variants": {
+   "v1_rule": "The minor G allele of FOXO3 is not related to more severe symptoms of Crohn's Disease.",
+   "neg_v2": "The minor G allele of FOXO3 is not related to more severe symptoms of Crohn's Disease.",
+   "ctrl_matched": "The minor G allele of FOXO3 is indeed related to more severe symptoms of Crohn's Disease.",
+   "ctrl_indeed": "The minor G allele of FOXO3 is indeed related to more severe symptoms of Crohn's Disease.",
+   "ctrl_prefix": "It is the case that the minor G allele of FOXO3 is related to more severe symptoms of Crohn's Disease."
+  }
+ },
+ {
+  "qid": "1241",
+  "variants": {
+   "v1_rule": "It is not the case that the myocardial lineage develops from cardiac progenitors of mesodermal origin.",
+   "neg_v2": "The myocardial lineage does not develop from cardiac progenitors of mesodermal origin.",
+   "ctrl_matched": "The myocardial lineage does develop from cardiac progenitors of mesodermal origin.",
+   "ctrl_indeed": "The myocardial lineage indeed develops from cardiac progenitors of mesodermal origin.",
+   "ctrl_prefix": "It is the case that the myocardial lineage develops from cardiac progenitors of mesodermal origin."
+  }
+ },
+ {
+  "qid": "1245",
+  "variants": {
+   "v1_rule": "The one-child policy has not been successful in lowering population growth.",
+   "neg_v2": "The one-child policy has not been successful in lowering population growth.",
+   "ctrl_matched": "The one-child policy has indeed been successful in lowering population growth.",
+   "ctrl_indeed": "The one-child policy has indeed been successful in lowering population growth.",
+   "ctrl_prefix": "It is the case that the one-child policy has been successful in lowering population growth."
+  }
+ },
+ {
+  "qid": "1259",
+  "variants": {
+   "v1_rule": "The relationship between a breast cancer patient's capacity to metabolize tamoxifen and treatment outcome is not dependent on the patient's genetic make-up.",
+   "neg_v2": "The relationship between a breast cancer patient's capacity to metabolize tamoxifen and treatment outcome is not dependent on the patient's genetic make-up.",
+   "ctrl_matched": "The relationship between a breast cancer patient's capacity to metabolize tamoxifen and treatment outcome is indeed dependent on the patient's genetic make-up.",
+   "ctrl_indeed": "The relationship between a breast cancer patient's capacity to metabolize tamoxifen and treatment outcome is indeed dependent on the patient's genetic make-up.",
+   "ctrl_prefix": "It is the case that the relationship between a breast cancer patient's capacity to metabolize tamoxifen and treatment outcome is dependent on the patient's genetic make-up."
+  }
+ },
+ {
+  "qid": "1262",
+  "variants": {
+   "v1_rule": "The repair of Cas9-induced double strand breaks in human DNA is not error-prone.",
+   "neg_v2": "The repair of Cas9-induced double strand breaks in human DNA is not error-prone.",
+   "ctrl_matched": "The repair of Cas9-induced double strand breaks in human DNA is indeed error-prone.",
+   "ctrl_indeed": "The repair of Cas9-induced double strand breaks in human DNA is indeed error-prone.",
+   "ctrl_prefix": "It is the case that the repair of Cas9-induced double strand breaks in human DNA is error-prone."
+  }
+ },
+ {
+  "qid": "1270",
+  "variants": {
+   "v1_rule": "The risk of male prisoners harming themselves is not ten times that of female prisoners.",
+   "neg_v2": "The risk of male prisoners harming themselves is not ten times that of female prisoners.",
+   "ctrl_matched": "The risk of male prisoners harming themselves is indeed ten times that of female prisoners.",
+   "ctrl_indeed": "The risk of male prisoners harming themselves is indeed ten times that of female prisoners.",
+   "ctrl_prefix": "It is the case that the risk of male prisoners harming themselves is ten times that of female prisoners."
+  }
+ },
+ {
+  "qid": "1271",
+  "variants": {
+   "v1_rule": "The severity of cardiac involvement in amyloidosis can not be described by the degree of transmurality of late gadolinium enhancement in MRI.",
+   "neg_v2": "The severity of cardiac involvement in amyloidosis can not be described by the degree of transmurality of late gadolinium enhancement in MRI.",
+   "ctrl_matched": "The severity of cardiac involvement in amyloidosis can indeed be described by the degree of transmurality of late gadolinium enhancement in MRI.",
+   "ctrl_indeed": "The severity of cardiac involvement in amyloidosis can indeed be described by the degree of transmurality of late gadolinium enhancement in MRI.",
+   "ctrl_prefix": "It is the case that the severity of cardiac involvement in amyloidosis can be described by the degree of transmurality of late gadolinium enhancement in MRI."
+  }
+ },
+ {
+  "qid": "1272",
+  "variants": {
+   "v1_rule": "The single flash-evoked ERG b-wave is not generated by activity of ON-bipolar cells.",
+   "neg_v2": "The single flash-evoked ERG b-wave is not generated by activity of ON-bipolar cells.",
+   "ctrl_matched": "The single flash-evoked ERG b-wave is indeed generated by activity of ON-bipolar cells.",
+   "ctrl_indeed": "The single flash-evoked ERG b-wave is indeed generated by activity of ON-bipolar cells.",
+   "ctrl_prefix": "It is the case that the single flash-evoked ERG b-wave is generated by activity of ON-bipolar cells."
+  }
+ },
+ {
+  "qid": "1273",
+  "variants": {
+   "v1_rule": "It is not the case that the sliding activity of kinesin-8 protein Kip3 promotes bipolar spindle assembly.",
+   "neg_v2": "The sliding activity of kinesin-8 protein Kip3 does not promote bipolar spindle assembly.",
+   "ctrl_matched": "The sliding activity of kinesin-8 protein Kip3 does promote bipolar spindle assembly.",
+   "ctrl_indeed": "The sliding activity of kinesin-8 protein Kip3 indeed promotes bipolar spindle assembly.",
+   "ctrl_prefix": "It is the case that the sliding activity of kinesin-8 protein Kip3 promotes bipolar spindle assembly."
+  }
+ },
+ {
+  "qid": "1274",
+  "variants": {
+   "v1_rule": "It is not the case that the tip of the inner tube of the toxic type VI secretion system (T6SS) antibacterial effector in Escherichia coli (E. coli) carries toxic effector proteins.",
+   "neg_v2": "The tip of the inner tube of the toxic type VI secretion system (T6SS) antibacterial effector in Escherichia coli (E. coli) does not carry toxic effector proteins.",
+   "ctrl_matched": "The tip of the inner tube of the toxic type VI secretion system (T6SS) antibacterial effector in Escherichia coli (E. coli) does carry toxic effector proteins.",
+   "ctrl_indeed": "The tip of the inner tube of the toxic type VI secretion system (T6SS) antibacterial effector in Escherichia coli (E. coli) indeed carries toxic effector proteins.",
+   "ctrl_prefix": "It is the case that the tip of the inner tube of the toxic type VI secretion system (T6SS) antibacterial effector in Escherichia coli (E. coli) carries toxic effector proteins."
+  }
+ },
+ {
+  "qid": "1279",
+  "variants": {
+   "v1_rule": "It is not the case that the treatment of cancer patients with co-IR blockade precipitates adverse autoimmune events.",
+   "neg_v2": "The treatment of cancer patients with co-IR blockade does not precipitate adverse autoimmune events.",
+   "ctrl_matched": "The treatment of cancer patients with co-IR blockade does precipitate adverse autoimmune events.",
+   "ctrl_indeed": "The treatment of cancer patients with co-IR blockade indeed precipitates adverse autoimmune events.",
+   "ctrl_prefix": "It is the case that the treatment of cancer patients with co-IR blockade precipitates adverse autoimmune events."
+  }
+ },
+ {
+  "qid": "1280",
+  "variants": {
+   "v1_rule": "It is not the case that the ureABIEFGH gene cluster encodes urease maturation proteins : UreD/UreH, UreE, UreF, and UreG.",
+   "neg_v2": "The ureABIEFGH gene cluster does not encode urease maturation proteins : UreD/UreH, UreE, UreF, and UreG.",
+   "ctrl_matched": "The ureABIEFGH gene cluster does encode urease maturation proteins : UreD/UreH, UreE, UreF, and UreG.",
+   "ctrl_indeed": "The ureABIEFGH gene cluster indeed encodes urease maturation proteins : UreD/UreH, UreE, UreF, and UreG.",
+   "ctrl_prefix": "It is the case that the ureABIEFGH gene cluster encodes urease maturation proteins : UreD/UreH, UreE, UreF, and UreG."
+  }
+ },
+ {
+  "qid": "1281",
+  "variants": {
+   "v1_rule": "The ureABIEFGH gene cluster is not induced by nickel (II) ion.",
+   "neg_v2": "The ureABIEFGH gene cluster is not induced by nickel (II) ion.",
+   "ctrl_matched": "The ureABIEFGH gene cluster is indeed induced by nickel (II) ion.",
+   "ctrl_indeed": "The ureABIEFGH gene cluster is indeed induced by nickel (II) ion.",
+   "ctrl_prefix": "It is the case that the ureABIEFGH gene cluster is induced by nickel (II) ion."
+  }
+ },
+ {
+  "qid": "1282",
+  "variants": {
+   "v1_rule": "Therapeutic use of the drug Dapsone to treat pyoderma gangrenous is not based on anecdotal evidence.",
+   "neg_v2": "Therapeutic use of the drug Dapsone to treat pyoderma gangrenous is not based on anecdotal evidence.",
+   "ctrl_matched": "Therapeutic use of the drug Dapsone to treat pyoderma gangrenous is indeed based on anecdotal evidence.",
+   "ctrl_indeed": "Therapeutic use of the drug Dapsone to treat pyoderma gangrenous is indeed based on anecdotal evidence.",
+   "ctrl_prefix": "It is the case that therapeutic use of the drug Dapsone to treat pyoderma gangrenous is based on anecdotal evidence."
+  }
+ },
+ {
+  "qid": "1290",
+  "variants": {
+   "v1_rule": "There is not an inverse relationship between hip fractures and statin use.",
+   "neg_v2": "There is not an inverse relationship between hip fractures and statin use.",
+   "ctrl_matched": "There is indeed an inverse relationship between hip fractures and statin use.",
+   "ctrl_indeed": "There is indeed an inverse relationship between hip fractures and statin use.",
+   "ctrl_prefix": "It is the case that there is an inverse relationship between hip fractures and statin use."
+  }
+ },
+ {
+  "qid": "1316",
+  "variants": {
+   "v1_rule": "It is not the case that transferred UCB T cells acquire a memory-like phenotype in recipients.",
+   "neg_v2": "Transferred UCB T cells do not acquire a memory-like phenotype in recipients.",
+   "ctrl_matched": "Transferred UCB T cells do acquire a memory-like phenotype in recipients.",
+   "ctrl_indeed": "Transferred UCB T cells indeed acquire a memory-like phenotype in recipients.",
+   "ctrl_prefix": "It is the case that transferred UCB T cells acquire a memory-like phenotype in recipients."
+  }
+ },
+ {
+  "qid": "1319",
+  "variants": {
+   "v1_rule": "Transplanted human glial cells can not differentiate within the host animal.",
+   "neg_v2": "Transplanted human glial cells can not differentiate within the host animal.",
+   "ctrl_matched": "Transplanted human glial cells can indeed differentiate within the host animal.",
+   "ctrl_indeed": "Transplanted human glial cells can indeed differentiate within the host animal.",
+   "ctrl_prefix": "It is the case that transplanted human glial cells can differentiate within the host animal."
+  }
+ },
+ {
+  "qid": "1320",
+  "variants": {
+   "v1_rule": "Transplanted human glial progenitor cells are not incapable of forming a neural network with host animals' neurons.",
+   "neg_v2": "Transplanted human glial progenitor cells are not incapable of forming a neural network with host animals' neurons.",
+   "ctrl_matched": "Transplanted human glial progenitor cells are indeed incapable of forming a neural network with host animals' neurons.",
+   "ctrl_indeed": "Transplanted human glial progenitor cells are indeed incapable of forming a neural network with host animals' neurons.",
+   "ctrl_prefix": "It is the case that transplanted human glial progenitor cells are incapable of forming a neural network with host animals' neurons."
+  }
+ },
+ {
+  "qid": "1332",
+  "variants": {
+   "v1_rule": "Tumor necrosis factor alpha (TNF-α) and interleukin-1 (IL-1) are not pro-inflammatory cytokines that inhibit IL-6 and IL-10.",
+   "neg_v2": "Tumor necrosis factor alpha (TNF-α) and interleukin-1 (IL-1) are not pro-inflammatory cytokines that inhibit IL-6 and IL-10.",
+   "ctrl_matched": "Tumor necrosis factor alpha (TNF-α) and interleukin-1 (IL-1) are indeed pro-inflammatory cytokines that inhibit IL-6 and IL-10.",
+   "ctrl_indeed": "Tumor necrosis factor alpha (TNF-α) and interleukin-1 (IL-1) are indeed pro-inflammatory cytokines that inhibit IL-6 and IL-10.",
+   "ctrl_prefix": "It is the case that tumor necrosis factor alpha (TNF-α) and interleukin-1 (IL-1) are pro-inflammatory cytokines that inhibit IL-6 and IL-10."
+  }
+ },
+ {
+  "qid": "1335",
+  "variants": {
+   "v1_rule": "It is not the case that uCB T cells maintain high TCR diversity after transplantation.",
+   "neg_v2": "UCB T cells do not maintain high TCR diversity after transplantation.",
+   "ctrl_matched": "UCB T cells do maintain high TCR diversity after transplantation.",
+   "ctrl_indeed": "UCB T cells indeed maintain high TCR diversity after transplantation.",
+   "ctrl_prefix": "It is the case that uCB T cells maintain high TCR diversity after transplantation."
+  }
+ },
+ {
+  "qid": "1336",
+  "variants": {
+   "v1_rule": "It is not the case that uCB T cells reduce TCR diversity after transplantation.",
+   "neg_v2": "UCB T cells do not reduce TCR diversity after transplantation.",
+   "ctrl_matched": "UCB T cells do reduce TCR diversity after transplantation.",
+   "ctrl_indeed": "UCB T cells indeed reduce TCR diversity after transplantation.",
+   "ctrl_prefix": "It is the case that uCB T cells reduce TCR diversity after transplantation."
+  }
+ },
+ {
+  "qid": "1337",
+  "variants": {
+   "v1_rule": "It is not the case that ubiquitin ligase UBC13 generates a K63-linked polyubiquitin moiety at PCNA K164.",
+   "neg_v2": "Ubiquitin ligase UBC13 does not generate a K63-linked polyubiquitin moiety at PCNA K164.",
+   "ctrl_matched": "Ubiquitin ligase UBC13 does generate a K63-linked polyubiquitin moiety at PCNA K164.",
+   "ctrl_indeed": "Ubiquitin ligase UBC13 indeed generates a K63-linked polyubiquitin moiety at PCNA K164.",
+   "ctrl_prefix": "It is the case that ubiquitin ligase UBC13 generates a K63-linked polyubiquitin moiety at PCNA K164."
+  }
+ },
+ {
+  "qid": "1339",
+  "variants": {
+   "v1_rule": "It is not the case that ultrasound guidance significantly raises the number of traumatic procedures when attempting needle insertion.",
+   "neg_v2": "Ultrasound guidance does not significantly raise the number of traumatic procedures when attempting needle insertion.",
+   "ctrl_matched": "Ultrasound guidance does significantly raise the number of traumatic procedures when attempting needle insertion.",
+   "ctrl_indeed": "Ultrasound guidance indeed significantly raises the number of traumatic procedures when attempting needle insertion.",
+   "ctrl_prefix": "It is the case that ultrasound guidance significantly raises the number of traumatic procedures when attempting needle insertion."
+  }
+ },
+ {
+  "qid": "1344",
+  "variants": {
+   "v1_rule": "It is not the case that up-regulation of the p53 pathway and related molecular events casues cancer resistance and results in a significantly shortened lifespan marked by senescent cells and accelerated organismal aging.",
+   "neg_v2": "Up-regulation of the p53 pathway and related molecular events does not casue cancer resistance and does not result in a significantly shortened lifespan marked by senescent cells and accelerated organismal aging.",
+   "ctrl_matched": "Up-regulation of the p53 pathway and related molecular events does casue cancer resistance and does result in a significantly shortened lifespan marked by senescent cells and accelerated organismal aging.",
+   "ctrl_indeed": "Up-regulation of the p53 pathway and related molecular events indeed casues cancer resistance and results in a significantly shortened lifespan marked by senescent cells and accelerated organismal aging.",
+   "ctrl_prefix": "It is the case that up-regulation of the p53 pathway and related molecular events casues cancer resistance and results in a significantly shortened lifespan marked by senescent cells and accelerated organismal aging."
+  }
+ },
+ {
+  "qid": "1352",
+  "variants": {
+   "v1_rule": "Upregulation of mosGCTL-1 is not induced upon infection with West Nile virus.",
+   "neg_v2": "Upregulation of mosGCTL-1 is not induced upon infection with West Nile virus.",
+   "ctrl_matched": "Upregulation of mosGCTL-1 is indeed induced upon infection with West Nile virus.",
+   "ctrl_indeed": "Upregulation of mosGCTL-1 is indeed induced upon infection with West Nile virus.",
+   "ctrl_prefix": "It is the case that upregulation of mosGCTL-1 is induced upon infection with West Nile virus."
+  }
+ },
+ {
+  "qid": "1359",
+  "variants": {
+   "v1_rule": "Varenicline monotherapy is not more effective after 12 weeks of treatment compared to combination nicotine replacement therapies with varenicline or bupropion.",
+   "neg_v2": "Varenicline monotherapy is not more effective after 12 weeks of treatment compared to combination nicotine replacement therapies with varenicline or bupropion.",
+   "ctrl_matched": "Varenicline monotherapy is indeed more effective after 12 weeks of treatment compared to combination nicotine replacement therapies with varenicline or bupropion.",
+   "ctrl_indeed": "Varenicline monotherapy is indeed more effective after 12 weeks of treatment compared to combination nicotine replacement therapies with varenicline or bupropion.",
+   "ctrl_prefix": "It is the case that varenicline monotherapy is more effective after 12 weeks of treatment compared to combination nicotine replacement therapies with varenicline or bupropion."
+  }
+ },
+ {
+  "qid": "1362",
+  "variants": {
+   "v1_rule": "Venules have not a larger lumen diameter than arterioles.",
+   "neg_v2": "Venules do not have a larger lumen diameter than arterioles.",
+   "ctrl_matched": "Venules do have a larger lumen diameter than arterioles.",
+   "ctrl_indeed": "Venules indeed have a larger lumen diameter than arterioles.",
+   "ctrl_prefix": "It is the case that venules have a larger lumen diameter than arterioles."
+  }
+ },
+ {
+  "qid": "1368",
+  "variants": {
+   "v1_rule": "It is not the case that vitamin D deficiency effects the term of delivery.",
+   "neg_v2": "Vitamin D deficiency does not effect the term of delivery.",
+   "ctrl_matched": "Vitamin D deficiency does effect the term of delivery.",
+   "ctrl_indeed": "Vitamin D deficiency indeed effects the term of delivery.",
+   "ctrl_prefix": "It is the case that vitamin D deficiency effects the term of delivery."
+  }
+ },
+ {
+  "qid": "1370",
+  "variants": {
+   "v1_rule": "Vitamin D deficiency is not unrelated to birth weight.",
+   "neg_v2": "Vitamin D deficiency is not unrelated to birth weight.",
+   "ctrl_matched": "Vitamin D deficiency is indeed unrelated to birth weight.",
+   "ctrl_indeed": "Vitamin D deficiency is indeed unrelated to birth weight.",
+   "ctrl_prefix": "It is the case that vitamin D deficiency is unrelated to birth weight."
+  }
+ },
+ {
+  "qid": "1379",
+  "variants": {
+   "v1_rule": "Women with a higher birth weight are not more likely to develop breast cancer later in life.",
+   "neg_v2": "Women with a higher birth weight are not more likely to develop breast cancer later in life.",
+   "ctrl_matched": "Women with a higher birth weight are indeed more likely to develop breast cancer later in life.",
+   "ctrl_indeed": "Women with a higher birth weight are indeed more likely to develop breast cancer later in life.",
+   "ctrl_prefix": "It is the case that women with a higher birth weight are more likely to develop breast cancer later in life."
+  }
+ },
+ {
+  "qid": "1382",
+  "variants": {
+   "v1_rule": "It is not the case that aPKCz causes tumour enhancement by affecting glutamine metabolism.",
+   "neg_v2": "aPKCz does not cause tumour enhancement by affecting glutamine metabolism.",
+   "ctrl_matched": "aPKCz does cause tumour enhancement by affecting glutamine metabolism.",
+   "ctrl_indeed": "aPKCz indeed causes tumour enhancement by affecting glutamine metabolism.",
+   "ctrl_prefix": "It is the case that aPKCz causes tumour enhancement by affecting glutamine metabolism."
+  }
+ },
+ {
+  "qid": "1385",
+  "variants": {
+   "v1_rule": "It is not the case that cSMAC formation enhances weak ligand signalling.",
+   "neg_v2": "cSMAC formation does not enhance weak ligand signalling.",
+   "ctrl_matched": "cSMAC formation does enhance weak ligand signalling.",
+   "ctrl_indeed": "cSMAC formation indeed enhances weak ligand signalling.",
+   "ctrl_prefix": "It is the case that cSMAC formation enhances weak ligand signalling."
+  }
+ },
+ {
+  "qid": "1389",
+  "variants": {
+   "v1_rule": "It is not the case that mTORC2 regulates intracellular cysteine levels through xCT inhibition.",
+   "neg_v2": "mTORC2 does not regulate intracellular cysteine levels through xCT inhibition.",
+   "ctrl_matched": "mTORC2 does regulate intracellular cysteine levels through xCT inhibition.",
+   "ctrl_indeed": "mTORC2 indeed regulates intracellular cysteine levels through xCT inhibition.",
+   "ctrl_prefix": "It is the case that mTORC2 regulates intracellular cysteine levels through xCT inhibition."
+  }
+ },
+ {
+  "qid": "1395",
+  "variants": {
+   "v1_rule": "p16INK4A accumulation is not  linked to an abnormal wound response caused by the microinvasive step of advanced Oral Potentially Malignant Lesions (OPMLs).",
+   "neg_v2": "p16INK4A accumulation is not  linked to an abnormal wound response caused by the microinvasive step of advanced Oral Potentially Malignant Lesions (OPMLs).",
+   "ctrl_matched": "p16INK4A accumulation is indeed  linked to an abnormal wound response caused by the microinvasive step of advanced Oral Potentially Malignant Lesions (OPMLs).",
+   "ctrl_indeed": "p16INK4A accumulation is indeed  linked to an abnormal wound response caused by the microinvasive step of advanced Oral Potentially Malignant Lesions (OPMLs).",
+   "ctrl_prefix": "It is the case that p16INK4A accumulation is  linked to an abnormal wound response caused by the microinvasive step of advanced Oral Potentially Malignant Lesions (OPMLs)."
+  }
+ }
+]

@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.DS_Store
+*.ipynb_checkpoints
+# large or licensed inputs are not redistributed
+corpus.json
+test_manual_final.json
+bioscope.zip
+*.pt
+*.bin
+*.safetensors

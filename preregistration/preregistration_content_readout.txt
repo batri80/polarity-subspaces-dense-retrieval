@@ -1,0 +1,41 @@
+Semantic Odometry: pre-registration of the content-readout test
+Recorded: 27 October 2026, before any content-readout result was computed.
+Author: Batri Krishnan
+
+Background
+SciFact counts abstracts that support OR refute a claim as relevant, so its
+relevance is polarity-blind. After training on NevIR (polarity-matching), the
+SciFact nDCG@10 drop from zero-shot E5 (seed 1) was concentrated in claims
+containing explicit negation (plain_ft -0.28, frame -0.43, n = 35) relative to
+affirmative claims (-0.12, -0.18, n = 265). Affirmative claims, however,
+still account for most of the total loss.
+
+Hypothesis
+The frame subspace U carries orientation (polarity). Removing it yields a
+polarity-blind "aboutness" score suited to topical retrieval, while the full
+readout retains orientation for negation and exclusion tasks. This is the
+content/frame separation proposed in the original Semantic Odometry paradigm.
+
+Fixed protocol (no tuning; decided before results)
+Content readout: both query and document embedded as normalize((I - U U^T) h),
+where h is the encoder's pooled output before any frame transport.
+U: the model's own frame subspace (learned U for frame models; the fixed U for
+frame_randomU; for models without a frame, U refitted by the probe procedure on
+that model's own NevIR training pairs). Rank k = 8.
+Control: the identical projection with a random orthonormal U of rank 8.
+Evaluated: SciFact nDCG@10 (overall, negated claims, affirmative claims),
+NevIR test pairwise accuracy, ExcluIR pairwise RR. Three seeds.
+
+Predictions
+C1. For the frame model, the content readout raises SciFact nDCG@10 above its
+    full readout, with the larger recovery on negated claims.
+C2. The random-U projection recovers clearly less than the model's own U.
+C3. The content readout lowers NevIR accuracy relative to the full readout
+    (orientation removed), which confirms that U carries polarity.
+C4 (secondary). For plain_ft, projecting out its refitted negation subspace
+    recovers SciFact less than for the frame model, because plain fine-tuning
+    does not concentrate polarity in a known subspace.
+Support for the hypothesis requires C1 and C2; C3 is the mechanism check.
+A result in which the content readout does not recover SciFact will be
+reported as a negative result. The aggregate recovery is expected to be
+partial, because most of the SciFact loss lies in affirmative claims.
